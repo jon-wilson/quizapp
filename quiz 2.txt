@@ -1,0 +1,417 @@
+Chapter 3 Requirements Determination
+Testbank
+
+
+Multiple Choices
+
+
+1. _______ is an example of functional requirements.
+
+a.	The system should work with any web browser
+b.	The system should load any web page within 3 seconds
+c.	Customers should be able to see their orders after authentication
+d.	The system should comply with the company’s policy of buying all PCs and servers from Dell
+e.	The system should be able to search all available inventory in order to determine whether a product can be made by a given date
+
+Ans: e
+
+
+2. Understanding the as-is system, identifying improvements, and developing requirements for the to-be system are the steps of the _____ phase.
+
+a.	analysis
+b.	design
+c.	implementation
+d.	planning
+e.	SDLC
+
+Ans: a
+
+
+3. The most comprehensive and complete deliverable of the analysis phase is _____.
+
+a.	project work plan
+b.	system proposal
+c.	behavioral models for the to-be system
+d.	functional models for the to-be system
+e.	structural models for the to-be system
+
+Ans: b
+
+
+
+
+4. The most commonly used information-gathering technique is _____.
+
+a.	interviewing
+b.	joint application design (JAD) sessions
+c.	document analysis
+d.	observation
+e.	questionnaires
+
+Ans: a
+
+
+5. During an interview, the following question is asked; “How many times during a typical week does a customer complain about inadequate service following a sale?” This question is an example of a (n) _____ question.
+
+a.	Opinion-generating
+b.	Eye-opening
+c.	open-ended
+d.	closed-ended
+e.	probing
+
+Ans: d
+
+
+6. Sarah would like to give the interviewee more control over the interview and to gather rich information. She should ask _____ questions.
+
+a.	closed-ended
+b.	inappropriate
+c.	open-ended
+d.	opinion
+e.	probing
+
+Ans: c
+
+
+
+
+7. The information gathering technique that enables the analyst to collect facts and opinions from a wide range of geographically dispersed people quickly and with the least expense is the _____.
+
+a.	document analysis
+b.	interview
+c.	JAD session
+d.	observation
+e.	questionnaire
+
+Ans: e
+
+
+8. The examination of existing paperwork in order to better understand the As-Is system is an example of what information-gathering strategy?
+
+a.	document analysis
+b.	interviewing
+c.	joint application design (JAD) sessions
+d.	observation
+e.	questionnaires
+
+Ans: a
+
+
+9. What information-gathering strategy enables the analyst to see the reality of the situation rather than listen to others describe it?
+
+a.	document analysis
+b.	interviewing
+c.	joint application design (JAD) sessions
+d.	observation
+e.	questionnaires
+
+Ans: d
+
+10. The ________ brings together into a single comprehensive document the material created during planning and analysis
+
+a.	project charter
+b.	system proposal
+c.	system request
+d.	requirements document
+e.	vision document
+
+Ans: b
+
+
+11. Both story cards and task lists are considered to be “_____________” approaches to documenting and gathering requirements.
+
+a. heavy weight
+b. lightweight
+c. formal
+d. dummy
+e. casual
+
+Ans.: b
+
+
+12. The executive summary in system proposal is typically no more than __________ page(s) long.
+
+a.	one
+b.	two
+c.	three
+d.	four
+e.	five
+
+Ans: a
+
+
+13. From a quality perspective, ___________ quality is related to the degree that the software meets the functional requirements.
+
+a.	functional
+b.	non-functional
+c.	standard
+d.	security
+e.	reliability
+
+Ans: a
+
+
+
+
+14. The ___________ requirements are associated with the efficiency, maintainability, portability, reliability, reusability, testability, and usability quality dimensions.
+
+a.	functional
+b.	non-functional
+c.	standard
+d.	correctness
+e.	performance
+
+Ans: b
+
+
+15. When considering ISO9000 compliance, quality dimensions are further decomposed into __________ and _________.
+
+a.	required and non-required
+b.	essential and non-essential
+c.	functional and non-functional
+d.	internal and external
+e.	reliable and non-reliable
+
+Ans: d
+
+
+
+
+True/False
+
+
+1. Benchmarking refers to studying how other organizations perform a business process so you can learn how your organization can do it better.
+
+Ans: True
+
+
+2. The interview schedule lists all the people who will be interviewed, when, and for what purpose.
+
+Ans: True
+
+
+3. Open-ended questions gather rich information because they are questions that permit the interviewee to elaborate on answer.
+
+Ans: True
+
+
+4. It is easier to ask an interviewee what is used to perform a task than it is to show the interviewee a form and ask what information on the form is used.
+
+Ans: False
+
+
+5. “How can you reduce the number of errors in the name and address field on the data entry screen?” is an example of a high level question.
+
+   Ans: False
+
+
+6. Following an interview the analyst should always prepare an interview report that describes the information gathered from the interview.
+
+Ans: True
+
+
+7. The standard approach to select who should complete a questionnaire during information gathering is to sample only those departments that do not have direct contact with the As-Is system.
+
+Ans: False
+
+
+8. To better understand the As-Is system the project team members can perform document analysis on existing forms, reports, and business process models.
+
+Ans: True
+
+
+9. Observation is a powerful tool for gathering information about the As-Is system and may be necessary because managers often do not remember how they work and how they allocate their time.
+
+Ans: True
+
+
+10. Document analysis and observation are commonly used for understanding the As-Is system because they are useful for obtaining facts.
+
+Ans: True
+
+
+11. Questionnaires are often used when there is only a small number of people from which information and opinions are needed, because it is difficult to get a large number of participants to return questionnaires on a timely basis.
+
+Ans: True
+
+12. Questions on questionnaires should be open-ended to allow the respondent the freedom to express his/her opinion since the analyst will not be able to follow up with additional questions as could be done in a one-on-one interview.
+
+Ans: False
+
+
+13. The top-down approach is an appropriate strategy for most interviews because it enables the interviewee to become accustomed to the topic before he or she needs to provide specifics and it enables the interviewer to understand the issues before moving to the details.
+
+Ans: True
+
+
+14. When you begin an interview, the first goal is to establish control and let the interviewee know that you have a mastery of the subject.
+
+Ans: False
+
+
+
+
+15. Root cause analysis attempts to find solutions for the business problems.
+
+Ans: False
+
+
+16. Tracy has decided to ask the users and managers to identify problems with the current system and to recommend how to solve these problems in the future system. They have recommended small incremental changes. Tracy is identifying improvement opportunities through problem analysis.
+
+Ans: True
+
+
+17. Jessica has asked the users to generate a list of problems with the current system and to prioritize the problems in order of importance. Jessica then generated all the possible causes for the problems, starting with the most important. Jessica is identifying improvement opportunities through root cause analysis.
+
+Ans: True
+
+
+18. An analyst for an insurance company determined that the overall time required to process a property damage insurance claim is 21 business days. When the analyst decomposes the process into steps and aggregates the total time requirements for all steps, she discovers a total time of 12 hours. The analyst is employing the activity-based costing analysis technique.
+
+Ans: False
+
+
+19. A systems analyst is participating in an exchange of services with another organization. First, the analyst visits the partner organization, studies and evaluates their systems, and recommends changes and improvements. Then, a team of analysts from the partner organization visits the analyst’s organization and performs the same service. This process is an example of benchmarking.
+
+Ans: True
+
+
+20. Amanda had the managers at her company develop a list of important and interesting technologies and how each technology could be applied to current business process. Amanda is identifying improvement opportunities through technology analysis.
+
+Ans: True
+
+
+21. An analysis team consisting of users, managers, and analysts, are in the midst of a daylong meeting. They are working on systematically evaluating the consequences of removing every activity from the current business process. The team is performing activity-based costing.
+
+Ans: False
+
+
+22. Activity-based costing is similar to duration analysis. While duration analysis attempts to find the time taken to complete business processes, activity-based costing finds the costs associated with each of the basic functional steps or processes.
+
+Ans: True
+
+
+23. A systems analyst has prepared an interview agenda that begins with a number of specific, detailed questions, and then asks the interviewee to make general statements about the policies and procedure of the business process. The analyst is following a top-down interview structure.
+
+Ans: False
+
+
+24. An interview style that seeks a broad and roughly defined set of information is commonly called the unstructured interview style.
+
+Ans: True
+
+25. Kristin, a systems analyst, needs to know detailed information about the accounts receivable process, but she is not concerned with accounts payable or general ledger, or the integration of this information. Her analysis will assist her in designing a To-Be system for the accounts receivable department. The appropriate requirements-gathering technique to be used would be interviewing.
+
+Ans: True
+
+
+26. The executive summary is an important component of the system proposal because it is used for convincing the busy executives of the merits of the project as briefly as possible.
+
+Ans: False
+
+
+
+
+27. A requirement is a statement of what the system must do and how it will be implemented.
+
+Ans: False
+
+
+28. Both story cards and task lists requirements documentation techniques are considered to be detail approaches to documenting and gathering requirements.
+
+Ans: False
+
+
+29. A system proposal brings together into a single comprehensive document the material created during planning and analysis.
+
+Ans: True
+
+
+30. The executive summary in system proposal provides all critical information in a very detail form.
+
+Ans: False
+
+31. Virtually all of the quality models differentiate functional and non-functional requirements.
+
+Ans: True
+
+
+
+
+Short Answer
+
+
+1. What are the methods used to identify improvement opportunities during business process improvement? How do the methods used for each analysis strategy affect the outcome of the “identify improvement” process?
+
+Ans: The methods used to identify improvements during business process improvement are duration analysis, activity-based costing, and informal benchmarking. Duration analysis requires a detailed examination of the amount of time it takes to process inputs in the as-is system. First the process time is determined for the entire system. Then the time is determined for each sub-process in the system. The times for the basic sub-processes are then totaled and compared to the total time for the overall system process. When there are significant differences between the two, analysts, users and managers look for solutions such as parallelization and process integration.
+
+Activity-based costing is similar to duration analysis except it examines the cost of each major process or step in a business process instead of the time. The analyst identifies the costs associated with each basic function and focuses attention on improving the most expensive activities.
+
+During informal benchmarking the business processes of other organizations are studied to identify new and better ideas. The implementation of these new ideas may bring value to the organization.
+
+The outcome of duration analysis is normally a change in the as-is business process. The outcome of activity-based costing is normally a reduction in direct costs, but may also affect indirect costs. Informal benchmarking commonly affects customer-facing business processes such as web site appearances and customer satisfaction issues.
+
+
+
+
+2. What are the three types of interview questions? Define and identify why an analyst would use each type of question. Include an example of each question type.
+
+Ans: The three types of interview questions are closed-ended, open-ended, and probing. Closed-ended questions are questions that require a specific answer. Analysts use closed-ended question when they are looking for specific, precise information. An example of a closed-ended question is “How many telephone orders are received per day?”
+
+Open-ended questions are questions that leave room for the interviewee to elaborate. Analysts use open-ended questions to gather rich information and to give the interviewee more control over the information that is revealed during the interview. An example of an open-ended question is “What do you think about the current system?”
+
+Probing questions follow up on what has just been discussed in order for the analyst to learn more and are often used when the interviewer is unclear about what the interviewee’s answer. Probing questions encourage the interviewee to expand or confirm information from a previous response and they are a signal that the interviewer is listening and is interested in the topic. An example of a probing question is “Why?”
+
+
+3. Document analysis and observation are two requirement gathering techniques. Briefly describe each and compare and contrast the advantages and disadvantages.
+
+Ans: To understand the As-Is system, project teams often use document analysis. Hopefully, the project team that designed the As-Is system produced adequate data and process models, and all of the paper documents (forms, reports, policy manuals, etc.) necessary to provide an understanding of the system. A project team can learn much about the formal As-Is system from this type of analysis.
+
+Observation enables the analyst to see how the As-Is system actually operates, which may differ from the system outlined in the documentation. The analyst becomes an anthropologist as he or she observes the business functions, much the same way monkeys have been studied in Africa.
+
+The advantages of document analysis are (1) it provides a starting point for the analyst and (2) it indicates clearly that a new system is necessary if users have begun to create, make changes to, or leave blanks on documents, reports and forms. The disadvantage is that many systems are not well documented.
+
+The advantage of observation is that the analyst actually sees and can check the reality of the system, which may differ greatly from the documentation or the reports given during an interview. The disadvantages are that (1) observation is time intensive, (2) it disrupts workers, and (3) it may not be honest because people behave differently (more carefully) when observed.
+
+
+4. Describe the most common way that the analyst organizes the interview process in terms of structured versus unstructured, and also in terms of open-ended, closed-ended, and probing questions.
+
+Ans: Although there is no hard and fast rule, it is usually best to begin the interviewing process with unstructured interviews that consist primarily of open-ended questions. At this point, the analyst will probably not know enough to ask very specific questions, and so should be seeking to gain a broad understanding of the situation. As more is learned, the analyst can use more probing questions to dig deeper. After the analyst has developed a good idea of the major issues, the interviews can become more structured, with more specific, closed-ended questions being effective in confirming facts and impressions.
+
+
+5. During an interview, the analyst has been asking about the process used to identify and correct the number of poor-quality products produced on a manufacturing line. The analyst commented, "This process seems way too slow and complicated. I don't know how you people can function if this is the way things are done." Is this an appropriate comment for the interviewer to make? Why or why not?
+
+Ans: This is not an appropriate statement. There are two serious problems with this statement. First, it is an opinion statement. Analysts should be objective collectors of information. They are not there to provide commentary. Second, the remark is derogatory in nature. What if the person he is interviewing is the one who designed that process? The interviewee will be offended and may withdraw his/her support for the project. This attitude may spread to other users and may diminish the chance of a successful project outcome. The analyst needs to stay neutral whenever interacting with the project sponsors, users, and managers.
+
+
+6. What is the primary goal of observation? What are three ways to make observation more effective? How reliable are the results of observation?
+
+Ans: The primary goal of observation is to enable the analyst to experience the reality of the As-Is system. The information gained this way can be much better at conveying the actual situation than verbal descriptions. To improve the effectiveness of observation, the analyst should be as unobtrusive as possible. S/he should not interfere with or disrupt the workers being observed. The analyst should also try to observe periods of normal work as well as periods of unusual activity, to get a sense of what the typical experience is and also the special cases that need to be anticipated. The results of observation need to interpreted carefully, because the normal human response to being observed is to do things 'by the book,' rather than using the informal procedures that may have evolved. The analyst needs to remember this and not take everything that is observed as actual fact. The best use of observation is to confirm or verify information gained through other techniques.
+
+
+
+
+7. Briefly describe the information is typically included in a system proposal?
+Ans.: A system proposal brings together into a single comprehensive document the material created during planning and analysis. The system proposal typically includes an executive summary, the system request, the work plan, the feasibility analysis, the requirements definition, and the evolving models that describe the new system. The evolving models include functional models, structural models, and behavioral models. The executive summary provides all critical information in a very concise form. It can be thought of as a summary of the complete proposal.
+
+
+8. Briefly describe the story cards and task lists requirements documentation techniques. What are some of the advantages of using story cards and task lists as a requirements gathering and documentation technique?
+
+Ans.: Both story cards and task lists are considered to be “lite weight” approaches to documenting and gathering requirements. A story card is typically an index card with a single requirement (functional or non-functional) written on it. Once the requirement is written down, it is discussed to determine the amount of effort it will take to implement it. During the discussion, a task list is created for the requirement (story). If the requirement is deemed to be too large, i.e., there are too many tasks on the task list, the requirement is split up into multiple story cards and the tasks are allocated across the new stories. In many shops, once a set of tasks have been identified with a story, the story and its tasks are taped on a wall together so that all members of the development team may see the requirements. The story can be prioritized by importance by placing a rating on the card. The story can also be evaluated as to the level of risk associated with it. The importance level and amount of risk associated with the story can be used to help choose which requirements to implement first.
+
+A set of advantages of using story cards and task lists to document requirements is that they are very low tech, high touch, easily updatable, and very portable.
+
+9. Briefly explain the non-functional requirements and functional requirements in software quality.
+
+Ans: One area of information systems development that focused on differentiating functional and non-­-functional requirements is software quality. There have been many different models proposed to measure the quality of software. However, virtually all of them differentiate functional and non-­-functional requirements. From a quality perspective, functional quality is related to the degree that the software meets the functional requirements, i.e., how much of the actual problem is solved by the software solution provided. Whereas, the non-­-functional requirements are associated with the efficiency, maintainability, portability, reliability, reusability, testability, and usability quality dimensions. As stated above, the non-­-functional related dimensions are associated primarily with the actual detailed design and implementation of the system.
+
+
+
+
+10. Briefly explain the external and internal quality dimensions in ISO9000.
+
+Ans: When considering ISO 9000 compliance, quality dimensions are further decomposed into those that the user can see (external) and those that the user cannot see (internal). The external non-­-functional dimensions include efficiency, reliability, and usability where the internal non-­-functional dimensions include maintainability, portability, reusability, and testability. From a user perspective, the external dimensions are more important. If the system is simply too difficult to use, regardless how well the system “solves” the problem, the user will simply not use the system. In other words, from a user’s perspective, for an information system to be successful, the system must not only meet the functional specification, but it must also meet the external non-­-functional specifications. From a developer perspective, the internal dimensions are also important. For example, given that successful systems tend to be long-­-lived and multi-­-platform, both the maintainability and portability dimensions can have strategic implications for the system being developed. Also, given the agile development approaches being used in industry today, the development of reusable and testable software is crucial.
+
+
+1
+
