@@ -8,22 +8,22 @@ class Answer:
 
 
 class EventLog:
-    def __init__(self, ID=0, TypeID=0, Description="", UserID=0, CreatedOn=""):
+    def __init__(self, ID=0, TypeID=0, Message ="", UserID=0, CreatedOn=""):
         self.ID	= ID
         self.TypeID	= TypeID
-        self.Description = Description
+        self.Message = Message
         self.UserID	= UserID
         self.CreatedOn = CreatedOn
 
     def __str__(self):
-        return "ID: {}, TypeID: {}, Description: {}, UserID: {}, CreatedOn: {}".format(self.ID, self.TypeID, self.Description, self.UserID, self.CreatedOn)
+        return "ID: {}, TypeID: {}, Message: {}, UserID: {}, CreatedOn: {}".format(self.ID, self.TypeID, self.Message, self.UserID, self.CreatedOn)
 
 class Lookup:
-    def __init__(self, ID=0, ShortName="", LongName = "", Description = "", Answers = None):
+    def __init__(self, ID=0, ShortName="", LongName = "", Note = "", Answers = None):
         self.ID = ID
         self.ShortName = ShortName
         self.LongName = LongName
-        self.Description = Description
+        self.Note = Note
         self.Answers = Answers
 
 class Question:
