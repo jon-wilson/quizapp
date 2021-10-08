@@ -1,0 +1,573 @@
+Chapter 12: Physical Architecture Layer Design
+Testbank
+
+
+Multiple Choices
+
+
+1. The computing architecture in which the server performs practically all of the work is known as _____.
+
+a.	client connection based architecture
+b.	client-based architecture
+c.	client-server architecture
+d.	server-based architecture
+e.	middleware architecture
+
+Ans: d
+
+
+2. Which of the following is NOT one of the four basic functions of a computer application?
+
+a.	application logic
+b.	data access logic
+c.	data storage
+d.	networking logic
+e.	presentation logic
+
+Ans: d
+
+
+3. A server can be a(n) _____.
+
+a.	mainframe
+b.	mainframe, minicomputer, or microcomputer
+c.	microcomputer
+d.	minicomputer
+e.	low-end personal computer
+
+Ans: b
+
+
+
+
+4. The application function that allows data to be stored and retrieved is called _____.
+
+a.	application logic
+b.	data access logic
+c.	data storage
+d.	presentation logic
+e.	network logic
+
+Ans: c
+
+
+5. A server in the client-server architecture performs which of the following application functions?
+
+a.	application logic and data storage
+b.	application logic and presentation logic
+c.	data access logic and presentation logic
+d.	data access logic and data storage
+e.	data storage logic and presentation logic
+
+Ans: d
+
+
+6. What is one primary problem with server-based computing architectures?
+
+a.	As more users place heavier demands on the server, it is expensive to increase server capacity.
+b.	Client terminals are no longer made by hardware vendors.
+c.	It is difficult to maintain security in the server-based environment.
+d.	Servers are no longer made by hardware vendors.
+e.	Servers cannot be manufactured quickly by vendors.
+
+Ans: a
+
+
+7. Scalability refers to the _____.
+
+a.	easy increase or decrease of the storage and processing capabilities of the computer
+b.	fact that there is no central point of failure in the system
+c.	deployment of middleware in the system
+d.	support of many different types of clients and servers
+e.	ease of decreasing the cost of the infrastructure during economic downturn
+
+Ans: a
+
+
+8. In an n-tiered architecture, the _____ is spread across two or more different sets of servers.
+
+a.	presentation logic
+b.	application logic
+c.	data access logic
+d.	data storage
+e.	any of the above can be spread across two or more sets of servers
+
+Ans: b
+
+
+9. The six architecture characteristics that assist in selecting the proper architecture are cost of infrastructure, cost of development, ease of development, _____, _____, and _____.
+
+a.	control and security, scalability, cost of programming
+b.	interface capabilities, control and security, cost of programming
+c.	interface capabilities, control and security, scalability
+d.	interface capabilities, control, and security
+e.	interface capabilities, scalability, cost of programming
+
+Ans: c
+
+
+10. Ethan is considering the replacement of the existing network for his organization. He has projected organizational growth at 50% per year for the next five years. With this growth, many new employees will surely be hired and trained. He has received a large amount of money from a small business grant for the initial development. The architecture Ethan should select is _____.
+
+a.	server-based
+b.	client-based
+c.	client-server
+d.	network-based
+e.	client-network server
+
+Ans: c
+
+
+
+
+11. A network model will depict _____.
+
+a.	clients
+b.	network equipment
+c.	external networks
+d.	servers
+e.	all of these
+
+Ans: e
+
+
+12. Elements of a deployment diagram include _____.
+
+a.	Nodes, artifacts, and locations of middleware components
+b.	Client PCs, servers, and locations of application logic modules
+c.	Servers, external networks, and data access logic
+d.	Primarily servers
+e.	Nodes, artifacts, and communication paths
+
+Ans: e
+
+
+13. In the public key private key encryption algorithm, normally the public key is used to _________, while the private key is used to ______________.
+
+a.	Encrypt data, decrypt data
+b.	Store data, restore data
+c.	Access data, access information
+d.	Password-protect data, retrieve password
+e.	Encrypt login id, encrypt password
+
+Ans: a
+
+
+14. The public key infrastructure (PKI) is ______.
+
+a.	hardware
+b.	software
+c.	organizations
+d.	policies
+e.	all of these
+
+Ans: e
+
+
+
+
+15. Recent studies have shown that almost ___ percent of organizations suffer a virus infection each year.
+
+a.	90
+b.	80
+c.	70
+d.	60
+e.	50
+
+Ans: a
+
+
+16. Systems designed to handle multiple languages on the fly are ____ multilingual systems.
+
+a.	ad-hoc
+b.	concurrent
+c.	versatile
+d.	discrete
+e.	global
+
+Ans: b
+
+
+17. Many countries have ____ norms for expressing information such as dates that are unique to the country. Knowledge of these norms is important when developing global information systems.
+
+a.	cultural
+b.	specialized
+c.	variable
+d.	idiosyncratic
+e.	unstated
+
+Ans: e
+
+
+
+
+18. The cloud can contain the firm’s IT infrastructure, IT platform, and software. _______________ refers to the cloud providing the computing hardware to the firm as a remote service.
+
+a.	Infrastructure as a service (IaaS)
+b.	Platform as a service (PasS)
+c.	Software as a service (SaaS)
+d.	Utility as a service (UaaS)
+e.	Computing as a service (CaaS)
+
+Ans: a
+
+
+19. Fundamentally, cloud computing is an umbrella technology that encompasses the ideas of ________________, service-oriented architectures, and grid computing.
+
+a.	distributed computing
+b.	e-business
+c.	Remote Method Invocation (RMI)
+d.	virtualization
+e.	networking
+
+Ans: d
+
+
+20. Which one in the following is one of the set of obstacles that cloud computing must overcome before it becomes the primary approach to provision the physical architecture layer.
+
+a.	the cost of the cloud
+b.	the level of availability of the cloud
+c.	the security in the cloud
+d.	the safety of the cloud
+e.	the usability of the cloud
+
+Ans: c
+
+
+
+
+21. Essentially, ___________computing is the idea that computing takes place everywhere and in everything.
+
+a.	Internet
+b.	cloud
+c.	ubiquitous
+d.	Internet of Things (IoT)
+e.	business
+
+Ans: c
+
+
+22. The ______________is the idea that, in addition to things having some form of computing capacity built into them, everyday things become connected via the Internet.
+
+a.	cloud computing
+b.	big data
+c.	machine learning
+d.	Internet of Things (IoT)
+e.	e-business
+
+Ans: d
+
+
+
+True False
+
+
+1. In the server-based architecture, all data stored on one computer.
+
+Ans: True
+
+
+2. An advantage of server-based architecture is that they never become overloaded and are always able to process user demands in a timely way.
+
+Ans: False
+
+
+3. With the client-based architecture the clients are personal computers on a local area network and the server computer is a server on the same network.
+
+Ans: True
+
+
+4. Client-server architectures strive to balance the processing between the client and the server by having both perform some of the application functions.
+
+Ans: True
+
+
+5. A two-tiered architecture uses only three sets of computers, clients, database servers, and application servers.
+
+Ans: False
+
+
+6. Senior management has established the priority for the new system as “the highest security and control at any cost.” The systems analyst should recommend a client-based computing architecture.
+
+Ans: False
+
+
+7. Senior management has established the priority for the new system as “user friendly, and quickly and inexpensively expandable to all part of the organization.” The systems analyst should recommend a client-server based computing architecture.
+
+Ans: True
+
+
+8. The hardware and software specification is a document that describes what hardware and software are needed to support the application.
+
+Ans: True
+
+
+9. Server-based computing requires a high degree of coordination among many components, and the chances of security holes or control problems are much greater than with client-server computing.
+
+Ans: False
+
+
+10. The purpose of the network model is to convey the complexity of the system, to show how the system’s components will fit together, and to help the project team develop the hardware and software specification.
+
+Ans: True
+
+
+11. A node in a deployment diagram typically indicates a server, a client or a separate network. A node never represents an individual network device since that is a very low level of abstraction for a deployment diagram.
+
+Ans: False
+
+
+12. In a deployment diagram, typically a node is labeled with a stereotype, with the stereotype representing the type of node (e.g., web server, database server, mobile device).
+
+Ans: True
+
+
+13. A concurrent multilingual system is one that contains separate parts that are written in each language and must be reinstalled before a specific language can be used.
+
+Ans: False
+
+
+14. Most systems are not built to use the existing infrastructure in the organization, so the current infrastructure rarely restricts the choice of architecture.
+
+Ans: False
+
+
+
+
+15. The client-server architecture was originally developed to control and secure data, and it is much easier to administer because all data are stored in a single location.
+
+Ans: False
+
+
+16. Companies seldom build networks to connect distant locations by buying land and laying cable or sending up their own satellites; they usually lease services provided by large telecommunications firms, such as AT&T, Sprint, and Verizon.
+
+Ans: True
+
+
+17. In a deployment diagram, an artifact is a piece of the information system that is to be deployed onto the physical architecture.
+
+Ans: True
+
+
+18. The function that provides the processing required to query a database and other logic related to the data management layer is called presentation logic.
+
+Ans: False
+
+
+19. The function that provides the logic related to the problem domain layer is called application logic.
+
+Ans: True
+
+
+20. The function that provides the processing logic required by the human computer interaction layer is called presentation logic.
+
+Ans: True
+
+
+21. In a deployment diagram, a communication path represents a communication link between the nodes of the physical architecture, and communication paths may be stereotyped.
+
+Ans: True
+
+
+
+
+22. Minicomputer typically costs hundreds of thousands of dollars while a mainframe costs millions of dollars.
+
+Ans: True
+
+
+23. Access control requirements state who can access data and what type of CRUD data access is permitted to each individual who has access to data.
+
+Ans: True
+
+
+24. A server in the server-based architecture performs application logic, data access logic, data storage, and presentation logic.
+
+Ans: True
+
+
+25. The major problem with a server-based architecture is that all data on the server must travel to the client for processing.
+
+Ans: False
+
+
+26. Assume that your network has a server and three clients, this network is an example of a four-tiered architecture.
+
+Ans: False
+
+
+27. Scalability is an important attribute in today's systems. Client-server architectures tend to be more scalable compared to the server-based architectures.
+
+Ans: True
+
+
+28. In order to prepare computer systems for global communication, discrete multilingual systems contain separate parts that are written in multiple languages and must have each language reinstalled before it can be used.
+
+Ans: True
+
+
+
+
+29. Legacy databases and systems are one of seven factors in the hardware and software specification document
+
+Ans: True
+
+
+30. Cost of ownership is an estimate of the purchase price of the system used to determine whether or not to lease from an outsource vendor.
+
+Ans: False
+
+
+31. Virtualization is another term for cloud computing.
+
+Ans: False
+
+
+32. Basically, a web service in cloud computing is the software that supports an entire business process such as salesforce.com.
+
+Ans: False
+
+
+33. With Platform as a Service (PaaS), the cloud vendor not only provides hardware support to a customer, but also provides the customer with either package-based solutions, different services that can be combined to create a solution, or the development tools necessary to create custom solutions in the PaaS vendor’s cloud.
+
+Ans: True
+
+
+34. Security concerns are one of the set of obstacles for adopting the cloud.
+
+Ans: True
+
+35. Cost of cloud is one of the set of obstacles for adopting the cloud.
+
+Ans: False
+
+
+36. The paperless office idea is becoming a reality thanks for widely using of tablet devices.
+
+Ans: True
+
+
+
+
+37. Ubiquitous computing is the idea that computing takes place everywhere and in everything.
+
+Ans: True
+
+
+38. Currently, there is only one major approach to support ubiquitous computing: specialized computing devices.
+
+Ans: False
+
+39. Enhanced objects are a type of magic objects.
+
+Ans: True
+
+
+40. Enchanted objects should be in the background simply providing its message for you to receive at your leisure; not “in your face.”
+
+Ans: True
+
+
+
+Short Answer
+
+1. Describe the fundamental types of computing architectures. Identify the four general functions of an application system and apply each to the corresponding computing architecture.
+
+Ans: The three fundamental types of computing architectures are server-based, client-based, and client-server based. In the server-based architecture the server performs virtually all of the work. In the client-based architecture the client is responsible for most of the application functions. In the client-server based architecture the work is shared between the two.
+
+The four general functions of an application system are data storage, data access, application logic, and presentation logic. Data storage is the function that is represented in the entity relationship diagram. Data storage is the actual data that is stored. Data access is the process that is required to retrieve the data that is stored. Data access includes the query language. Application logic is the process that is documented in the data flow diagram. Presentation logic includes the acceptance of the user’s commands through the user interface and all information that is presented to the user via reports, screens, etc.
+
+In a server-based architecture the server provides the presentation logic, the application logic, the data access logic, and the data storage. The client does not provide anything.
+
+In a client-based architecture the client provides the presentation logic, the application logic, and the data access logic. The server provides the data storage.
+
+In a client-server based architecture the client provides the presentation logic. The server provides the data storage logic and the data access. The application logic may be split between both the client and the server.
+
+
+2. Identify the characteristics used when selecting a computing architecture. Provide a description of characteristic.
+
+Ans: There are six characteristics used when selecting a computing architecture. They are the cost of the infrastructure, the cost of development, the ease of development, the interface capabilities, the control and security, and the scalability.
+
+The cost of the infrastructure is the major force toward the implementation of client-server computing. Client-server based architectures cost less than server-based and tend to cost less than client-based.
+
+The cost of developing systems is also important. Developing software for client-server computers is complex and expensive. It is thought to be 4 or 5 times more expensive than server-based. Client-based computing is less expensive than server-based because of the graphical user interface.
+
+Ease of development has come a long way since the development of graphical user interfaces. Client-based and client-server based systems are much easier to develop than server-based. But, client-server based system do have a complexity built in when multiple layers of hardware are used.
+
+Typically server-based applications contain character-based interfaces which are not as simple to use as graphical user interfaces (GUI). New GUI and web development tools assist in the development of improved client-based and client-server based systems.
+
+Server-based systems are the most secure for multi-user environments. Client-server systems are still maturing in terms of security. Client systems are secure for individual users.
+
+Scalability is the ability to increase or decrease the capacity of the computing infrastructure in response to changing capacity needs. The most scalable architecture is client-server. By contrast, server-based architectures rely on mainframe hardware that needs to be scaled up in large expensive increments. Client-based architectures have ceilings, above which the application cannot grow.
+
+
+3. Scott and Tim need to implement a very secure system for the Johnson Space Flight Center. The Center has an endless hardware budget, so infrastructure costs are not a consideration. The Center has a well-trained IS staff that is available for the project. Only six people will be interacting with the new system and they are engineers with years of computer experience. Scott and Tim do not see changes to the system in the near future. Using the six characteristics of a computing architecture, make an architecture selection recommendation to Scott and Tim.
+
+Ans: I would recommend a server-based architecture. Security is the primary characteristic emphasized and a server-based architecture is the most secure. Other characteristics that provide support for the server-based architecture are that the infrastructure cost is not important (the high cost of server-base can be absorbed into the other budgets), the six people that will use the system are computer literate (the low-level interface capabilities are not important), the system is not projected to grow (scalability is not important).
+
+
+
+
+4. Sara and Julian need to implement a system for the Johnson Space Flight Center. It is projected that the Center will grow 60% or more over the next two years. These drastic increases at the Center will be reflected in huge increases in personnel, the relocation of offices, and many software upgrades. All of the software to be used in this system is considered “non-secure”. The software will be purchased, thus reducing the cost of development. Using the six characteristics of a computing architecture, make an architecture selection recommendation to Sara and Julian.
+
+Ans: The growth of the Johnson Space Flight Center is the primary characteristic of the new system. I would recommend the most scalable system, client-server based, to Sara and Julian. The other important factors are the interface capabilities, since the number of people to use the system will also increase dramatically, and the “non-secure” nature of the application. Client-server based architecture fits perfectly with these to variables.
+
+
+5. Explain how the four fundamental computer application functions are handled in client-server computing architectures. Discuss what is meant by fat client and thin client configurations.
+
+Ans: In client-server architecture, the clients and servers share the application functions. Generally, the client provides the presentation logic and the servers provide the data storage and data access logic. The application logic itself may reside on the client, the server, or be shared between the two. A fat client configuration is one in which the client contains the bulk of the application logic. By contrast, a thin client configuration is one in which the server contains the bulk of the application logic.
+
+
+
+
+6. Explain the distinction between two-tiered, three-tiered, and n-tiered client-server architectures. What is the chief advantage of a multi-tiered architecture as compared to a two-tiered architecture? What are the limitations?
+
+Ans: These terms refer to the way that the application logic is partitioned between the client and the server. In the simple, two-tiered architecture, the client is responsible for all application logic and presentation logic, while the server is responsible for data storage and data access logic. Just two sets of computers are needed: the clients and the servers. In the three-tiered architecture, three sets of computers are used. Client computers are responsible for the presentation logic. Application servers are responsible for the application logic. Separate database servers are responsible for data access logic and data storage. In the n-tiered client-server architecture, more than three sets of computers are used: clients for presentation logic, database servers for data storage and data access logic, and two or more application servers. The application logic is partitioned among these two or more application servers.
+
+The primary advantage of multi-tiered client-server architecture is the fact that the processing load can be balanced among the application servers; it is more scalable. The disadvantages of the n-tiered architecture arise from increased network traffic required in this environment. Since more communication occurs between the servers, more network traffic will be generated, requiring a higher-capacity network. The second problem is that it is more difficult to develop software in the multi-tiered architecture, since more devices have to communicate in order to complete a user transaction.
+
+7. Discuss the factors that might encourage an organization to adopt a server-based architecture as opposed to a client-server-based architecture.
+
+Ans: Although client-server-based architecture receives a great deal of attention today, there are two factors that could encourage organizations to use the server-based architecture. The most significant would be the need for security and control in the application. It is much easier to maintain control and security in a server-based environment. Server-based architectures were originally developed to provide control and secure data, and they excel in this. The other factor could be the lack of knowledge and experience in the organization regarding how to successfully implement a system with the complexity of client-server architecture.
+
+
+
+
+8. Describe deployment diagrams. Discuss different components of a deployment diagram.
+
+Ans: Deployment diagrams are used to represent the relationships between the hardware components used in the physical infrastructure of an information system. They can also be used to represent the software components and how they are deployed over the physical infrastructure. In this case, a deployment diagram represents the environment for the execution of the software. The elements of a deployment diagram include nodes, artifacts and communication paths. A node represents any piece of hardware that needs to be included in the model of the physical architecture layer design. Nodes typically include client computers, servers, separate networks, or individual network devices. An artifact represents a piece of information system that is to be deployed onto the physical architecture. Often, an artifact represents a software component, a subsystem, an entire database or a layer (data management, HCI or problem domain). A communication path represents a communication link between the nodes of the physical architecture.
+
+
+9. Describe network models. Discuss different components of a network model.
+
+Ans: The network model is a diagram that shows major components of the information system, such as the servers and networks, and their geographic locations. There is no standard way to create network diagrams. Often analysts use their own symbols and diagramming tools to create them, though UML’s deployment diagram is recommended to depict network models. The purpose of a network model is two-fold: to convey the complexity of the system and two show how the system’s software components fit together. This diagram also helps the project team develop the hardware and software specifications for the information system. The components of the network model are the various clients (e.g. PCs, kiosks), servers (e.g. database, network), network equipment (e.g. routers, satellite links), and external systems or networks (e.g. Internet service providers) that support the application. Locations are the geographic sites related to these components.
+
+
+10. Name the three different types of clouds. How do they differ from each other?
+
+Ans: There are three different classifications of clouds: private, public, and hybrid. Private clouds are available only to employees of the firm, public clouds are available to the general public, and hybrid clouds combine the private and public cloud ideas together to form a single cloud. In some senses, all e-commerce sites could run in a hybrid cloud environment where the customer sales transaction portion of the system would need to be public while all other aspects would be private.
+
+
+
+
+11. What are the issues related to security in the cloud?
+
+Ans: A major obstacle to cloud adoption is the perceived level of security available in the cloud. Not only does a firm have to worry about security from the outside, when you consider multi-tenancy, the firm must seriously consider potential attacks from within their cloud from other cloud users. Furthermore, from a service availability perspective, a denial-of-service attack against another tenant within the cloud can cause performance degradation of the firm’s systems. Finally, a firm must consider protecting themselves from the cloud vendor itself. It turns out, the cloud vendor is responsible only for physical security and firewalls. All application-level security tends to be the responsibility of the cloud customer. Obviously, security in the cloud is a very complex endeavor. Given the confidentiality and auditability requirements of Sarbanes-Oxley (SOX) and the Health and Human Services Health Insurance Portability and Accountability Act (HIPAA), security in the cloud becomes a major concern for a firm to move any of its confidential data, including email, to the cloud. In many ways, when using a cloud a firm is simply taking a “leap of faith” that the cloud is secure.
+
+
+12. What is meant by a service-oriented architecture?
+
+Ans: Web services basically support connections between different services to form service-oriented architectures. Basically, a service is a piece of software that supports some aspect of a business process. A service can be an implementation of part of a business process, it can be an implementation of an entire business process (for example, salesforce.com), or it can be object persistence support for the data management layer. These services can be either internal or external to the firm. Services can be combined to support business processes. If you recall, we suggest modeling business process with use cases, use case diagrams, and activity diagrams. A service-oriented architecture allows business processes to be supported by “plugging and playing” services together in a static and/or dynamic manner. Furthermore, some of the pluggable and playable services can be purchased out right or they can be billed to the firm based on their use; a sort of pay as you go model.
+
+
+13. What is meant by ubiquitous computing? How about the Internet of Things?
+
+Ans: Essentially, ubiquitous computing is the idea that computing takes place everywhere and in everything. With ubiquitous computing, computing becomes so engrained into everyday things, computing effectively disappears into the background. In other words, computing becomes so deeply rooted into everyday things that the things themselves seem to become magical. The Internet of Things (IoT) is the idea that, in addition to things having some form of computing capacity built into them, everyday things become connected via the Internet.
+
+
+
+
+14. What is an enchanted object?
+
+Ans: An enchanted object is an everyday object that has a very specialized processor embedded in it that augments the object such that the object seems to be magical. For example, an umbrella that, since there is a good chance of rain, lets you know that you should take it with you today, or a wallet that lets you know that you are reaching your monthly budget limits or that your account just received a deposit.
+
+

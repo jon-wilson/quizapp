@@ -22,7 +22,7 @@ def DbClose(userId):
         conn.close()
 
 def LogEvent(eventLog):
-    sql = '''INSERT INTO EventLog (TypeID, Description, UserID, CreatedOn) VALUES (?, ?, ?, ?)'''
+    sql = '''EXECUTE [dbo].[ins_EventLog] ?, ?, ?, ?'''
     eventLog.CreatedOn = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     try:

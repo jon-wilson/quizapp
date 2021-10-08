@@ -1,0 +1,660 @@
+Chapter 10: Human-Computer Interaction Layer Design
+Testbank
+
+
+Multiple Choices
+
+
+1. The fundamental part of the user interface that permits the system to capture information is the _____ mechanism.
+
+a.	description
+b.	input
+c.	interface
+d.	navigation
+e.	output
+
+Ans: b
+
+
+2. The fundamental part of the user interface that provides information from the system to the user is the _____ mechanism.
+
+a.	input
+b.	interface
+c.	layout
+d.	navigation
+e.	output
+
+Ans: e
+
+
+3. Novice users prefer _____ while expert users prefer _____.
+
+a.	ease of use, ease of learning
+b.	ease of use, good layout
+c.	consistency, ease of learning
+d.	ease of learning, ease of use
+e.	ease of learning, consistency
+
+Ans: d
+
+
+
+
+4. _____ assures the interface will act as the users expect, while _____ assures it will look pleasing.
+
+a.	Layout, aesthetics
+b.	Aesthetics, consistency
+c.	Consistency, aesthetics
+d.	Consistency, layout
+e.	Aesthetics, layout
+
+Ans: c
+
+
+5. The user interface design principle that places an emphasis on the intuitive flow of the interface (i.e. left to right and top to bottom) to minimize the user’s movements is _____.
+
+a.	aesthetics
+b.	consistency
+c.	content awareness
+d.	layout
+e.	user experience
+
+Ans: d
+
+
+6. The user interface design principle that places an emphasis on the user’s ability to always know where he/she is in the system and what information is being displayed is _____.
+
+a.	aesthetics
+b.	consistency
+c.	content awareness
+d.	layout
+e.	user experience
+
+Ans: c
+
+
+
+
+7. Juan is designing a user interface for the data-entry clerks in the marketing department. In an interview with the department manager, Juan has learned that the department has frequent turnover and that there is very little money for training. What two interface design principles would you recommend Juan emphasize in his design?
+
+a.	aesthetics and consistency
+b.	aesthetics and layout
+c.	content awareness and aesthetics
+d.	content awareness and minimal user effort
+e.	user experience and consistency
+
+Ans: e
+
+
+8. In user interface design, use scenarios will _____.
+
+a.	describe all possible paths through the system
+b.	describe the most frequent paths taken through the use cases
+c.	provide the designer with detailed descriptions of the interface design elements
+d.	repeat the content of the system's data models
+e.	repeat the content of the system's process models
+
+Ans: b
+
+
+9. A(n) _____ shows how all the screens, forms and reports are related, and how the user moves from one to another.
+
+a.	data flow diagram
+b.	interface standard design
+c.	window navigation diagram
+d.	storyboard
+e.	use scenario
+
+Ans: c
+
+
+
+10. The interface standard that specifies the pictures that will appear on command buttons as well as in reports and forms to highlight important information is(are) the _____.
+
+a.	interface metaphor
+b.	interface objects
+c.	interface actions
+d.	interface icons
+e.	interface templates
+
+Ans: d
+
+
+11. Which of the following interface evaluation techniques involves a highly structured assessment of the users' interaction with the system?
+
+a.	heuristic evaluation
+b.	interactive evaluation
+c.	metaphor prototyping
+d.	usability testing
+e.	walk-through evaluation
+
+Ans: d
+
+
+12. Which of the following ways of enabling users to communicate with the system is most commonly used?
+
+a.	Command languages
+b.	Direct manipulation
+c.	Menus
+d.	Natural languages
+e.	all of these are about the same
+
+Ans: d
+
+
+13. Moving files by dragging and dropping is an example of _____ navigation controls.
+
+a.	command language
+b.	direct manipulation
+c.	menu
+d.	natural language
+e.	UNIX
+
+Ans: b
+
+
+14. If real-time information is required by the information system, then the appropriate input processing mechanism is _____.
+
+a.	back room processing
+b.	batch processing
+c.	off-line processing
+d.	on-line processing
+e.	real-time processing
+
+Ans: d
+
+
+15. Which of the following is the most important principle of input design?
+
+a.	capture input electronically as close to the source as possible
+b.	minimize keystrokes
+c.	never use on-line processing
+d.	use batch processing when appropriate
+e.	use on-line processing when appropriate
+
+Ans: a
+
+
+16. Laura sorts the information on all of her reports into alphabetical order, which makes it very hard to notice the X, Y, or Z. By sorting the information in this way Laura has introduced _____ into the manager’s decision process.
+
+a.	bias
+b.	information availability
+c.	information overload
+d.	real-time reporting
+e.	report usage
+
+Ans: a
+
+
+
+
+17. As an addition to a regular report, a(n) _____ report may help the user understand the change in comparison values over time or show proportions that are relative to the whole.
+
+a.	detailed
+b.	graph
+c.	media
+d.	summary
+e.	turnaround
+
+Ans: b
+
+
+18. A(n) _____ check is a type of input validation that determines if several fields have been entered before the form can be processed.
+
+a.	check digit
+b.	completeness
+c.	consistency
+d.	format
+e.	range
+
+Ans: b
+
+
+19. A(n) _____ check ensures that the numeric data entered is within the correct minimum or maximum values.
+
+a.	check digit
+b.	completeness
+c.	consistency
+d.	format
+e.	range
+
+Ans: e
+
+
+
+
+20. A(n) _____ check ensures that combinations of data are valid, for example, does the zip code of an address correspond to the correct state name.
+
+a.	completeness
+b.	consistency
+c.	database
+d.	format
+e.	range
+
+Ans: b
+
+
+21. The _____ design principle requires that a report not provide all the available information, only the information that is needed.
+
+a.	understand report usage
+b.	minimize bias
+c.	manage information load
+d.	real-time reporting
+e.	none of these
+
+Ans: c
+
+
+22. Krug’s three design principles are also important to design the user interfaces of mobile computing systems, especially the first one: _______________.
+
+a.	give the mobile context
+b.	remove all “fluff” from the site
+c.	try to linearize the content of the application
+d.	using the unique features from the device
+e.	“Don’t make me think”!
+
+Ans: d
+
+
+
+
+23. Steve Krug provides us with a set of guiding principles for web usability. Find one of the principles in the following list
+
+a.	The user should never have to think about how to navigate the user interface.
+b.	Using more clicking instead of typing.
+c.	Using more texts in the interface
+d.	Using more voice recognition feature as possible.
+e.	Be consistent to other similar applications
+
+Ans: a
+
+
+24. One of the guidelines for designing user interfaces for social media website is to make sure you understand the difference between push and pull approaches. The push-based approach is __________.
+
+a.	you have to click buttons to get information
+b.	the server sends information to users periodically
+c.	the user has to come to the social media website to find information
+d.	the user setup an agent program to get information from the website
+e.	the server collects information for the user and store in the server and the user can access it at any time.
+
+Ans: b
+
+
+25. A few rule you should follow to design multilingual user interfaces. Which one in the following list is NOT one of the rules?
+
+a.	Keep the writing short and simple.
+b.	Avoid humor, jargon, slang, clichés, puns, analogies, and metaphors.
+c.	Use good grammar.
+d.	Use large fonts.
+
+Ans: d
+
+
+
+True/False
+
+
+1. The user interface includes three parts; the input mechanism, the output mechanism, and the reporting mechanism.
+
+Ans: False
+
+
+2. The use of screen and frame titles, well-defined areas on reports and forms, and good field labels apply to the interface design principle of content awareness.
+
+Ans: True
+
+
+3. All forms and reports need a minimal amount of white space that is intentionally left blank.
+
+Ans: True
+
+
+4. Novice and expert users are both usually most concerned with “ease of use” of a new system.
+
+Ans: False
+
+
+5. Using the word “client” repeatedly, instead of interchanging it with the word “customer” is an example of the interface design principle for minimal user effort.
+
+Ans: False
+
+
+6. Most user interface designers follow the minimal user effort principle by permitting users to go from the main menu of the system to the information or action need in no more than five mouse clicks or five keystrokes.
+
+Ans: False
+
+
+7. The first step in the user interface design process is “interface design prototyping.”
+
+Ans: False
+
+
+
+
+8. A use scenario is an outline of the steps that the users perform to accomplish some part of their work.
+
+Ans: True
+
+
+9. An interface metaphor is a concept from the real world that is used as a model to help the user understand the system and enable the user to predict what features the interface might provide.
+
+Ans: True
+
+
+10. The three fundamental parts of the system interface are the navigation mechanism, the input mechanism, and the output mechanism, all of which are closely intertwined.
+
+Ans: True
+
+
+11. All parts of the interface, whether navigation, input, or output, should provide as much content awareness as possible, but it is particularly important for forms or reports that are used quickly or irregularly.
+
+Ans: True
+
+12. Guidelines for aesthetics require that as much information as possible be squeezed onto a page or a screen with a minimum of white space; this will make the form or report pleasing to the eye and extremely functional.
+
+Ans: False
+
+
+13. Interfaces should be designed primarily for the inexperienced users who are usually most concerned with ease of use; experienced users will be able to quickly pass over the simpler aspects of the new system.
+
+Ans: False
+
+
+14. Probably the single most important factor in making a system simple to use is consistency because it enables users to predict what will happen; once they can interact with one part of the system, they will know how to interact with the rest.
+
+Ans: True
+
+
+15. The final step in the user interface design process, interface evaluation, usually does not yield any improvements, because by that stage of the design process, all of the “bugs” will normally have been removed from the system.
+
+Ans: False
+
+
+16. The interface standards, the basic design elements that are common across the individual screens, forms, and reports within the system, must be identical for different parts of the system, hence the name “standards.”
+
+Ans: False
+
+
+17. Analysts must assume that users have read the manual, have attended the training classes, and have external help nearby.
+
+Ans: False
+
+
+18. The grammar order of the navigation controls may be random (object-action or action-object) throughout an application.
+
+Ans: False
+
+
+19. The advantage of direct manipulation is that it permits the user to enter extensive data by keystroke and allows the user to size objects within three keystrokes.
+
+Ans: False
+
+
+20. A menu bar is often a second-level menu that pops up, floats over the screen, and disappears after one use.
+
+Ans: False
+
+
+21. A tool bar is a list of commands at the top of the screen that are always present on the interface and may drop down immediately below another menu and disappear after one use.
+
+Ans: False
+
+
+
+
+22. The ideal computer system permits users to enter invalid data into the system. This data is later inexpensively identified and someone is notified to resolve the information problem.
+
+Ans: False
+
+
+23. A drop-down box displays selected items in a one-line box that opens to reveal a list of choices. Common applications include a list of the 50 states and the selection of a printer from a list of 12 available.
+
+Ans: True
+
+
+24. Analysts often set out to introduce bias into the design of a report by sorting the information alphabetically or chronologically.
+
+Ans: False
+
+
+25. A significant drawback of a printed report is the inability of the information to be further manipulated (i.e., sorted).
+
+Ans: True
+
+
+26. The goal of the navigation system is to make the system as simple as possible to use; a good navigation component is one the user never really notices because it functions the way the user expects.
+
+Ans: True
+
+
+27. The goal of the input mechanism is to present information to users so they can accurately understand it with the least effort, usually by understanding how reports will be used and designing them to minimize information overload and bias.
+
+Ans: False
+
+
+28. The goal of the output mechanism is to simply and easily capture accurate information for the system, typically by using on-line or batch processing, capturing data at the source, and minimizing keystrokes.
+
+Ans: False
+
+
+29. In order for managers to receive all the information needed to support the task for which it was designed, the report should provide all the information available on the subject and allow the managers to select that which they wish to use.
+
+Ans: False
+
+
+30. Input design means designing the screens used to enter the information, as well as any forms on which users write or type information (e.g., time cards, expense claims).
+
+Ans: True
+
+
+31. Messages are the way in which the system responds to a user and informs him or her of the status of the interaction; they should be clear, concise, complete, grammatically correct, free of unfamiliar jargon, and avoid confusing negatives.
+
+Ans: True
+
+
+32. With batch processing (sometimes called transaction processing), each input item is entered into the system individually, usually at the same time as the event or transaction prompting the input.
+
+Ans: False
+
+
+33. Messages should require the user to acknowledge them, rather than being displayed for a few seconds and then disappearing, with the exception of delay in processing messages, which should disappear once the delay has passed.
+
+Ans: True
+
+
+34. Research suggests that in an ideal world, any one menu should contain no more than eight items, and it should take no more than two mouse clicks or keystrokes from any menu to perform an action (three from the main menu starting a system).
+
+Ans: True
+
+
+35. Use scenarios are developed and used during the evaluation of the interface as a check on what could go wrong.
+
+Ans: False
+
+
+36. Ease of use and ease of learning are important interrelated aspects of the user experience design principle.
+
+Ans: True
+
+
+37. Content awareness is the user interface design principle that recognizes that if the user is experienced and well aware of the content on the screens, then the design of the screen can be simplified to take advantage of that awareness.
+
+Ans: False
+
+
+38. Content awareness is the user interface design principle that requires that the screen design make it clear to the user what content is being displayed.
+
+Ans: True
+
+
+39. One of the rules for designing multilingual user interface is to use humor language in the interface.
+
+Ans: False
+
+
+40. One of the rules for designing multilingual user interface is to keep the writing short and straightforward.
+
+Ans: True
+
+
+41. Pull-based approach can be used together with push-based approach for designing social media websites.
+
+Ans: True
+
+
+42. You should only consider whether customers could find materials in your social media website but not search engines.
+
+Ans: False
+
+
+
+
+43. One of the principles for common sense based user interface design is “Don’t make me think!”
+
+Ans: True
+
+
+44. One of the challenges of designing user interface for mobile computing applications is that the device may be used everywhere.
+
+Ans: True
+
+
+45. When designing user interface for mobile computing applications, you should not reuse patterns that have been used for mobile devices.
+
+Ans: False
+
+
+46. Game players normally are motivated by cash reward, so they play game again and again.
+
+Ans: False
+
+
+47. People play games again and again because playing games is fun.
+
+Ans: True
+
+
+48. Gamification deals with applying gaming mechanics to non-gaming situations.
+
+Ans: True
+
+
+49. Gamification deals with applying gaming mechanics to gaming business..
+
+Ans: False
+
+
+
+Short Answer
+
+1. What are the six User Interface Design Principles? Identify each principle and provide a description for each.
+
+Ans: The six User Interface Design Principles are layout, content awareness, aesthetics, user experience, consistency, and minimal user effort. Layout refers to a series of areas on the screen that are used consistently for different purposes. For example, the top is for commands and navigation, the middle is for input and output, and the bottom is for status information. For content awareness, the users should be aware of where they are in the system and what information is being displayed. The principle for aesthetics proposes that the interface should be functional and inviting to use. There should be careful use of white space, colors, and fonts. User experience refers to the ease of use and ease of learning. There are often tradeoffs between these two concepts. Novice users or infrequent users will prefer ease of learning, whereas frequent users will prefer ease of use. Consistency in interface design enables user to predict what will happen before they perform a function. It is one of the most important elements in ease of learning, ease of use, and aesthetics. The interface should require minimal user effort. Most designers plan on having no more than three mouse clicks from the starting menu until users perform work.
+
+
+2. Quarters, Inc. is a company that sells maps of the U.S.A. that have pre-fitted holes corresponding to the recently release quarters with state emblems on the back. The maps are display cases and collectors guides for families or individuals participating in the program. Six months ago the marketing manager requested a new system that would allow retailers of the maps to order them in packs of fifty over the Internet. Three retailers are local and have volunteered to participate in a half-day evaluation of the new system. The new web-based system is almost complete. As the IS testing manager you have been assigned the task of testing the new system. Describe the four methods for interface evaluation and make a recommendation on the appropriate method or methods that would best fit the system described.
+
+Ans: The four common approaches to interface evaluation are heuristic evaluation, walk-through evaluation, interactive evaluation, and formal usability testing. Heuristic evaluation examines the interface by comparing it to a set of rules or principles for interface design. Three or more members of the team evaluate each screen using a checklist that was developed at the beginning of the project. After each screen has been evaluated the team meets, shares evaluations, and identifies specific improvements. For a walk-through evaluation, the project team has a meeting with the users and performs a walk-through of the interface prototype. The project team shows the storyboard or actually demonstrates the prototype and explains how the interface is to be used. Users identify improvements. During an interactive evaluation the users work with the prototype in a one-person session with a member of the project team. The team member records the difficult cases, when the user makes mistakes, or when misinterpretations are made.
+
+Formal usability testing is commonly done with commercial software products and products developed by large organizations that will be widely used throughout the organization. A scientific process is performed that may include lab equipment, video cameras, and special software that records every keystroke and mouse operation.
+
+I would recommend heuristic evaluation and/or walk-through evaluation. All systems should be evaluated heuristically against a checklist prior to being evaluated by customers or users. In this specific example three local retailers have volunteered to test the system for half a day. To best use their volunteer time a walk-through evaluation suits well. The team would show the retailers the prototype and explain how the interface will be used. The retailer would identify improvements to each interface.
+
+3. Describe the typical layout areas for a standard screen, a Web screen, and a report screen.
+
+Ans: For a typical screen, three areas are defined. First, there is a box along the top that contains the navigation commands. Second, there is a box along the bottom that is the status area, displaying information about what the user is doing. Third, the remainder large central area of the screen is used for the primary content of the screen: displaying a report or displaying an input form, for example. A Web screen will be similar, but often provides many more navigation areas than a standard screen. There will usually be a navigation area at the top, which is used to give commands to the browser for the overall system. There is often another navigation area along the left side of the screen, containing a navigation mechanism to more between sections of the page. There may also be navigation controls at the top of the page itself and at the bottom of the page itself. In Web pages, it is essential to always let the user know where they are and how to move, so there is a lot of emphasis on navigation features. Report screens will also make use of smaller, specialized areas on the screen. Each report area may show a different type of information and is somewhat self-contained.
+
+
+4. Describe the five steps of the user interface design process. Why is this process iterative?
+
+Ans: The first step is to review the sequence diagrams and use cases to identify use scenarios. These scenarios describe users' commonly employed patterns of action, enabling designers to focus on creating an interface that performs these actions quickly and smoothly. Second, the designers create the window navigation diagram that defines the basic structure of the interface. Third, interface standards are developed for the basic interface design elements. Fourth, the interface design elements are prototyped. Finally, the interface is evaluated by the end users. This process will be iterative in that user feedback usually suggests improvements for the interface, which results in a repeated cycle through these steps until the users are satisfied.
+
+
+
+
+5. Analysts must assume that users have not read the manual, have not attended training, and do not have external help readily available. To confront these realities, navigation controls must be designed with three basic principles. Identify and define these three principles. Provide an example for each.
+
+Ans: The three basic design principles for navigation controls are prevent mistakes, simplify recovery from mistakes, and use consistent grammar order. Mistakes can be reduced by labeling commands and actions appropriately and by limiting choices. Too many choices can confuse the user, particularly when they are similar and hard to describe in the short space on a screen. Two examples to prevent mistakes would be to never display a command that cannot be used and to consider using a second level of menu. To simplify the recovery from mistakes the system should make it as easy as possible to correct errors. The Window menu has an undo command built in. This feature is often too complicated to write into application software. The use of consistent grammar order can easily be implemented by making each command an “action-object order.” This is the most common method and most users are familiar with the format. For example, save a file has an action-object order (save is an action, file is the object).
+
+
+6. Michelle and Tom have been assigned the task of creating the menu system for a new software package. They have been given the following information about the system and the prospective users of the system. There are to be only two types of menus used. The users of the new system are very familiar with Windows applications, but are considered “novices.” The primary menu items should be just one word that leads to other menus. The second-level can be multiple words that perform actions. Due to limited development time image maps and toolbars should be excluded from the selection process. What types of menus would you recommend Michelle and Tom? Define each and support yourAnswer.
+
+Ans: There are six types of menus: menu bars, drop-down menus, pop-up menus, tab menus, toolbars, and image maps. The question does not permit the use of image maps or toolbars. Pop-up menus would not be suitable because they are not appropriate for novice users. Tab menus only permit one row of tabs (or commands) and at this point we are not sure how many we will need. The recommended menu types should be menu bar for the primary menu and drop-down menu for the secondary menu. Menu bars are a list of commands at the top of the screen that are always on the screen and act as the main menu for the system. Menu items on menu bars are always one word that lead to secondary menus. Drop-down menus drop down immediately below another menu and disappear after use. They are second-level menus that often drop from a menu bar. Drop-down menus can be multiple words that perform actions.
+
+
+
+
+7. Why is it important to capture data at the source and how is this process best done?
+
+Ans: Capturing data at the source is perhaps the most important input design principle. The earlier in the process data is entered into electronic format the less opportunity there is for errors to enter the system. Entering data onto a paper form that is then entered into an electronic format is an expensive duplication of work. Doing the data entry process twice, once on paper and a second into electronic format, is expensive and the duplicate process creates two opportunities for error. Capturing data at the source is called source data automation. Bar code readers, optical character readers, magnetic stripe readers, and smart cards are the most common forms of source data automation. An online form, such as an application or a customer order, is also a method of capturing data at the source. The customer entering the data via a form is less expensive and more error free than a customer service representative performing the data entry.
+
+
+8. The Dean of Admissions at State University would like to have an online application process for all prospective students. The online application will have the following field: first, middle, and last name; street, city, state, and zip address; phone; date of birth; and social security number. What types of input validation would you perform on each field? Support your answer.
+
+Ans: There are six types of input validation: completeness check, format check, range check, check digit check, consistency checks, and database checks. All of the fields would be checked for completeness. All information would be required before the form could be processed. The numeric fields of zip code, phone, date of birth, and social security number would be checked for format. Each is all numeric with a pre-defined format. For example, date of birth is defined as month, day, and year. The numeric fields should also be validated for range to guaranty that only numbers between the correct values are used. For example, a home phone number does not normally have the area codes of 800 or 900, and date of birth cannot have a day above 31 or a month above 12. Consistency check can be performed for two or more fields that are related. For example, a zip code within a state should match the state’s available zip codes and a phone number area code should match a state’s available area codes. Database checks would not be performed on new applicants that are not currently in State University’s database.
+
+
+9. Discuss three design principles that can improve the usability of menus.
+
+Ans: First, design the menus to be broad and shallow rather than narrow and deep. A broad and shallow structure places more choices in front of the user initially and makes it easier for them to find the desired command. Second, try to organize the menus to achieve the ideal of no more than eight items per menu, and not more than two mouse clicks or keystrokes from any menu to the desired action. Third, construct the menus so that similar categories of items are put together so that the user can intuitively guess what each menu contains. One strategy that helps is to group menu items by interface objects rather than by actions. This way, all actions pertaining to each object are contained in the same menu.
+
+
+10. Distinguish between batch processing and on-line processing. What are the pros and cons of each input method? Under what circumstances is it best to use each?
+
+Ans: With batch processing, transaction data is accumulated over some natural period (such as a day) and processed as a group. With this method, the organization's files do not reflect the transactions until the batch has been accumulated and processed. With on-line processing, a transaction is processed as it occurs, and the organization's files reflect the transaction immediately. With this method, the organization's files are always up-to-date. Batch processing is generally simpler to implement and has lower communications costs; however, on-line processing is required in situations where files must have real-time content.
+
+
+11. Discuss three ways a system designer can improve the usability of the system's reports?
+
+Ans: First, know how the report will be used. Clarify what the user looks for, the order in which the information is desired, and the categories that can be used to organize the information appropriately. Second, provide all necessary and sufficient information to the user, but do not provide more than the user needs. Also, if the user wants the same information presented different ways for different decision making purposes, then create different reports for each purpose. Do not try to make a comprehensive, multi-purpose report. It will probably be unusable. Third, look for possible bias in the way the report content is presented. Bias can be subtle and unintended, but present just the same.
+
+
+12. Discuss the problem of bias with regard to graphical outputs.
+
+Ans: Bias is especially problematic in graphical output because the size effect of changes or trends can be manipulated through the choice of the scale used. To help avoid this, always start graph axes scales at zero
+
+
+
+
+13. With regards to social media, what is the difference between “push” and “pull” approaches to interacting with customers?
+
+Ans: If the user must come to you to find out something, then you are using a pull-based approach. On the other hand, if you put the information out to the user, then you are using a push-based approach. When it comes to social media, you really need to use a combination of the approaches. For example, in Facebook if someone posts on your wall or sends you a request, Facebook will send you an email message to try an entice you back to the Facebook site. The act of posting to your site was a pull-based action, while the email message sent to you is a push-based action. In a nutshell, you want to focus on more of a push-based approach. You want your content to get to your customers in as an effective manner as possible. You don’t want them to have to come looking for you. Encourage them to opt-in for update notifications to come to them in a form that they prefer. Some may prefer email notifications, while others may prefer you post to their Facebook or Twitter accounts. Also, be sure to include links to your social media sites on your home page. But, be sure not to overwhelm the customer. Not every customer wants to know every tidbit regarding the firm. Only give the customer what the customer wants. Remember, Krug’s first principle: Don’t Make Me Think! A corollary to this principle for social media would be: Don’t Make Me Work! So, make it easy for the customer to find only what they want (or maybe what we want them to want).
+
+14. What is occlusion? Why is it an issue when developing multi-dimensional information visualizations? What are augmented reality systems? What are Virtual reality systems?
+
+Ans: Occlusion is when viewing data in 3D, some of the visualization may be covered up, hidden, by other parts of the visualization. It blocks information in the back. Augmented and virtual reality using immersive technologies, is among the latest and exciting application areas being utilized to solve business problems. Where virtual reality (VR) technologies completely immerse the user into an artificial simulated digital environment, augmented reality (AR) technologies are used to augment or enhance the view of the real world. There are both opportunities and challenges with deploying both of these technologies.
+
+15. What are some of the multilingual issues that you may face when developing for a global audience?
+
+Ans: Global applications often have multilingual requirements, which means that they have to support users who speak different languages and write using non-English letters (e.g., those with accents, Cyrillic, Japanese). One of the most challenging aspects in designing global systems is getting a good translation of the original language messages into a new language. Words often have similar meanings but can convey subtly different meanings when they are translated, so it is important to use translators skilled in translating technical words.
+
+
+
+
+16. When developing a virtual reality system, what are some of the issues that need to be addresses?
+
+Ans: Obviously, designing effective and efficient VR applications is very difficult39. Again, the overall design process is similar to the general user interface design process described earlier. However, given the potential for VR to support business decision-making by combining gaming and information visualization technologies into a single seamless distributed environment and that the investment in specialized hardware and software is dropping, VR could provide large payoffs.
+
+
+17. What is a cognitive map?
+
+Ans: A cognitive map consists of not only spatial relationships, but also of auditory, sensory and emotional impressions. In games, a map is typically provided to help with change "is" to "are" understanding where one is in the virtual space and from where one has come. Like the immersion issue, way-finding also raises issues related to individual psychological and cognitive differences.
+
+
+18. What are the six suggestions to address the mobile computing challenges?
+
+Ans: Based on these challenges, Tidwell provides a set of suggestions that you should follow in designing a user interface for these devices. First, given the mobile context, you really need to focus on what the user needs and not what the user may want. In other words, you really should go back to business process and functional modeling (Chapter 4). In this case, only focus on the tasks that the user will need to perform when they are in the mobile context. This is a good example of a non-functional requirement (mobile computing) impacting the possible functional requirements.
+
+Second, if you are porting an application or web site to a mobile device, remove all “fluff” from the site. By that we mean, strip the site down to its bare essentials. If for some reason, the user needs access to the full site, be sure to provide a link to it in an obvious location. Alternatively, you could provide a complete mobile version of the application or web site to the user. Obviously, the design of the user interface will be different, but the functionality should be the same.
+
+Third, whenever possible, take advantage of the unique capabilities built into these devices. Some of the devices will have GPS built-in. Depending on your application, knowing where the user is could change the results. In other cases, devices such as the iPad, have an accelerometer that allows the app to “know” the orientation of the device. Many of devices have speech recognition capabilities, cameras that can be used for scanning, touch screens that allow sophisticated gestures to be used, and haptic feedback, such as bumps and vibrations. All of these capabilities could prove useful in developing different mobile applications.
+
+Fourth, when considering a phone, you tend to have a limited width from which to work. Consequently, you should try to linearize the content of the application (see Figure 10-25). By that we mean, take advantage of vertical scrolling and try to minimize, if not eliminate, horizontal scrolling. It is simply more natural for users to scroll up and down instead of left to right on these devices.
+
+Fifth, optimize your mobile application for the user. This will include minimizing the number of times the device must interact with a server to download or upload information with a server. Not everyone will have access to 3G, alone true 4G, networks. In many cases, uploading and downloading is still very slow. Optimization also includes the user’s interaction with the device. Instead of using a lot of typing, scrolling, and taps on a touch screen, consider using the speech recognition capability. It’s a lot easier to speak slowly to a smartphone than it is to have to type a lot into a virtual or physical keyboard.
+
+Finally, Tidwell provides a set of reusable patterns that have been customized for mobile devices. These include things such as a vertical stack, filmstrip, and bottom navigation to name a few.
+
+
+1
+

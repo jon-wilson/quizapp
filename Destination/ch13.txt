@@ -1,0 +1,782 @@
+Chapter 13 Installation and Operations
+Testbank
+
+
+Multiple Choices
+
+
+1. The three-stage process for managing organizational change that was developed by Lewin is _____.
+
+a.	As-Is system, transition, and To-Be system
+b.	hold, shuffle, and fold
+c.	SDLC, RAD, and BPR
+d.	support, maintain, and assess
+e.	unfreeze, move, and refreeze
+
+Ans: e
+
+
+2. Post-implementation activities include _____.
+
+a.	project assessment
+b.	system maintenance
+c.	system support
+d.	system support and system maintenance
+e.	system support, system maintenance, and project assessment
+
+Ans: e
+
+3. Which of the following is the most costly aspect of the installation process?
+
+a.	change management
+b.	conversion
+c.	maintenance
+d.	training
+e.	analysis
+
+Ans: c
+
+
+4. 
+A migration plan contains two major elements. They are _____.
+
+a.	challenging and motivation
+b.	change and assessment
+c.	conversion and testing
+d.	supportive and maintenance
+e.	technical and organizational
+
+Ans: e
+
+
+5. Install hardware, install software, and convert data are the three steps found in the _____.
+
+a.	change management process
+b.	conversion plan
+c.	direct conversion activity
+d.	file and database conversion
+e.	purchase or rent process
+
+Ans: b
+
+
+6. The conversion style that recommends operating the new system alongside the old system for a trial period is known as _____.
+
+a.	direct
+b.	parallel
+c.	phased
+d.	pilot
+e.	simultaneous
+
+Ans: b
+
+
+7. Cold turkey, big bang, and abrupt cut-over are alternative names for _____ conversion.
+
+a.	direct
+b.	parallel
+c.	phased
+d.	pilot
+e.	simultaneous
+
+Ans: a
+
+
+8. When an organization has one or more locations or units within a location converted first, this is called _____ conversion.
+
+a.	direct
+b.	parallel
+c.	phased
+d.	pilot
+e.	simultaneous
+
+Ans: d
+
+
+9. The conversion strategy that will require the least amount of time is _____.
+
+a.	direct conversion of the entire system at all locations simultaneously
+b.	direct conversion of the system by modules throughout locations in phases
+c.	parallel conversion of the entire system at all locations simultaneously
+d.	parallel conversion of the system by modules at all locations simultaneous
+e.	All are about the same in terms of time
+
+Ans: a
+
+
+10. The installation of SAP to replace all of your legacy systems is an example of what type of conversion?
+
+a.	modular
+b.	phased
+c.	pilot
+d.	simultaneous
+e.	whole system
+
+Ans: e
+
+
+11. 
+Phil and Maryanne would like to provide conversion advice to the TRI-COL company when it converts the manufacturing and chemical mixing computer system. TRI-COL produces a very dangerous chemical (limit the risk) used to defoliate the rainforest. What conversion location and style should they recommend?
+
+a.	direct and parallel
+b.	modular and pilot
+c.	parallel and modular
+d.	phased and pilot
+e.	pilot and parallel
+
+Ans: e
+
+
+12. Tim and Sara need to provide conversion advice to the IAM-POOR company when it converts the concrete manufacturing and mixing computer system. IAM-POOR is looking for a low cost conversion strategy. What conversion modules and style should they recommend?
+
+a.	modular and phased
+b.	pilot and direct
+c.	pilot and parallel
+d.	whole system and direct
+e.	whole system and parallel
+
+Ans: d
+
+
+13. The Deliver-Fast Internet system must be implemented quickly if this new company is to survive. Which conversion style and modules would you recommend?
+
+a.	direct and modular
+b.	direct and whole system
+c.	parallel and whole system
+d.	simultaneous and direct
+e.	simultaneous and whole system
+
+Ans: b
+
+
+14. 
+The person charged with actually planning and implementing the change necessary to support the implementation of a new system is known as a _____.
+
+a.	change agent
+b.	potential adopter
+c.	project manager
+d.	project sponsor
+e.	systems analyst
+
+Ans: a
+
+
+15. Which of the following is included as a basic step in a change management plan?
+
+a.	convert data
+b.	install hardware
+c.	install software
+d.	motivate adoption
+e.	write plan
+
+Ans: d
+
+
+16. The most important factor associated with successful change is a(n) _____.
+
+a.	clear plan for change
+b.	compelling personal reason to change
+c.	committed business sponsor
+d.	demonstrated support by top management
+e.	management directive
+
+Ans: b
+
+
+17. During a change management process the potential adopters that would readily accept a new system are normally _____%.
+
+a.	5-10
+b.	20-30
+c.	40-50
+d.	50-60
+e.	60-70
+
+Ans: b
+
+
+18. Training for a business system should focus on _____.
+
+a.	all the capabilities of the new system
+b.	complex computerized modules and code
+c.	helping the users to accomplish their jobs
+d.	how to use the system
+e.	not using the system
+
+Ans: c
+
+
+19. The process of refining the system to make sure that it continues to meet business and organizational needs is called _____.
+
+a.	change management
+b.	project assessment
+c.	system maintenance
+d.	system review
+e.	system support
+
+Ans: c
+
+
+20. A system review is typically conducted _____.
+
+a.	right after the system is implemented
+b.	just before the system is implemented
+c.	during the project initiation phase
+d.	several months after the system is installed
+e.	during the project team review
+
+Ans: d
+
+
+21. If you decide to upgrade, allow yourself at least _____ to test the upgrade on a separate system before you install it.
+
+a.	a day
+b.	a week
+c.	two weeks
+d.	a month
+e.	two months
+
+Ans: d
+
+
+22. Project team review is usually conducted _____.
+
+a.	right after the system is implemented
+b.	just before the system is implemented
+c.	during the project initiation phase
+d.	several months after the system is installed
+e.	during the project team review
+
+Ans: a
+
+
+23. Post-implementation activities attempt to _____ the organization after the successful transition to the new system.
+
+a.	streamline
+b.	refreeze
+c.	down size
+d.	right size
+e.	improve
+
+Ans: b
+
+
+24. If there are many users to train, many organizations turn to _____.
+
+a.	online support (OLS)
+b.	frequently asked questions (FAQ)
+c.	on-demand training (ODT)
+d.	classroom training
+e.	computer-based training (CBT)
+
+Ans: e
+
+
+25. When training users from a collectivistic culture it makes sense to use _____.
+
+a.	online support (OLS)
+b.	frequently asked questions (FAQ)
+c.	on-demand training (ODT)
+d.	group-based training
+e.	computer-based training (CBT)
+
+Ans: d
+
+
+26. One of the earliest models for managing organizational change was developed by Kurt Lewin. Lewin argued that change is a three-step process: unfreeze, _________, refreeze.
+
+a.	migrate
+b.	change
+c.	develop
+d.	move
+e.	program
+
+Ans: d
+
+
+27. There are three important factors to consider in selecting a conversion strategy: risk, cost, and _____________.
+
+a.	the time required
+b.	system features
+c.	infrastructure
+d.	planning
+e.	performance
+
+Ans: a
+
+
+28. The conversion style is the way in which users are switched between the old and new systems. There are two fundamentally different approaches to the style of conversion: direct conversion and ______________________.
+
+a.	indirect conversion
+b.	parallel conversion
+c.	phased conversion
+d.	pilot conversion
+e.	simultaneous conversion
+
+Ans: b
+
+
+29. 
+There are three key roles in any major organizational change, the sponsor of the change, the change agent, and ___________.
+
+a.	potential adopters
+b.	customers
+c.	users
+d.	project mangers
+e.	vendors
+
+Ans: a
+
+
+
+True/False
+
+
+1. Project assessment is not usually performed, yet it can be an important component of organizational learning.
+
+Ans: True
+
+
+2. Moving users from the as-is business processes and computer programs to the to-be business processes and programs is called conversion.
+
+Ans: True
+
+
+3. Direct conversion is the conversion style where both systems (as-is and to-be) are used simultaneously.
+
+Ans: False
+
+
+4. When one or more locations or units within a organization are selected to be converted first as part of a pilot test, this is called phased conversion.
+
+Ans: False
+
+
+5. Whole system conversion is the conversion location where the separate and distinct modules of the entire system are installed at one time in three or more phases.
+
+Ans: False
+
+
+6. Systems analysts examine four important factors when selecting a conversion strategy: risk, cost, communication, and time required.
+
+Ans: False
+
+
+7. APS Systems would like to convert to the new system quickly. The ideal conversion strategy for APS Systems would be a conversion style of parallel and a modular conversion.
+
+Ans: False
+
+
+8. APS Systems would like to convert to the new system with very little risk. The ideal conversion strategy for APS Systems would be a conversion style of parallel, piloted, and a modular conversion.
+
+Ans: True
+
+
+9. Change management is the process of helping people to adopt and adapt to the to-be system and its accompanying work processes without undue stress.
+
+Ans: True
+
+
+10. The sponsor, the change agent, and the potential adopters are the actors found in the change management process.
+
+Ans: True
+
+11. Online support, the most common form of on-demand training, includes the documentation and help screens built into the system, as well as separate Web sites that provide answers to frequently asked questions.
+
+Ans: True
+
+
+12. Most beginning systems analysts and programmers work first on new development projects; usually only after they have gained some experience are they assigned to maintenance projects.
+
+Ans: False
+
+
+13. It is critical in change management to understand that the real costs and benefits are far more important than the perceived costs and benefits, because people act on what is true, not on what they believe to be true.
+
+Ans: False
+
+
+14. 
+The three major steps to the conversion plan before commencement of operations are to install hardware, install software, and convert data; usually these steps must be done sequentially at any one location.
+
+Ans: True
+
+
+15. Direct conversion, where the new system is turned on and the old system is immediately turned off, is the simplest and most straightforward method, but it is also the most risky because any problems with the new system may seriously disrupt the organization.
+
+Ans: True
+
+
+16. The main problem with the parallel conversion method, where the new system is operated side by side with the old system, is the added expense of operating two systems that perform the same function.
+
+Ans: True
+
+
+17. With phased conversion, one or more locations or units/work groups within a location is selected to be converted first as part of a pilot test, and if the system passes the pilot test, then the system is installed at the remaining locations.
+
+Ans: False
+
+
+18. A whole-system conversion, in which the entire system is installed at one time, is the least common because it is complex and the hardest to understand. ?
+
+Ans: False
+
+
+19. Parallel conversion is less risky than direct conversion because it has a greater chance of detecting bugs that have gone undiscovered in testing; pilot conversion is less risky than either phased or simultaneous conversion because if bugs do occur, they occur in only pilot test locations.
+
+Ans: True
+
+
+20. 
+The three key roles in any major organizational change are the sponsor of the change, the change agent, and the potential adopter or target of the change.
+
+Ans: True
+
+
+30. The post-implementation activities performed during the refreeze process are system support, project assessment, and change management.
+
+Ans: False
+
+
+31. The technical process during which the new system replaces the old system is called installation.
+
+Ans: False
+
+
+32. Institutionalization refers to using the new system as the normal, accepted, and routine way of performing the business processes.
+
+Ans: Tue
+
+
+33. Revisions to the management policies and factors that motivate the adoption of the new system are part of the conversion plan.
+
+Ans: False
+
+
+34. When a system is installed sequentially at different locations and there may be a deliberate delay between the first and second installation, the organization is using a phased conversion process.
+
+Ans: True
+
+
+35. The conversion location in which one or more locations are selected to test the conversion to the new system prior to full implementation is known as pilot conversion.
+
+Ans: True
+
+
+36. 
+The conversion approach that converts all locations at the same time is simultaneous conversion.
+
+Ans: True
+
+
+37. The simultaneous direct conversion to SAP to replace all of your legacy systems would result in high risk while requiring an enormous amount of time.
+
+Ans: False
+
+
+38. When all of the modules of a system are installed at one time, an organization is using whole system conversion.
+
+Ans: True
+
+
+39. When an organization chooses to convert the separate and distinct modules of a system one module at a time, the organization is using pilot conversion approach.
+
+Ans: False
+
+
+40. Simultaneous conversion has a higher cost than pilot and phased conversion because more staff are required to support all of the locations.
+
+Ans: True
+
+
+41. The project manager is the person who wants the change that a new system brings in an organization.
+
+Ans: False
+
+
+42. The potential adopter is the person for whom the new system is designed and built.
+
+Ans: True
+
+
+43. 
+Management has several tools for structuring organization work processes. Establishing standard operating procedures (SOPs) involves establishing behavioral norms and how processes are actually performed.
+
+Ans: True
+
+
+44. Presentations outlining the costs and benefits of the new system do not motivate potential adopters to use the new system, and should not be used as a motivating factor.
+
+Ans: False
+
+
+45. The highest proportion of potential adopters of a significant organization change will be reluctant adopters.
+
+Ans: True
+
+
+46. The most commonly used approach to delivering training for a new system is computer-based training.
+
+Ans: False
+
+
+47. The training delivery method that is most appropriate for a new Executive Information System would be one-on-one training.
+
+Ans: True
+
+
+48. When selecting a training method the analyst should consider the cost to develop the training program, the cost to deliver the training program, the reach, and the impact.
+
+Ans: True
+
+
+49. Helping the users to use the system after installation is called system maintenance.
+
+Ans: False
+
+
+50. 
+People assigned to a help desk have very broad computer skills and are able to respond to a wide range of problems.
+
+Ans: True
+
+
+51. The most common source of a change request is from the operations group that identifies bugs in the system.
+
+Ans: True
+
+
+52. Enhancements suggested by users to make the system easier to use are given higher priority than bug fixes.
+
+Ans: False
+
+
+53. The project team review focuses on the way in which the project team carried out the project activities.
+
+Ans: True
+
+
+54. System review attempts to understand whether the implementation of the system resulted in the costs and benefits identified during project initiation.
+
+Ans: True
+
+
+55. New programmers and systems analysts are typically assigned to work on complex new development projects.
+
+Ans: False
+
+
+56. The three key post implementation activities are system support, system maintenance, and project assessment.
+
+Ans: True
+
+
+57. 
+The operations group takes care of system maintenance.
+
+Ans: False
+
+
+58. The operations group takes care of system support.
+
+Ans: True
+
+
+59. Institutionalization refers to establishing formal post implementation deliverables for all projects.
+
+Ans: False
+
+
+60. Training should focus on everything the new system can do.
+
+Ans: False
+
+
+61. Rather than attempting to teach the users all the features of the system, training should instead focus on the much smaller set of activities that users perform on a regular basis and ensure that users are truly expert in those.
+
+Ans: True
+
+
+62. Of the potential adopters 40% to 60% are reluctant.
+
+Ans: True
+
+
+63. There are two basic strategies to motivating adoption: informational and political. Both strategies are often used simultaneously.
+
+Ans: False
+
+
+64. The change agent is a set of software tools and policies that help the organization transition to the newly installed system.
+
+Ans: False
+
+
+65. 
+Low uncertainty cultures need extra attention when asked to adopt a new system.
+
+Ans: False
+
+
+66. End users from high power distance cultures may have difficulties expressing what they want for fear of offending their bosses.
+
+Ans: True
+
+
+67. It makes sense to use computer-based training (CBT) in collectivistic cultures because CBT allows the users to go at their pace.
+
+Ans: False
+
+
+68. One of the earliest models for managing organizational change was developed by Kurt Lewin. Lewin argued that change is a three-step process: unfreeze, change, and refreeze.
+
+Ans: False
+
+
+69. There are two fundamentally different approaches to the style of conversion: direct conversion and indirect conversion.
+
+Ans: False
+
+
+70. With Turkey conversion, the new system instantly replaces the old one.
+
+Ans: True
+
+
+71. Whole-system conversion is a better conversion strategy than modular conversion since the later one may introduce more bugs to the system during conversion.
+
+Ans: False
+
+
+72. There are three important factors to consider in selecting a conversion strategy: risk, cost, and performance.
+
+Ans: False
+
+
+73. There are three key roles in any major organizational change. The three keys are sponsor of the change, the change agents, and the potential adopters.
+
+Ans: True
+
+
+74. In general, for any change that has true organizational benefits, about 50 percent of potential adopters will be ready adopters, and another 50 percent are resistant adopters.
+
+Ans: False
+
+
+75. The training should cover all the capabilities of the new system so users understand what each module does.
+
+Ans: False
+
+
+76. There are two basic strategies to motivating adoption of a new system: informational and economical.
+
+Ans: False
+
+
+77. The goal of change management is to actively support and encourage the ready adopters and help them win over the reluctant adopters.
+
+Ans: True
+
+
+
+Short Answer
+
+
+1. Explain different styles of conversion.
+
+Ans: The conversion style is the way in which users are switched between the old and the new systems. The two different approaches for conversion style are direct conversion and parallel conversion. Direct conversion, or cold turkey, is when the new system instantly replaces the old system. The new system is turned on and the old system is immediately turned off. Direct conversion is used for upgrades of commercial software such as Microsoft Word. Direct conversion is the simplest and most straightforward. However, it is also the most risky, because problems with the new system (if they were not detected during testing) may seriously disrupt the organization’s business. Parallel conversion is when both systems are used simultaneously for a period of time, often one to two months. This approach is more likely to catch any major bugs in the new system and prevent the organization from suffering major problems. If problems are discovered with the new system, the new system is turned off and fixed and then the conversion process starts again. Parallel conversion has the disadvantage of having the added expense of operating two systems that perform the same function.
+
+
+2. Explain the “Conversion Location” dimension and its impact on the conversion process.
+
+Ans: The conversion location refers to what parts of the organization are converted at what points in time. The three different approaches for conversion location are pilot conversion, phased conversion, and simultaneous conversion. Pilot conversion is when one (or more) location is selected to be converted first so that lessons can be learned for later conversions. Pilot conversion has the advantage of providing an additional level of testing before the system is widely deployed in the organization. Phased conversion is when the system is installed sequentially at different locations. Sometimes the delay between different installations is deliberate in order to detect problems with the system before too much of the organization is affected. This approach requires a smaller number of people to do the conversion compared to the simultaneous conversion approach. During simultaneous conversion all locations are converted at the same time. Often, simultaneous conversion is used with direct conversion approach. It eliminates the problem of different organizational units using different systems and processes.
+
+
+3. 
+Explain the “Conversion Modules” dimension and its impact on the conversion process.
+
+Ans: The time in which modules are converted refers to whole system conversion or modular conversion. Whole system conversion is when the entire system is installed at one time. Whole system conversion is most common. It is also simple and easier to understand. However, if the system is complex (e.g. an enterprise resource planning software such as SAP or PeopleSoft), the whole system may prove too difficult for users to learn in one step. When the modules in the system are separate and distinct, a system may be converted one module at a time. This is a modular conversion. Modula conversion requires special care in developing the system, and this usually adds to the cost. Each module must be written to work with both the old and the new systems or object wrappers must be used to encapsulate the old system from the new. Modular conversion is easier if the modules are loosely associated. This type of conversion reduces the amount of training to begin using the new system, but takes longer to complete.
+
+
+4. Identify and define the three important factors to consider in the selection of a conversion strategy?
+
+Ans: The three important factors to consider in the selection of a conversion strategy are risk, cost, and time. Risk involves the discovery of bugs that were not found during unit, system, integration, and acceptance testing. The conversion process is the last place to find bugs before the new system goes live. Different conversion strategies have different costs. Costs can include salaries, travel expenses, operation expenses, communication costs and hardware lease fees. Each conversion strategy requires a different mix of direct costs. Each conversion strategy requires a different time line for completion. Some, such as parallel conversion, require two systems to be operated simultaneously for one month. Others, such as direct conversion, are immediate.
+
+
+5. Mark has been asked to develop a conversion strategy for a soon-to-be-completed systems project. Only three marketing managers will sporadically use the new system, a small marketing advisory system. The conversion must be completed in less than a week. The organization has not fully budgeted the IS departments requested conversion costs. Identify the three characteristics for a conversion strategy and make a recommendation to Mark for a conversion style.
+
+Ans: The three characteristics for a conversion strategy are risk, cost, and time. In this problem Mark is developing the conversion strategy for a small system with minimal risk. The cost must be low since it has not been fully budgeted. The one-week time to complete the conversion is short. The recommended conversion style should be a direct conversion because a direct conversion has a high risk, low cost, and short time frame. The high risk is balanced against a very small risk system.
+
+
+6. Mark has been asked to develop a conversion strategy for a soon-to-be-completed systems project. Only three marketing managers will sporadically use the new system, a small marketing advisory system. The conversion must be completed in less than a week. The organization has not fully budgeted the IS departments requested conversion costs. Identify the three characteristics for a conversion strategy and make a recommendation to Mark on the conversion modules process to be used.
+
+Ans: The three characteristics for a conversion strategy are risk, cost, and time. In this problem Mark is developing the conversion strategy for a small system with minimal risk. The cost must be low since it has not been fully budgeted. The one-week time to complete the conversion is short. The recommended conversion module process should be whole-system conversion. The major factors are the short time frame and the cost to convert to the new system. Modular conversion has a high cost and a long conversion time. The high risk is offset by the low risk of the system.
+
+
+7. Describe Lewin's model of organizational change, and how it is relevant to the process of implementing new information systems.
+
+Ans: The first stage is to unfreeze existing habits and norms. This is usually accomplished to some extent as the users are aware of and participate in the process of developing the new system. They will recognize that change will occur and will be ready to break out of their established patterns of behavior. The second step is to move, which focuses on understanding the reasons for the change and adapting to it. The third step is to refreeze the new system as the habitual way of performing the work processes. On-going support, maintenance, and improvements help to solidify the position of the system in the organization.
+
+
+8. Enumerate a few common sources of change requests.
+
+Ans: The most common source of changes requests is problem reports from the operations group that identify bugs in the system. The second most common source is enhancement to the system from users. These enhancements are suggested by the users to make the system easier to use or identify additional functionality. A third source of change requests is other system development projects, which might cause the system to be integrated or work together with another system. A fourth source of change requests arises when the underlying software or networks change. For example, new versions of windows may require the system to be changed to adapt to the new version. The fifth source of change requests arises when the senior management changes the organization’s business strategy significantly.
+
+
+9. 
+If a project team wants to employ a conversion strategy that minimizes risk, what will its choices be? What circumstances might dictate the use of the lowest risk conversion strategy?
+
+Ans: To minimize risk as much as possible, the team should use a parallel conversion style so that the old system remains available in case of bugs in the new system. The teams should convert a single location as a pilot test to enable more testing and assessment of the new system. Finally, if feasible, the system should be converted by modules rather than as a whole to limit the scope of the conversion.
+
+
+10. Discuss the cost-benefit analysis that accompanies the decision of accepting or rejecting an opportunity to change.
+
+Ans: When faced with an opportunity to change, people will assess the costs of the change and the benefits of the change, and will be motivated to change if the benefits exceed the costs. Since these costs and benefits are not always clearly known, the likelihood or certainty of the benefits actually occurring and of the costs being as projected will also be assessed. If these expected benefits still exceed the expected costs, then change is more likely to occur.
+
+
+11. When determining the content of training, the team should cover everything the system can do and focus on all of its capabilities. Do you agree? Why or why not?
+
+Ans: Training will be much more effective to the users if it focuses on helping the users accomplish their jobs, not on how to use the system. The training must help the users understand how the computer fits into the bigger picture of their jobs. Also, the training should focus on what the user needs to do, not what the system can do. There often are features of a system that the users will not need to use. The training should emphasize thorough coverage of the tasks that the users perform on a regular basis.
+
+
+12. What is project assessment? What are the goals of project assessment?
+
+Ans: The goal of project assessment is to understand what was successful about the system and the project activities (and therefore should be continued in the next system or project) and what needs to be improved. This is an important component in organizational learning as it helps both the organization and the people understand how to improve their work. Project assessment consists of two primary parts: project team review and system review. Project assessment is not routines in most organization. It is the least commonly performed activity of SDLC but it is perhaps the one with the most long-term value to the IS department. It is an important component of organizational learning because it helps people and organizations understand how to improve the quality of their work.
+
+
+13. 
+Explain the project team review part of project assessment. What is the goal of project team review?
+
+Ans: Project team review focuses on the way in which the project team carried out its activities in the development of the system. The focus of this review should be on improving performance, not penalties for mistakes made. It is hoped that by identifying mistakes everyone can learn from those mistakes and avoid them when faced with a similar situation in the future. In the same manner, good performance should be identified so that team members can understand why their actions worked well and how to repeat them in future projects. Each team member prepares a short document analyzing his or her performance. Project manager then meets with the team members to identify areas of excellence and areas that need improvement. Project manager then prepares a summary document, which identifies what actions should be taken on future projects to improve performance (here care should be taken not to identify team members who made mistakes). This summary document is then widely circulated among all project managers and regular staff members so that everyone can learn from this project.
+
+
+14. Explain the system review part of project assessment.
+
+Ans: The focus of the system review is to understand the extent to which the proposed costs and benefits from the new system that were identified during project initiation were actually recognized from the implemented system. This review is often undertaken several months after the system is installed so the system can be properly assessed. The objective of system review is to compare the anticipated business value (that was estimated during project initiation) with the actual realized business value from the system. This comparison will help the future projects in understanding true costs and benefits. System review also has important behavioral implications. Since people understand that the costs and benefits will be reevaluated after the system is implemented, people will be more conservative with their estimates of costs and benefits during the project initiation phase.
+
+
+15. Distinguish between level 1 system support and level 2 system support.
+
+Ans: Most organizations provide a help desk. Users are able to talk with a help desk person who can answer questions about the problems that the users are facing. Help desk supports all systems, not just one specific system, so it receives calls about a wide variety of software and hardware. The help desk is operated by level 1 support staff who have very broad computer skills and are able to respond to a wide range of requests. The goal of most help desks is to have the level 1 support staff resolve 80 percent of the requests they receive on the first call. If the issue cannot be resolve by level 1 support, a problem report is prepared and passed to a level 2 support staff member. Level 2 support staff members are people who know the system well and can provide expert advice. Level 2 support staff works with users to resolve the problem. Most problems are successfully resolved by the level 2 support staff. However, some of these problems might turn out to be bugs which in turn are passed to the system maintenance personnel.
+
+
+16. Explain the role of the change agent.
+
+Ans: The change agent is the person or persons in charge with planning and implementing the change. This is usually someone outside the business unit and with no direct authority over the end users. The idea is bring in someone the end users trust implicitly and who can motivate them through the difficult transition points of adopting the new system. The change agent therefore plays an important mediation role even though he/she may not be using the system and has no vested interests in its success.
+
+
+17. How is a problem report different from a change request?
+
+Ans: A problem report documents a problem that has been encountered with the system that cannot be immediately resolved. The problem report will usually be passed to an application specialist, who will attempt to clear up the problem. If he/she cannot resolve the problem, then it is likely that a system bug has been encountered. At this point, the problem report becomes a change request, which is used to inform the system maintenance group that an un-resolvable problem has been discovered that probably requires a system fix.
+
+
+18. Some experts argue that change management is more important than any other part of system development. Do you agree or not? Explain.
+
+Ans: Those who agree will point out that without appropriate change management, there is significant risk of employees not using or inappropriately using an expensive new tool (and thus not gaining the benefit from the development). Those who disagree will point out that great change management will not overcome horrible technical difficulties, such as a weak architecture or incompatible platforms. Though change management is important, it cannot be judged more important than the other constraining factors.
+
+
+19. Explain the three basic approaches to training.
+
+Ans:
+1.	Classroom training: This is the traditional approach to training in which a number of people are trained simultaneously with one instructor. Classroom training is moderately effective. Its costs are moderate, and it is fairly effective, especially since it is the method that many people are most familiar with.
+2.	One-on-one training: This puts one trainer with one student at a time. One-on-one training is very effective, but is expensive to deliver and reaches only a few people
+3.	Computer-based training: This uses a CD or Web-based training program delivered to students as needed. Computer-based training is very costly to develop, but is inexpensive to disseminate after development. It can reach a large number of people, but its effectiveness can be limited.

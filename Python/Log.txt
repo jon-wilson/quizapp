@@ -1,0 +1,7 @@
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 15:34:29
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 15:36:24
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 15:38:17
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 15:39:36
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 16:05:45
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 16:06:53
+ID: 0, TypeID: 2, Message: Successful connection established., UserID: 1, CreatedOn: 2021-10-08, 16:08:48

@@ -1,0 +1,445 @@
+Chapter 09 Data Management Layer Design
+Testbank
+
+
+Multiple Choices
+
+
+1. Data may be stored in the following formats _____.
+
+a.	databases
+b.	entities
+c.	entities and files
+d.	files
+e.	files and databases
+
+Ans: e
+
+
+2. A(n) _____ is less expensive and easier for novice users to use, but it does not have the features that are necessary to support mission-critical or large scale systems.
+
+a.	database
+b.	database management system
+c.	end-user database administrative system
+d.	end-user database management system
+e.	enterprise database management system
+
+Ans: d
+
+
+3. A(n) _____ can support large volumes of data and support applications that run an entire company.
+
+a.	database
+b.	database management system
+c.	end-user database administrative system
+d.	end-user database management system
+e.	enterprise database management system
+
+Ans: e
+
+
+
+
+4. A(n) _____ is basically an electronic list of information that is stored on a disk.
+
+a.	sequential access file
+b.	unordered sequential access file
+c.	ordered sequential access file
+d.	random access file
+e.	transaction file
+
+Ans: b
+
+
+5. SQL operates on _____.
+
+a.	rows of data at a time
+b.	columns of data at a time
+c.	tables of data at a time
+d.	the entire database
+e.	any of the above
+
+Ans: c
+
+
+6. Which of the following is NOT a characteristic of current object-relational databases?
+
+a.	storage of objects in the relational table structure
+b.	good support for typical data management operations
+c.	SQL support
+d.	support for inheritance
+e.	all of these are characteristics of object-relational databases
+
+Ans: d
+
+
+7. In an object-oriented database, an extent is the equivalent to a(n) _____ in a relational database.
+
+a.	attribute
+b.	row
+c.	table
+d.	relationship
+e.	unique identifier
+
+Ans: c
+
+
+
+
+8. The type of database that is most capable of supporting complex data types is _____.
+
+a.	sequential files
+b.	relational DBMS
+c.	object-oriented DBMS
+d.	object-relational DBMS
+e.	random access files
+
+Ans: c
+
+
+9. The process of ensuring that values linking tables together through the primary and foreign keys are valid and correctly synchronized is _____.
+
+a.	hierarchical integrity
+b.	primary integrity
+c.	table integrity
+d.	referential unity
+e.	referential integrity
+
+Ans: e
+
+
+10. A relational database may be optimized for _____.
+
+a.	data type and storage efficiency
+b.	relational type
+c.	speed of access
+d.	storage efficiency
+e.	storage efficiency and speed of access
+
+Ans: e
+
+
+
+
+11. A simple rule to follow when creating problem domain classes and data access and manipulation classes is that there should be ______________.
+
+a.	One data access and manipulation class for each concrete problem domain class
+b.	Two data access and manipulation classes for each concrete problem domain class
+c.	N data access and manipulation classes for each concrete problem domain class, where N is the number of methods in the problem domain class
+d.	N data access and manipulation classes for each concrete problem domain class, where N is the number of subclasses of the problem domain class
+e.	none of these
+
+Ans: a
+
+
+12. Which one in the following list is an example of NOSQL data store?
+
+a.	Oracle
+b.	SQL Server
+c.	Access
+d.	OODBMS
+e.	Google’s Big Table
+
+Ans: e
+
+
+13. Most NoSQL data stores were created to address problems associated with storing large amounts of distributed data in __________.
+
+a.	SQL Server
+b.	ORDBMSs
+c.	OODBMSs
+d.	RDDBMSs
+e.	MySQL
+
+Ans: d
+
+
+
+
+14. _________ is primarily designed for supporting the decision making systems.
+
+a.	Rational DBMS
+b.	Object Relational DBMS
+c.	Object-Oriented DBMS
+d.	Microsoft SQL Server
+e.	NoSQL
+
+Ans: e
+
+
+15. Key-value data stores essentially provide a distributed index (primary key) to where a(n) __________________ is stored.
+
+a.	BLOB (binary, large object)
+b.	field
+c.	entity
+d.	attribute
+
+Ans: a
+
+
+
+True/False
+
+
+1. A master file holds information temporarily so that it can be used to update other master files.
+
+Ans: False
+
+
+2. Most object-oriented programming languages support sequential and random access files.
+
+Ans: True
+
+
+3. Finding a specific object in a sequential access file is relatively easy to do.
+
+Ans: False
+
+
+4. An object-relational database is used primarily to support multimedia applications.
+
+Ans: False
+
+
+5. It is likely easier today to find expertise in OODBMS than in RDBMS.
+
+Ans: False
+
+
+6. Mapping between the problem domain objects and an OODBMS is a straightforward one-to-one mapping.
+
+Ans: True
+
+
+7. Mapping from the problem domain to the data management objects in an RDBMS format is a straightforward one-to-one mapping.
+
+Ans: False
+
+8. In terms of storage space, the most efficient tables in a relational database have redundant data and many null values.
+
+Ans: False
+
+
+9. Update anomalies occur when some instances of redundantly stored data are overlooked when an update occurs.
+
+Ans: True
+
+
+10. A file contains an electronic list of information that is formatted for a particular transaction, and the information is changed and manipulated by programs that are written for those purposes.
+
+Ans: True
+
+
+11. Look-up files store core information that is important to the business and to the application, and are usually kept for long periods of time with new records appended to the end of the file.
+
+Ans: False
+
+
+12. The most efficient tables in a relational database in terms of storage space have no redundant data and very few null values because the presence of these suggest that space is being wasted, and more data to store means higher data storage hardware costs.
+
+Ans: True
+
+
+13. Optimization is a process whereby a series of rules are applied to a logical data model to determine how well-formed it is; these rules help analysts identify entities that are not represented correctly.
+
+Ans: False
+
+
+14. Sequential access files are very efficient for operations such as report writing.
+
+Ans: True
+
+
+15. When looking for a specific object of interest, on average 25% of a sequential access file will have to be searched in order to find that object.
+
+Ans: False
+
+
+
+
+16. A transaction file is primarily used to update a master file.
+
+Ans: True
+
+
+17. Joanne, a systems analyst trained at this university, has been asked to lead a team that will recommend a new data storage system for her company. After careful analysis of the five divisions that comprise the entire $35 million company, Joanne’s team should recommend an end-user database management system.
+
+Ans: False
+
+
+18. A master file stores core information that is important to the business, is normally kept for long periods of time, and is regularly updated.
+
+Ans: True
+
+
+19. A file that stores core information important to the business is an audit file.
+
+Ans: False
+
+
+20. A file that stores static values used for reference and validation is a look-up file.
+
+Ans: True
+
+
+21. A file that stores information on who, when, and how data was altered is an audit file.
+
+Ans: True
+
+
+22. An image file stores past transactions that may no longer be needed, is usually stored off-line, and can be accessed on an as-needed basis.
+
+Ans: False
+
+
+23. An audit file contains information about how data changes over time; it records before and after images of data as it is altered so that it can be validated later.
+
+Ans: True
+
+
+24. SQL, the standard language for accessing data in tables in relational databases, stands for Standard Query Language.
+
+Ans: False
+
+
+25. Up until recently, an object-oriented database is mainly used to support multimedia applications or complex systems involving graphics, video and sound.
+
+Ans: True
+
+
+26. Nicole and her team of skillful systems analysts have been hired to create a database system for an educational software package that supports the study of medicine and the human body. A sample application will include a narrative exploration and graphical “tour” of the heart. As part of Nicole’s team, the type of database that you would you recommend is a relational database.
+
+Ans: False
+
+
+27. The leader in the database market and a system that can handle diverse data needs is the relational DBMS.
+
+Ans: True
+
+
+28. It is difficult to find professionals with the necessary skill set for RDBMS.
+
+Ans: False
+
+
+29. Lauren and her team have been hired to create a transaction system for Mike’s Motorcycles. Mike’s is a medium size shop with 10 employees that sells motorcycle parts and does repair on motorcycles, lawn mowers, and other small engine systems (boats, dune buggies, tractors, etc.) As part of Lauren’s team, you need to recommend relational database management system.
+
+Ans: True
+
+30. The object persistence format that supports simple data types only is OODBMS.
+
+Ans: False
+
+
+
+31. The accountants at the Sears store in a local city have noticed that the appliance department is regularly short when items sold are compared to sales. The accountants feel that something is wrong and these systems must be checked for accuracy. The audit file system will reveal if appliances may have been stolen.
+
+Ans: True
+
+
+32. The two primary dimensions to optimize a relational database are storage efficiency and future needs.
+
+Ans: False
+
+33. The data stores that are described as NoSQL typically support SQL.
+
+Ans: False
+
+
+34. The applicability of NOSQL data stores is limited and they are NOT applicable to traditional business transaction processing systems.
+
+Ans: True
+
+
+35. Key-value data stores is a type of NOSQL data stores, and they essentially provide a distributed index (primary key) to where a BLOB (binary, large object) is stored
+
+Ans: True
+
+
+36. There are many different types of NoSQL data stores including key-value stores, document stores, column-oriented stores, object databases, and RDBMSs.
+
+Ans: False
+
+
+37. The Object Relational DBMS has all advantages from both the Relational DBMS and the Object-Oriented DBMS.
+
+Ans: False
+
+
+
+
+38. The Relational DBMS only supports simple data types, but the Object Relational DBMS supports both simple and complex data types.
+
+Ans: True
+
+
+
+Short Answer
+
+
+1. Explain the object persistence format type known as files.
+
+Ans: There are four main types of object-persistence formats: files (sequential and random access), relational database management systems, object-relational database management systems, and object-oriented database management systems. Files are good for transaction processing systems but have poor future prospects. The major weakness of files is redundant data. This weakness is a significant limitation. Though files can be designed for fast performance and are good for short-term storage, their usage is very limited for new data storage. An unordered sequential file is an electronic list of information that is stored on a disk. Ordered sequential files store information in a specific order (for example, by customer id). Random access files allow only random or direct file operations to be performed, and are optimized for such operations.
+
+
+2. Explain the object persistence format type known as Relational databases.
+
+Ans: Relational database management systems (RDBMS) currently lead the database market because they are able to handle diverse data needs. RDBMS are good for transaction processing systems and decision making. RDBMS have good future prospects. A relational database is based on collections of tables with each table having a primary key, a field whose value is unique for every row in the table. Most RDBMS support referential integrity, which forces the tables linked by the primary key-foreign key relationships to be correctly synchronized. SQL (Structured Query Language) is the standard language for accessing data in RDBMS. IBM DB2, Oracle, Microsoft SQL Server are all examples of RDBMS systems.
+
+
+3. Explain the object persistence format type known as Object-relational databases.
+
+Ans: Object-relational database management systems are relational databases that have extensions that provide limited support for object-orientation. The extensions typically include some support for the storage of objects in the relational table structure. This is typically done through the use of a user-defined type. Currently, IBM Db2, Oracle, and Informix all have some level of support for storing objects. Many of the ORDBMS still do not support several object-oriented features including inheritance.
+
+
+
+
+4. Explain the object persistence format type known as Object Oriented Databases.
+
+Ans: Object-oriented database management systems (OODBMS) are able to handle complex data but the technology behind OODBMS is still maturing and skilled OO professions are hard to find. These systems can be used for transaction processing but they have an uncertain future. With an OODBMS, collections of objects are associated with an extent. An extent is a set of instances associated with a specific class (similar to a table in an RDBMS). Each instance has a unique Object ID. OODBMS maintains referential integrity by tracking the object relations using the Object ID. OODBMS support some form of inheritance; one problem with supporting inheritance is that it tends to be language dependent. OODBMS also support the idea of repeating groups and multivalues attributes.
+
+
+5. Information systems consultants, Drew and Becky, have just visited the site of a potential customer. Video-Audio-Images Extra, Inc., is an old established organization that was one of the first companies to videotape weddings, high school musicals, and church presentations. Today they have transformed into a multinational company that performs audio and video recording and mixing, digital re-mastering, and computer graphics for feature films, MTV videos, commercials and video games. During the interview Becky learned that the company has a legacy database system that should soon be replaced. The new system should be able to handle only accounting, purchasing, human resources, and inventory control for the company. What object persistence format would you recommend to Becky and Drew? Support your answer.
+
+Ans: I would recommend a relational database management system to Becky and Drew. Though Video-Audio-Images Extra, Inc. is a company that does high-tech computer applications, it is currently looking for a system that will run the business end of the organization. Relational database management systems are currently the industry leader in transaction processing systems, which include accounting, purchasing, human resources and inventory control.
+
+
+6. Explain the difference in the way Structured Query Language processes data compared to traditional programs.
+
+Ans: The key difference is that traditional programs operate on files, and the files must be processed record by record. Structured Query Language operates of complete tables as opposed to the individual records in the tables. When a query deals with data from more than one table, the tables are joined to create a new, larger table, which is then operated on by the SQL commands.
+
+
+
+
+7. What is the role of the following file types: master, look-up, transaction, audit, and history?
+
+Ans: The master file stores core information for the business, such as customer information or order information. They are usually kept for long periods of time with new records appended to the end. Look-up files contain static values, such as valid zip codes, against which user input can be validated. A transaction file holds information temporarily until it is used to update a master file. An audit file records before and after images of data as it is altered so that an audit can be performed if the integrity of the data is questioned. A history file is used to store information that is no longer actively used. This file archives the old records, typically off-line, so they can be accessed if needed but so they will not slow down the system.
+
+8. What is the concept of referential integrity? Why is it important in databases?
+
+Ans: Referential integrity is the idea of ensuring that values linking the tables together through the use of primary and foreign keys are valid and correctly synchronized. This makes sure that data are not entered in one table (e.g., the order table) without corresponding data in the related table (e.g., customer).
+
+
+9. Describe the differences between an ORDBMS and an OODBMS, and list the advantages of using an OODBMS over an OODBMS.
+
+Ans: The OODBMS leaves the relational model aside. It does implement something called an extent which functions much like a table. While the system generates a unique identifier for each object, it is still good to have an attribute with a unique value for each instance. The OODBMS provide some language dependent form of inheritance and some complex data forms such as repeating groups and multi-valued attributes.
+
+Being based on established technology, the systems tend to be more mature and have a broader range of personnel with appropriate skill sets.
+
+
+10. Describe the differences between Relational DB and NoSQL Data Store.
+
+Ans: The major strengths of Relational DB are they are leaders in the database market, and they Can handle diverse data needs, and NoSQL can handle complex data. The data types support in Relational DB is simple, but NoSQL supports simple and complex data types. Relational DB is mainly for handling transaction processing and decision making, but NoSQL is optimized for decision making, which emphasizes performance than consistency.
+
+
+
+11. When implementing the object persistence in an ORDBMS, what types of issues must you address?
+
+Ans: The mapping between problem domain layer and the data management layer is not straightforward with the ORDBMS. First, the mapping will vary with the specific language and tools used. There is a need to map the problem domain classes to both data management classes and tables in the data management layer. There are nine rules that should be followed for implementing this mapping that mostly focus on dealing with complex data forms such as repeating groups of attributes.
+
+
+12. Why should the object persistent classes be dependent on the associated problem domain classes instead of the other way around?
+
+Ans: It is recommended that the data management functionality specifics, such as retrieval and updating of data from the object storage, be included only in classes contained in the Data Management layer. This will ensure that the Data Management classes are dependent on the Problem Domain classes and not the other way around. Furthermore, this allows the design of Problem Domain classes to be independent of any specific object persistence environment, thus increasing their portability and their potential for reuse. This one also implies additional processing. However, the increased portability and potential for reuse realized should more than compensate for the additional processing required.
+
+

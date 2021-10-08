@@ -1,0 +1,697 @@
+Chapter 7 Moving on to Design
+
+
+Multiple Choices
+
+
+1. To avoid the classic design mistake of “reducing the design time,” the analyst should _____.
+
+a.	increase the schedule to include learning time
+b.	move proposed changes into future versions
+c.	not switch or upgrade unless there is a compelling need for specific features
+d.	not use a design tool that appears too good to be true
+e.	use timeboxing
+
+Ans: e
+
+
+2. To avoid the classic design mistake of “feature creep,” the analyst should _____.
+
+a.	not switch or upgrade unless there is a compelling need for specific features
+b.	increase the schedule to include learning time
+c.	move proposed changes into future versions
+d.	not use a design tool that appears too good to be true
+e.	use rapid application development techniques or timeboxing
+
+Ans: e
+
+
+3. When an analyst discovers that a set of classes have a similar set of attributes and methods, it may make sense to _____ out the similarities into a separate class.
+
+a.	refine
+b.	abstract
+c.	factor
+d.	partition
+e.	separate
+
+Ans: c
+
+
+
+
+4. A(n) _____ is the equivalent to a subsystem.
+
+a.	collaboration
+b.	partition
+c.	layer
+d.	factor
+e.	abstraction
+
+Ans: b
+
+
+5. The _____ layer contains, among other things, the classes that represent the fundamental data types.
+
+a.	problem domain
+b.	system architecture
+c.	human-computer interaction
+d.	data management
+e.	foundation
+
+Ans: e
+
+
+6. The _____ layer addresses how the software will execute on specific computers and networks.
+
+a.	foundation
+b.	system architecture
+c.	human-computer interaction
+d.	data management
+e.	problem domain
+
+Ans: e
+
+
+7. The layer that keeps the user interface implementation separate from the application or problem domain classes is the _____ layer.
+
+a.	foundation
+b.	system architecture
+c.	human-computer interaction
+d.	data management
+e.	problem domain
+
+Ans: c
+
+
+8. The _____ layer addresses the issues involving the persistence of the objects contained in the system.
+
+a.	foundation
+b.	system architecture
+c.	human-computer interaction
+d.	data management
+e.	problem domain
+
+Ans: d
+
+
+9. Which of the following is not a fundamental way to approach the creation of a new information system?
+
+a.	develop a custom application in-house
+b.	rely on an external vendor to build the system
+c.	purchase a software package and customize it
+d.	rely on end-users to develop it themselves
+e.	all of these are ways to create new information systems
+
+Ans: d
+
+
+10. To avoid the classic design mistake of “silver bullet syndrome,” the analyst should _____.
+
+a.	increase the schedule to include learning time
+b.	move proposed changes into future versions
+c.	not switch or upgrade development tools unless there is a compelling need
+d.	not use a design tool that appears too good to be true
+e.	use rapid application development techniques or timeboxing
+
+Ans: d
+
+
+
+
+11. There are three methods to create a new system. They are _____.
+
+a.	buy a package, external vender, external service provider
+b.	develop custom application in-house, external service provider, and external vender
+c.	external service provider, rely on a developer, and external vender
+d.	in-house custom application, buy a package, and external vender
+e.	in-house custom application, external service provider, and external vender
+
+Ans: d
+
+
+12. The following are all classic design mistakes EXCEPT _____.
+
+a.	feature creep
+b.	including design time
+c.	reducing design time
+d.	silver bullet syndrome
+e.	switching tools in mid-project
+
+Ans: b
+
+
+13. The following are all strengths of a custom development design strategy EXCEPT _____.
+
+a.	builds technical skills
+b.	greater creativity
+c.	greater flexibility
+d.	lower risk
+e.	none of these
+
+Ans: d
+
+
+14. The following are all strengths of a packaged software design strategy EXCEPT _____.
+
+a.	it may be bought and installed in a short time
+b.	many business needs are not unique
+c.	the package is already tested and generally proven to work
+d.	there is an exact match of functionality to requirements
+e.	none of these
+
+Ans: d
+
+
+
+
+15. An advantage of custom development is that the organization can _____.
+
+a.	accept functionality that is not a perfect fit
+b.	build technical skills and functional knowledge
+c.	install in a short period of time
+d.	remove all risk from the project
+e.	save money on the purchase
+
+Ans: b
+
+
+16. An advantage of purchasing packaged software is that the organization can _____.
+
+a.	accept functionality that is not a perfect fit
+b.	build technical skills and functional knowledge
+c.	have developers climb the knowledge ladder
+d.	make strategic changes during implementation
+e.	save money on the purchase
+
+Ans: e
+
+
+17. A disadvantage of purchasing packaged software is that the organization may _____.
+
+a.	accept functionality that is not a perfect fit
+b.	build technical skills and functional knowledge
+c.	make strategic changes during implementation
+d.	remove all risk from the project
+e.	save money on the purchase
+
+Ans: a
+
+
+18. The process of building new systems by combining packaged software, existing legacy systems, and new software written to integrate everything together is called _____.
+
+a.	customization
+b.	formal methodology
+c.	outsourcing
+d.	systems integration
+e.	workaround
+
+Ans: d
+
+
+
+
+19. Manipulating certain parameters to refine the way features work in a software package is called _____.
+
+a.	a workaround
+b.	adjustment
+c.	customization
+d.	feature adjustability
+e.	parameterizing
+
+Ans: c
+
+
+20. The decision on which design strategy to use depends on _____.
+
+a.	how unique the business need is
+b.	the expertise of the project manager
+c.	the urgency of the project
+d.	the amount of in-house experience
+e.	all of these
+
+Ans: e
+
+
+21. A(n) ______ matrix can be used to organize the pros and cons of the design alternatives so that the best solution will be chosen in the end.
+
+a.	 alternative
+b.	cost-benefit
+c.	 feasibility
+d.	design
+e.	 evaluation
+
+Ans: a
+
+
+22. Which one in the following is a development strategy?
+
+a.	Rational Unified development
+b.	offshore development
+c.	packaged software
+d.	Agile development
+e.	Rapid prototyping
+
+Ans: c
+
+
+23. Which one in the following is NOT a factor for selecting a design strategy?
+
+a.	Business need
+b.	In-house experience
+c.	Project skills
+d.	Time frame
+e.	Software quality
+
+Ans: e
+
+
+24. Which one in the following is NOT a layer of a software architecture?
+
+a.	Foundation
+b.	Problem Domain
+c.	Data management
+d.	Data structure
+e.	Human-computer Interface
+
+Ans: d
+
+
+25. Which the following class should be designed in Foundation layer?
+
+a.	Date
+b.	DataInputStream
+c.	Button
+d.	Studnent
+e.	URLConnection
+
+Ans: a
+
+
+26. In order to aid project team to make a decision of an acquisition, they employ several approaches to gather additional information. The document that solicits a formal proposal from a potential vendor, developer, or service provider is called _________
+
+a.	RFI
+b.	RFQ
+c.	RFP
+d.	RFC
+e.	RFD
+
+Ans: c
+
+
+True/False
+
+
+1. The purpose of the design phase is to create a blueprint for the new system.
+
+Ans: True
+
+
+2. The layer that would include the classes that would interact with middleware applications is the physical architecture layer.
+
+Ans: True
+
+
+3. A package diagram is a class diagram that shows only packages and classes.
+
+Ans: False
+
+
+4. There are three design strategies: 1) developing a custom application in-house, 2) hiring a consultant, and 3) relying on an external vendor, developer, or service provider to build the system.
+
+Ans: False
+
+
+5. Custom development allows developers to be flexible and creative in the way they solve business problems.
+
+Ans: True
+
+
+6. It is much less efficient to buy packaged software that has already been created, tested, and proven than to build a system from scratch.
+
+Ans: False
+
+
+7. An object wrapper creates an application program interface (API) to a legacy system, enabling object-oriented systems to interact with it.
+
+Ans: True
+
+
+
+
+8. Some benefits of outsourcing are that the service provider may be more experienced in the technology that would greatly benefit your organization and may have more experienced programmers.
+
+Ans: True
+
+
+9. There are three primary types of outsourcing contracts: 1) time and arrangements, 2) variable-price, and 3) value added.
+
+Ans: False
+
+
+10. Pirate Adventures, Inc., a company that owns and operates hotels in tropical locations, is interested in replacing the 15-year-old room reservation system in all of its hotels. Custom development would be the best design strategy.
+
+Ans: False
+
+
+11. Max has been a project manager for 10 years and is considered one of the best in his department of well qualified IS professionals. The approval committee is considering the approval of a new unique Internet system that could possibly catapult the firm ahead of all of the competition. Buying a packaged system would be the best design strategy.
+
+Ans: False
+
+
+12. It can be much more efficient to buy programs that have already been created, tested, and proven, and a packaged software system can be bought and installed in a relatively short period of time compared with a custom system.
+
+Ans: True
+
+
+13. Many project teams believe that packaged software is the best way to create a system because they have complete control over the way the system looks and functions, and they can be flexible and creative in the way they solve business problems.
+
+Ans: False
+
+
+
+
+14. Enterprise resource planning (ERP) applications are small single-function software packages that are inexpensive and easy to install and have only minor problems and fast, easily recognizable benefits.
+
+Ans: False
+
+
+15. The three primary types of contracts that can be drawn to control the outsourcing deal are (1) a time and arrangements contract, (2) a fixed-price contract, and (3) a value-added contract.
+
+Ans: True
+
+
+16. Custom development of software is usually the best strategy for common business needs, particularly when the business need is not unique and does not have special requirements.
+
+Ans: False
+
+
+17. Custom applications require excellent project management and a proven methodology, and the project team should choose to develop a custom application only if it is certain that the underlying coordination and control mechanisms will be in place.
+
+Ans: True
+
+
+18. If in-house experience exists for all the functional and technical needs of the new system, it will be easier to outsource the building of the system, because the company employees with those skills will be able to quickly learn the new system with very little training.
+
+Ans: False
+
+
+19. Object-oriented systems can send messages to a legacy system through the use of a package wrapper.
+
+Ans: False
+
+
+20. The design strategy that would be most logical to a firm with a very limited amount of in-house IS expertise is allow end-users to create the system.
+
+Ans: False
+
+
+
+
+21. A company adopting an enterprise resource planning (ERP) application, has adopted the strategy of outsourcing.
+
+Ans: False
+
+
+22. A workaround is a custom-built add-on program that interfaces with the packaged application to handle special needs.
+
+Ans: True
+
+
+23. When using the packaged software design strategy, substantial time can be saved because the project team no longer has to spend time defining the requirements of the new system.
+
+Ans: False
+
+
+24. Time and arrangements types of outsourcing contracts would be preferred when the client and the outsourcer have difficulty specifying the work required to complete the project.
+
+Ans: True
+
+
+25. A disadvantage of outsourcing the application development process is that the organization may lose control over confidential information.
+
+Ans: True
+
+
+26. As many as 70% of companies with IT budgets over $5 million are currently outsourcing development of systems.
+
+Ans: False
+
+
+27. An advantage of outsourcing the application development process is that the organization may acquire technical skills and functional knowledge from the vendor.
+
+Ans: True
+
+
+
+
+28. Outsourcing eliminates all risks from the project.
+
+Ans: False
+
+
+29. A value added contract provides for flexibility, but may result in a larger than expected bill.
+
+Ans: False
+
+
+30. A fixed price contract provides for a stable customer price, but requirements will be well defined by the outsourcer at the beginning of the contract period.
+
+Ans: True
+
+
+31. A value added contract that is gaining in popularity provides for the outsourcer to gain a percentage of the completed systems benefits.
+
+Ans: True
+
+
+32. When the business need is unique and the process is critical to the business, the most appropriate development strategy is packaged software.
+
+Ans: False
+
+
+33. Packaged software is preferred when the business need is common and time is a constraining factor?
+
+Ans: True
+
+
+34. When the project skills are not strategic but they do exist in-house and the time frame is short, the most appropriate development strategy is packaged software.
+
+Ans: True
+
+
+35. When selecting a design strategy an organization should consider project management experience, project skills, functional skill development, time frame, costs, and flexibility.
+
+Ans: False
+
+
+36. Seng would like the opportunity to increase the experience level of her IS staff by having them analyze and design a new web-based distribution system. The skills learned from this project may help with future strategic applications. Since the time period for the project is very flexible and this is a somewhat unique business need, Michelle has decided to use packaged software for this project.
+
+Ans: False
+
+
+37. Alex would like to complete this development project quickly so that the IS department may move onto more strategic needs. He has assigned Joan to coordinate the project because she worked recently with a local vendor and has an established relationship. Michael has decided to use package software for this project.
+
+Ans: True
+
+
+38. When the timeframe for implementation is short, it is best to consider custom development.
+
+Ans: False
+
+
+39. An alternative matrix combines several feasibility analyses into one table so that the pros and cons of alternatives can be easily compared.
+
+Ans: True
+
+
+40. A request for information is used to solicit proposals from vendors.
+
+Ans: True
+
+
+41. Design models refine analysis models by adding details from the solution domain.
+
+Ans: True
+
+
+42. In the design phase we address the functional requirements.
+
+Ans: False
+
+
+
+
+43. Every sequence diagram must be associated to a use case in the use-case diagram.
+
+Ans: True
+
+
+44. The attributes that change in a behavioral state machine must appear in the object attribute list.
+
+Ans: True
+
+
+45. Class like Date (dealing with date and time) should be considered in the layer Foundation.
+
+Ans: True
+
+
+46. Class such as URLConnection (dealing with URL connections) should be handled in the layer Data Management.
+
+Ans: False
+
+
+47. MVC is an example of layered design of software architecture.
+
+Ans: True
+
+
+48. The physical architecture layer addresses how the software will execute on specific computers and networks.
+
+Ans: True
+
+
+49. The outsourcing is the best design strategy for every project.
+
+Ans: False
+
+
+50. In-house experience is not a factor to be considered for selecting a design strategy since a company is always able to hire experienced developers.
+
+Ans: False
+
+
+
+
+51. Package diagrams cannot be verified or validated since they are too general.
+
+Ans: False
+
+
+52. RFP, RFI and RFQ all could be used by project teams to collect information for making acquisition decision.
+
+Ans: True
+
+
+
+Short Answer
+
+
+1. Describe the custom development design strategy. Discuss its advantages and disadvantages.
+
+Ans: During custom development the project team actually builds the new system from scratch. Advantages to custom development include control over the way the system looks and functions, flexibility and creativity in the way the business problem is solved; and the ability to build technical and functional knowledge within the company. Disadvantages to custom development include factors such as the use of an already over committed IS staff, a fully trained and experienced staff must already be in place before attempting custom development, and the risks (testing and recreating the wheel) associated with building a system from the ground up.
+
+
+2. Describe the package system design strategy. Discuss its advantages and disadvantages.
+
+Ans: Packaged software is the purchase of software for a non-unique business need. Advantages for buying packaged software include efficiency (the programs are already created, tested, and proven), quick installation, and the expertise and experience from the vendor who created the software. Disadvantages of packaged software include the functionality of the system is inflexible and may not be a perfect fit, and the new software package may not integrate with existing legacy software.
+
+
+3. Describe the outsourcing design strategy. Discuss its advantages and disadvantages.
+
+Ans: Outsourcing is when an external vendor, developer, or service provider is hired to create the system. This type of development strategy has increased in popularity recently. Advantages of outsourcing include factors such as the outsourcer may have more experience, technology, and resources. Outsourcing is often seen as adding value to the organization instead of reducing costs. A disadvantage to outsourcing is that the outsourcer gains the knowledge of building the new system and the customer does not.
+
+
+4. Explain how the “business need” factor influences the selection of a design strategy for a project.
+
+Ans: There are five characteristics of any design strategy. They are business need, in-house experience, project skills, project management, and the time frame.
+
+Out of these five factors, if the business is quite common, there may be technical solutions in the market place that already meet this common business need. A common need means that the solution probably already exists in the marketplace and can be purchased in package software. A unique business need means a solution will need to be created from scratch by custom development. Non-core business needs can be outsourced.
+
+
+5. Explain how the “in-house experience” factor influences the selection of a design strategy for a project.
+
+Ans: The availability of in-house experience for all functional and technical needs is important. A packaged system is an alternative for organizations that do not have in-house technical experience. Outsourcing is a way to bring outside functional or technical experience into the organization that is missing in-house, but outsourcing does not build experience for the in-house staff.
+
+
+6. Explain how the factor “project skills” influences the selection of a design strategy for a project.
+
+Ans: Improving technical and functional project skills of in-house employees may be a strategic process within an organization. Custom development is good if an organization wishes to build in-house skills. Purchasing packaged software or outsourcing may be done if building skills is not strategic.
+
+
+7. Explain how the “project management” factor influences the selection of a design strategy for a project.
+
+Ans: Managing a custom developed system requires excellent in-house project management skills. Packaged software requires a project manager who can coordinate a vendor’s efforts. Outsourcing requires a highly skilled project manager at the level of the organization that matches the scope of the outsourcing deal.
+
+
+8. Explain how the “time frame” factor influences the selection of a design strategy for a project.
+
+Ans: The time frame for a project is an important characteristic. Custom development requires a very flexible time frame. It normally takes longer than expected. A packaged system can be implemented in a shorter time frame. Outsourcing may be completed in a flexible or short period depending on the size and scope.
+
+
+
+
+9. Kiki, the marketing manager, and Joan, the director of information systems, have just returned from a conference on state-of-the art technology for marketing management. Each day after viewing vendor presentations and listening to other marketing managers discuss “what they don’t have and what they really need,” Kiki and Joan would brain storm ideas and record them in Joan’s laptop. On the flight home, Joan, a successful project manager, and Kiki, an experienced marketing professional, recognize that they have the foundation for a one-of-a-kind marketing management system that would improve the decisions the marketing staff must make. This new system could possibly change the way their primary products are marketed. In the process, this new system could save the company millions of dollars and possibly make millions more. Joan has an expert IS staff that is just completing a production management system. They are always interested in learning new technology and often request additional training. No new projects have been approved by the steering committee. What would you recommend Kiki and Joan do? Include in your discussion the design strategy selection process and the important characteristics that apply to the strategy selected.
+
+Ans: I would recommend that Kiki and Joan make a formal request for a new marketing management system to the steering committee.
+
+The new system should be custom developed because all of the following selection characteristics point towards that decision. The business need is unique and has been identified by marketing managers as a big money saver and maker.
+
+Joan is identified as a successful project manager with an expert IS staff, so the in-house technical experience probably exist. Kiki is identified as an experienced marketing professional, so the in-house functional experience probably exists.
+
+The IS staff have a history of building new in-house skills on prior projects and from continued professional training.
+
+Joan is identified as a successful project manager that probably employees a proven methodology.
+
+The time frame appears to be flexible since not projects are currently in the pipeline for development and the current project is about to be completed.
+
+
+
+
+10. Mariana, the IS manager, has just received a note from the accounting department stating that they wish a new purchasing system could be placed on the priority list. The chief accounting officer (CAO) has just learned that three of their competitors have new purchasing systems. Since purchasing has not been considered a key business function in the past, the CAO is concerned that his department lacks the functional expertise to implement a new purchasing system. She feels that purchasing is becoming a strategic necessity for the company and a new system should be in place by this time next year. The CAO has managed the automation of numerous accounting functions, such as the purchase of a combined general ledger with accounts receivable and accounts payable, the custom development of a just-in-time inventory control system, and the management of a financial projections and stock funds project that was contracted to an outside vendor. What would you recommend Mariana do? Include in your discussion the design strategy selection process and the important characteristics that apply to the strategy selected.
+
+Ans: Mariana should place a new purchasing system on the priority list if the funds are available to outsource the project. The reasons for outsourcing are quite clear. The business need is not unique, common to the business, or critical to the company. The accounting department lacks functional experience in the purchasing process (no mention is made of technical experience). The CAO has a vast amount of project management experience with many different types of oversight expertise, one of which was managing a project that was contracted to an outside vendor. The purchasing process is becoming more of a strategic concern of the organization and the decision to include this project on the priority list should be a strategic one. Finally, the time frame is about a year, which is short but flexible. All of the strategic characteristics point toward outsourcing as the type of development strategy.
+
+
+11. Outsourcing can be a risky strategy to use when developing new information systems. Discuss ways to improve the likelihood of a successful outsourcing agreement.
+
+Ans: First, select the outsourcer carefully. Find an outsourcer with whom you can establish a partnership arrangement; both sides should benefit from the contract. Second, be very clear on the requirements you have before signing the contract. Don't outsource what you don't understand. Third, assign someone to manage the outsourcing relationship. Don't assume it will maintain itself. Keep the line of communication open between you and your outsourcer. Finally, develop a contract that emphasizes flexible requirements, long-term relationships, and short-term contracts.
+
+
+
+
+12. What is the purpose of an alternatives matrix? What is the typical content? How will this tool be used by a project team in the context of design strategy selection?
+
+Ans: An alternatives matrix organizes the pros and cons of the design alternatives so that the best solution will be chosen in the end. On one side of the matrix, technical, budget, and organizational feasibility is listed, along with the pros and cons of each alternative plus any other pertinent information. The various system candidates are listed along the top of the matrix. In each cell of the grid, detailed information on each alternative is inserted. The alternatives matrix provides a concise representation of the relevant issues on each option in an easily compared format. The team may just use it to facilitate discussion. Or, the team may assign weights to each of the factors, and then score each alternative on each factor, enabling them to compute a weighted average score for each alternative. This quantification may help the team identify the alternative that provides the best overall 'package' of feasibility.
+
+
+13. Briefly describe the five different software layers.
+
+Ans: The foundation layer contains classes that are necessary for any object-oriented application to exist, such as fundamental data types, data structures, and abstractions.
+
+The system architecture layer addresses how the software will execute on specific computers and networks. This layer includes classes that deal with communications between the software and the operating system and the network. This also includes classes that would interact with middleware applications.
+
+The human-computer interaction layer contains the classes associated with the implementation of the user interface. This deals with issues like the navigation through the system, help system, and the types of input and output elements to be included.
+
+The data management layer addresses the issues involving the persistence of the objects contained in the system. The types of classes that appear in this layer deal with how objects can be stored and retrieved.
+
+The problem domain layer is the layer that the majority of this course focuses on – the actual business problem that the system is designed to address.
+
+
+
+
+14. Describe the five-step process for creating package diagrams.
+
+Ans: First, set the context for the package diagram. Second, cluster the classes together into partitions based on the relationships that the classes share. Third, place the clustered classes together in a partition and model the partitions as packages. Fourth, identify the dependency relationships among the packages. Fifth, place the dependency relationships on the evolved package diagram.
+
+
+15. What is an “object wrapper” and how can one be used to help integrate systems?
+
+Ans: An object wrapper is an object that wraps around a legacy system, enabling an object-oriented system to send messages to the legacy system. Object wrappers create an application program interface (API) to the legacy system. This allows a firm to retain their investment in their legacy systems while integrating them with their object-oriented systems.
+
+
+16. Give some example classes that can appear on each of the layer of software architecture.
+
+Ans: Answers will vary. Some suggestions are below:
+
+LayersSample ClassesFoundationDate, Enumeration (They include classes that represent fundamental data types, classes that represent fundamental data structures, sometimes referred to as container classes, and classes that represent useful abstractions, sometimes referred to as utility classes.)Problem DomainEmployee, Customer (Domain classes, further detail the classes so that it will be possible to implement them in an effective and efficient manner.Data Access and ManagementDataInputStream, FileInputStream (The types of classes that appear in this layer deal with how objects can be stored and retrieved.)Human–Computer InteractionButton, Panel	(Typical classes found on this layer include classes that can be used to represent buttons, windows, text fields, scroll bars, check boxes, drop-down lists, and many other classes that represent user interface elements.)Physical ArchitectureServerSocket, URLConnection (classes that deal with communication between the software and the computer’s operating system and the network).
+
+
+
+17. What is the purpose of the different layers?
+
+Ans: To successfully evolve the analysis model of the system into a design model of the system, we must add the system environment information. One useful way to do this, without overloading the developer, is to use layers.
+
+
+1
+

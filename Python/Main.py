@@ -1,7 +1,9 @@
 import BL
 import DL
 
-BL.Display_Title()
-DL.DbConnect(1)
-DL.DbClose(1)
-print("Bye!")
+userId = 1
+looping = True
+DL.DbConnect(userId)
+while looping:
+    looping = BL.ExecuteUserChoice(BL.Display_Menu(), userId)
+DL.DbClose(userId)
