@@ -59,6 +59,11 @@ def SaveQuizzesToDB(fileNames, userId):
                 SaveQuestionAnswersToDB(ParseQuestionAnswers(f.readlines()))    
     except:
         DL.LogEvent(EventLog(0, 10, "Error reading a file withing the directory", userId))
+
+def ParseQuestionAnswers(fileText):
+    raise NotImplementedError
     
+def SaveQuestionAnswersToDB(lstQuestions):
+    raise NotImplementedError
 
                 
