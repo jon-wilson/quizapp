@@ -6,7 +6,6 @@ class Answer:
         self.Correct = Correct
         self.TypeID = TypeID
 
-
 class EventLog:
     def __init__(self, ID=0, TypeID=0, Message ="", UserID=0, CreatedOn=""):
         self.ID	= ID
@@ -27,11 +26,12 @@ class Lookup:
         self.Answers = Answers
 
 class Question:
-    def __init__(self, ID=0, Chapter=0, Question="", TypeID=0):
+    def __init__(self, ID=0, Chapter=0, Question="", TypeID=0, lstAnswers = []):
         self.ID	= ID        
         self.Chapter = Chapter
         self.Question = Question
         self.TypeID	= TypeID
+        self.lstAnswers = lstAnswers
 
 class User:
     def __init__(self, ID=0, FirstName ="", LastName = "", HashedPassword = "", Salt = ""):

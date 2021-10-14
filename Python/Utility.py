@@ -17,8 +17,11 @@ def WriteToLogFile(eventLog):
 def ValidInteger(value):
     try:
         value = int(value)
+        return True
     except:
         print("Please select an integer value.")
+
+    return False
 
 
 # def ConvertWordFilesToText():
