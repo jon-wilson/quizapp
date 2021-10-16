@@ -1,3 +1,4 @@
 MC	The process of understanding how an information system can support business needs, design the system, build it, and deliver it to users is the _____.	analysis phase of the SDLC	incorrect	object-oriented approach	incorrect	rule for creating a CASE tool	incorrect	systems development life cycle	incorrect	waterfall development methodology	correct
 MC	In which phase of the SDLC is the project plan developed?	analysis	incorrect	design	incorrect	implementation	incorrect	planning	correct	reconstruction	incorrect
 TF	SCRUM has a designated team leader to lead the system development.	false
+SR 	question text 	sample answer

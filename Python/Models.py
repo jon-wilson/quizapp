@@ -25,7 +25,7 @@ class Lookup:
         self.Answers = Answers
 
 class Question:
-    def __init__(self, ID=0, Chapter=0, Question="", TypeID=0, lstAnswers = []):
+    def __init__(self, ID=0, Chapter=0, Question="", TypeID="", lstAnswers = []):
         self.ID	= ID        
         self.Chapter = Chapter
         self.Question = Question

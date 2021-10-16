@@ -64,8 +64,8 @@ def SaveQuizzesToDB(fileNames, userId):
 
 def ParseQuestionAnswers(chapter, textFile):
     lstQuestions = list()  
-    question = Question(0, chapter, "", 13)
-    questionType = 13
+    question = Question(0, chapter, "", "MC")
+    questionType = "MC"
 
     for line in textFile:
         if DetectNewSection(line.strip()):
@@ -73,10 +73,10 @@ def ParseQuestionAnswers(chapter, textFile):
             question.TypeID = questionType
         elif DetectQuestion(line):   
             question.Question = GetText(line)
-        elif questionType == 13 and DetectAnswerOption(line):
+        elif questionType == "MC" and DetectAnswerOption(line):
             question.lstAnswers.append(GetAnswerOption(line))
         elif DetectAnswer(line):            
-            if questionType == 13:
+            if questionType == "MC":
                 question.lstAnswers[GetAnswerLine(line, questionType)].Correct = 1
             else:
                 question.lstAnswers.append(Answer(0, 0, GetAnswerLine(line, questionType), 1))
@@ -88,11 +88,11 @@ def DetectNewSection(text):
 
 def GetNewSection(text):
     if text == "Multiple Choices":
-        return 13
+        return "MC"
     elif text == "True/False":
-        return 14
+        return "TF"
     elif text == "Short Answer":
-        return 15
+        return "SR"
         
 def DetectQuestion(text):
     splitText = text.split(".")
@@ -118,7 +118,7 @@ def GetAnswerLine(text, questionType):
     answerKey = {"a": 0, "b" : 1, "c" : 2, "d" : 3, "e" : 4}
     splitText = text.split(":")
 
-    if questionType == 13:
+    if questionType == "MC":
         return answerKey[splitText[1]]
     else:
         return splitText[1]
