@@ -1,7 +1,7 @@
 from genericpath import isfile
 import os
 import DL
-from Models import EventLog, Question
+from Models import Answer, EventLog, Question
 from Utility import ValidInteger
 
 def Display_Menu():
@@ -52,17 +52,77 @@ def GetQuizzes(userId):
     return lstFiles
 
 def SaveQuizzesToDB(fileNames, userId):
+    chapter = 1
     try:
         for file in fileNames:
             DL.LogEvent(EventLog(0, 9, "Reading file: {} ...".format(file), userId))
             with open(file, "r") as f:
-                SaveQuestionAnswersToDB(ParseQuestionAnswers(f.readlines()))    
+                SaveQuestionAnswersToDB(ParseQuestionAnswers(chapter, f.readlines()))    
+            chapter += 1
     except:
         DL.LogEvent(EventLog(0, 10, "Error reading a file withing the directory", userId))
 
-def ParseQuestionAnswers(fileText):
-    raise NotImplementedError
-    
+def ParseQuestionAnswers(chapter, textFile):
+    lstQuestions = list()  
+    question = Question(0, chapter, "", 13)
+    questionType = 13
+
+    for line in textFile:
+        if DetectNewSection(line.strip()):
+            questionType = GetNewSection(line.strip())
+            question.TypeID = questionType
+        elif DetectQuestion(line):   
+            question.Question = GetText(line)
+        elif questionType == 13 and DetectAnswerOption(line):
+            question.lstAnswers.append(GetAnswerOption(line))
+        elif DetectAnswer(line):            
+            if questionType == 13:
+                question.lstAnswers[GetAnswerLine(line, questionType)].Correct = 1
+            else:
+                question.lstAnswers.append(Answer(0, 0, GetAnswerLine(line, questionType), 1))
+            lstQuestions.append(question)            
+            question.ClearQuestionAnswer()       
+
+def DetectNewSection(text):
+    return text in ["Multiple Choices", "True/False", "Short Answer"]
+
+def GetNewSection(text):
+    if text == "Multiple Choices":
+        return 13
+    elif text == "True/False":
+        return 14
+    elif text == "Short Answer":
+        return 15
+        
+def DetectQuestion(text):
+    splitText = text.split(".")
+    return ValidInteger(splitText[0])
+
+def GetText(text):    
+    splitText = text.split(".")
+    return splitText[1]
+
+def DetectAnswerOption(text):    
+    splitText = text.split(".")
+    return len(splitText[0]) == 1 and splitText[0].isalpha()
+
+def GetAnswerOption(text):    
+    splitText = text.split(".")
+    return Answer(0, 0, splitText[1], 0)
+
+def DetectAnswer(text):
+    splitText = text.split(":")
+    return splitText[0] == "Ans"
+
+def GetAnswerLine(text, questionType):     
+    answerKey = {"a": 0, "b" : 1, "c" : 2, "d" : 3, "e" : 4}
+    splitText = text.split(":")
+
+    if questionType == 13:
+        return answerKey[splitText[1]]
+    else:
+        return splitText[1]
+
 def SaveQuestionAnswersToDB(lstQuestions):
     raise NotImplementedError
 

@@ -13,13 +13,25 @@ def DbConnect(userId):
         try:                
             conn = pyodbc.connect(credentials)
             LogEvent(EventLog(0, 2, "Successful connection established.", userId))
-        except Exception:            
+        except:            
             WriteToLogFile(EventLog(0, 1, "Failed to connect to the database", userId))
                 
 def DbClose(userId):
     if conn:
         LogEvent(EventLog(0, 5, "Closing database connection.", userId))
         conn.close()
+
+def SaveQuestionAnswersToDB(question):
+    sql = '''EXECUTE [dbo].[ins_Question] ?, ?, ?, ?'''
+
+    # try:
+    #     with closing(conn.cursor()) as c:
+    #         c.execute(sql, eventLog.TypeID, eventLog.Message, eventLog.UserID, eventLog.CreatedOn)
+    #         conn.commit()
+    # except Exception:
+    #     eventLog.Message = "CURSOR ERROR: Could not insert record to LogEvent table:\t"
+
+    raise NotImplementedError
 
 def LogEvent(eventLog):
     sql = '''EXECUTE [dbo].[ins_EventLog] ?, ?, ?, ?'''
@@ -29,7 +41,7 @@ def LogEvent(eventLog):
         with closing(conn.cursor()) as c:
             c.execute(sql, eventLog.TypeID, eventLog.Message, eventLog.UserID, eventLog.CreatedOn)
             conn.commit()
-    except Exception:
+    except:
         eventLog.Message = "CURSOR ERROR: Could not insert record to LogEvent table:\t"
     
     WriteToLogFile(eventLog)

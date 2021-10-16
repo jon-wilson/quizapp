@@ -1,10 +1,9 @@
 class Answer:
-    def __init__(self, ID=0, QuestionID=0, Answer="", Correct=0, TypeID=0):
+    def __init__(self, ID=0, QuestionID=0, Answer="", Correct=0):
         self.ID = ID
         self.QuestionID = QuestionID
         self.Answer = Answer
         self.Correct = Correct
-        self.TypeID = TypeID
 
 class EventLog:
     def __init__(self, ID=0, TypeID=0, Message ="", UserID=0, CreatedOn=""):
@@ -33,6 +32,11 @@ class Question:
         self.TypeID	= TypeID
         self.lstAnswers = lstAnswers
 
+    def ClearQuestionAnswer(self):
+        self.Question = ""
+        self.TypeID = 0
+        self.lstAnswers = []
+        
 class User:
     def __init__(self, ID=0, FirstName ="", LastName = "", HashedPassword = "", Salt = ""):
         self.ID = ID

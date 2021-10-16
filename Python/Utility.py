@@ -19,7 +19,7 @@ def ValidInteger(value):
         value = int(value)
         return True
     except:
-        print("Please select an integer value.")
+        print("An integer value was not entered.")
 
     return False
 
