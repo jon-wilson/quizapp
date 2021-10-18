@@ -2,7 +2,7 @@ from genericpath import isfile
 import os
 import DL
 from Models import Answer, EventLog, Question
-from Utility import ValidInteger
+import Utility
 
 def Display_Menu():
     while(True):
@@ -18,7 +18,7 @@ def Display_Menu():
         print()        
         userChoice = input("Please choose a menu item:  ")
 
-        if(userChoice.lower() == 'q' or ValidInteger(userChoice)):
+        if(userChoice.lower() == 'q' or Utility.ValidInteger(userChoice, True)):
             return userChoice
 
         #Clear terminal
@@ -55,17 +55,18 @@ def SaveQuizzesToDB(fileNames, userId):
     chapter = 1
     try:
         for file in fileNames:
-            DL.LogEvent(EventLog(0, 9, "Reading file: {} ...".format(file), userId))
+            DL.LogEvent(EventLog(0, 9, "Reading file: {}".format(file), userId))
             with open(file, "r") as f:
-                SaveQuestionAnswersToDB(ParseQuestionAnswers(chapter, f.readlines()))    
+                SaveQuestionAnswersToDB(ParseQuestionAnswers(chapter, f.readlines()), userId)    
             chapter += 1
     except:
         DL.LogEvent(EventLog(0, 10, "Error reading a file withing the directory", userId))
+        return False
 
 def ParseQuestionAnswers(chapter, textFile):
     lstQuestions = list()  
-    question = Question(0, chapter, "", "MC")
-    questionType = "MC"
+    questionType = "13"
+    question = Question(0, chapter, "", questionType, list())
 
     for line in textFile:
         if DetectNewSection(line.strip()):
@@ -73,34 +74,37 @@ def ParseQuestionAnswers(chapter, textFile):
             question.TypeID = questionType
         elif DetectQuestion(line):   
             question.Question = GetText(line)
-        elif questionType == "MC" and DetectAnswerOption(line):
+        elif questionType == "13" and DetectAnswerOption(line):
             question.lstAnswers.append(GetAnswerOption(line))
         elif DetectAnswer(line):            
-            if questionType == "MC":
+            if questionType == "13":
                 question.lstAnswers[GetAnswerLine(line, questionType)].Correct = 1
             else:
                 question.lstAnswers.append(Answer(0, 0, GetAnswerLine(line, questionType), 1))
-            lstQuestions.append(question)            
-            question.ClearQuestionAnswer()       
+            lstQuestions.append(question)    
+            question = Question(0, chapter, "", questionType, list())
+
+    return lstQuestions  
 
 def DetectNewSection(text):
     return text in ["Multiple Choices", "True/False", "Short Answer"]
 
 def GetNewSection(text):
     if text == "Multiple Choices":
-        return "MC"
+        return "13"
     elif text == "True/False":
-        return "TF"
+        return "14"
     elif text == "Short Answer":
-        return "SR"
+        return "15"
         
 def DetectQuestion(text):
     splitText = text.split(".")
-    return ValidInteger(splitText[0])
+    return Utility.ValidInteger(splitText[0], False)
 
 def GetText(text):    
+    text = text.replace("\n", "")
     splitText = text.split(".")
-    return splitText[1]
+    return splitText[1].strip()
 
 def DetectAnswerOption(text):    
     splitText = text.split(".")
@@ -108,7 +112,7 @@ def DetectAnswerOption(text):
 
 def GetAnswerOption(text):    
     splitText = text.split(".")
-    return Answer(0, 0, splitText[1], 0)
+    return Answer(0, 0, splitText[1].strip(), 0)
 
 def DetectAnswer(text):
     splitText = text.split(":")
@@ -116,14 +120,17 @@ def DetectAnswer(text):
 
 def GetAnswerLine(text, questionType):     
     answerKey = {"a": 0, "b" : 1, "c" : 2, "d" : 3, "e" : 4}
+    text = text.replace("\n", "")
     splitText = text.split(":")
 
-    if questionType == "MC":
-        return answerKey[splitText[1]]
+    if questionType == "13":
+        return answerKey[splitText[1].strip()]
     else:
-        return splitText[1]
+        return splitText[1].strip()
 
-def SaveQuestionAnswersToDB(lstQuestions):
-    raise NotImplementedError
+def SaveQuestionAnswersToDB(lstQuestions, userId):
+    for question in lstQuestions:
+        DL.SaveQuestionAnswersToDB(question, userId)
+  
 
                 

@@ -1,5 +1,5 @@
 class Answer:
-    def __init__(self, ID=0, QuestionID=0, Answer="", Correct=0):
+    def __init__(self, ID=0, QuestionID=0, Answer="", Correct=False):
         self.ID = ID
         self.QuestionID = QuestionID
         self.Answer = Answer
@@ -14,7 +14,7 @@ class EventLog:
         self.CreatedOn = CreatedOn
 
     def __str__(self):
-        return "ID: {}, TypeID: {}, Message: {}, UserID: {}, CreatedOn: {}".format(self.ID, self.TypeID, self.Message, self.UserID, self.CreatedOn)
+        return "TypeID: {}, Message: {}, UserID: {}, CreatedOn: {}".format(self.TypeID, self.Message, self.UserID, self.CreatedOn)
 
 class Lookup:
     def __init__(self, ID=0, ShortName="", LongName = "", Note = "", Answers = None):
@@ -32,10 +32,8 @@ class Question:
         self.TypeID	= TypeID
         self.lstAnswers = lstAnswers
 
-    def ClearQuestionAnswer(self):
-        self.Question = ""
-        self.TypeID = 0
-        self.lstAnswers = []
+    def __str__(self):
+        return "Chapter: {}, Question: {}, TypeID: {}".format(self.Chapter, self.Question, self.TypeID)
         
 class User:
     def __init__(self, ID=0, FirstName ="", LastName = "", HashedPassword = "", Salt = ""):

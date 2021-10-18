@@ -412,6 +412,3 @@ Ans: One area of information systems development that focused on differentiating
 
 Ans: When considering ISO 9000 compliance, quality dimensions are further decomposed into those that the user can see (external) and those that the user cannot see (internal). The external non-­-functional dimensions include efficiency, reliability, and usability where the internal non-­-functional dimensions include maintainability, portability, reusability, and testability. From a user perspective, the external dimensions are more important. If the system is simply too difficult to use, regardless how well the system “solves” the problem, the user will simply not use the system. In other words, from a user’s perspective, for an information system to be successful, the system must not only meet the functional specification, but it must also meet the external non-­-functional specifications. From a developer perspective, the internal dimensions are also important. For example, given that successful systems tend to be long-­-lived and multi-­-platform, both the maintainability and portability dimensions can have strategic implications for the system being developed. Also, given the agile development approaches being used in industry today, the development of reusable and testable software is crucial.
 
-
-1
-

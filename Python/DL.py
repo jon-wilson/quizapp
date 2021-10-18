@@ -21,17 +21,27 @@ def DbClose(userId):
         LogEvent(EventLog(0, 5, "Closing database connection.", userId))
         conn.close()
 
-def SaveQuestionAnswersToDB(question):
-    sql = '''EXECUTE [dbo].[ins_Question] ?, ?, ?, ?'''
+def SaveQuestionAnswersToDB(question, userId):
+    questionSql = '''SET NOCOUNT ON; 
+                    DECLARE @ID int; 
+                    EXEC [dbo].[ins_Question] ?,?,?, @ID OUTPUT; 
+                    SELECT @ID;'''
 
-    # try:
-    #     with closing(conn.cursor()) as c:
-    #         c.execute(sql, eventLog.TypeID, eventLog.Message, eventLog.UserID, eventLog.CreatedOn)
-    #         conn.commit()
-    # except Exception:
-    #     eventLog.Message = "CURSOR ERROR: Could not insert record to LogEvent table:\t"
+    answerSql = '''EXECUTE [dbo].[ins_Answer] ?, ?, ?'''
 
-    raise NotImplementedError
+    try:
+        with closing(conn.cursor()) as c:
+            c.execute(questionSql, question.Chapter, question.Question, int(question.TypeID))
+            row = c.fetchone()
+            question.ID = row[0]
+            conn.commit()
+
+        with closing(conn.cursor()) as c:
+            for answer in question.lstAnswers:
+                c.execute(answerSql, question.ID, answer.Answer, answer.Correct)                
+                conn.commit()
+    except Exception:        
+        WriteToLogFile(EventLog(0, 12, "Failed to persist question and answer(s): {} to the database".format(question), userId))
 
 def LogEvent(eventLog):
     sql = '''EXECUTE [dbo].[ins_EventLog] ?, ?, ?, ?'''

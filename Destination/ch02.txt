@@ -1,0 +1,1144 @@
+Chapter 2 Project Management
+Testbank
+
+
+Multiple Choices
+
+
+1. The person who identifies the business value that can be gained from using information technology is called the _____.
+
+a.	manager
+b.	project sponsor
+c.	staff member
+d.	system analyst
+e.	system request
+
+Ans: b
+
+
+2. In order to approve a system request, the approval committee must know
+
+a.	all of the details of the ultimate system to be developed.
+b.	the high level functionality of the system.
+c.	what the screens and reports will look like in the final system.
+d.	who the end users of the system will be and exactly how they will use it in their jobs.
+e.	all of these.
+
+Ans: b
+
+
+3. _____ value can be quantified during the project initiation phase.
+
+a.	Expected
+b.	Tangible
+c.	Intangible
+d.	Real
+e.	Salvage
+
+Ans: b
+
+
+
+
+4. _____ is the process of examining the technical, economic, and organizational pros and cons of developing a new system.
+
+a.	Committee approval
+b.	Feasibility analysis
+c.	Functionality determination
+d.	Risk analysis
+e.	System request
+
+Ans: b
+
+
+5. Most system requests include all of the following except _____.
+
+a.	business need
+b.	business requirements
+c.	project sponsor
+d.	project manager
+e.	business value
+
+Ans: d
+
+
+6. The four elements commonly found on a system request are _____.
+
+a.	economic, organizational, technical, and operational feasibility
+b.	project sponsor, business need, business requirements, and business value
+c.	risk analysis, familiarity, project size, and cost-benefit analysis
+d.	training, software, installation, and equipment
+e.	upgrades, licensing fees, repairs, and charges
+
+Ans: b
+
+
+
+
+7. Suppose a proposed new financial reporting system for the AMF Biotech Corporation must be completed by the start of the next fiscal year in order to comply with new government regulations. This information should be included as part of the ____________ section of the system request.
+
+a.	business need
+b.	business value
+c.	business requirements
+d.	special issues or constraints
+e.	none of these
+
+Ans: d
+
+
+8. Explaining “the business capabilities of the information system” is written in the _____ section of the system request.
+
+a.	business need
+b.	business value
+c.	business requirements
+d.	project need
+e.	special issues
+
+Ans: c
+
+9. Feasibility analysis may be defined as a(n)_____.
+
+a.	assessment of ability of the ultimate users of the system to accept the system and incorporate it into the ongoing operations of the organization
+b.	determination of the extent to which the system can be technically designed, developed, and installed
+c.	guide to determining whether to proceed with a project
+d.	identification of only the costs and benefits associated with the project
+e. none of these
+
+Ans: c
+
+
+
+
+10. Which of the following factors could be included in a technical risk assessment?
+
+a.	Cost of a new Web server
+b.	Cost of hiring a Webmaster
+c.	No previous experience with Java within the IS department
+d.	Some fear of job loss among order entry department personnel
+e.	all of these
+
+Ans: c
+
+
+11. Which of the following factors would tend to increase the technical risk of a project?
+
+a.	familiarity with the technology
+b.	large project size
+c.	creating an application that is familiar to the users and analysts
+d.	small project size
+e.	the number of other applications under development in the firm
+
+Ans: b
+
+
+12. _____ feasibility is determined by identifying costs and benefits associated with the system.
+
+a.	Economic
+b.	Functional
+c.	Organizational
+d.	Intangible
+e.	Technical
+
+Ans: a
+
+
+13. Examples of development costs include all EXCEPT _____.
+
+a.	consultant fees
+b.	hardware expenses
+c.	salaries for the project team
+d.	software licensing fees
+e.	none of these
+
+Ans: d
+
+
+
+
+14. Operational costs that are examined during feasibility analysis include _____.
+
+a.	data conversion cost
+b.	development training
+c.	user training
+d.	equipment upgrades
+e.	initial consultant fees
+
+Ans: d
+
+
+15. The calculation that measures the amount of money an organization receives in return for the money it spends is called the _____.
+
+a.	cash flow
+b.	net present value
+c.	total investment
+d.	tangible costs
+e.	return on investment
+
+Ans: e
+
+
+16. The level of acceptance by the users of a system and the extent to which the new system will be incorporated into the operations of the organization are expressed in the _____ feasibility.
+
+a.	economic
+b.	familiarity
+c.	functional
+d.	organizational
+e.	technical
+
+Ans: d
+
+
+
+
+17. The project champion is a(n)_____.
+
+a.	high-level IS executive who is usually but not always the project sponsor who initiated the system request
+b.	mid-level IS manager who has the responsibility of controlling and directing the development process
+c.	high-level non-IS executive who is usually but not always the project sponsor who initiated the system request
+d.	senior member of the user group who participated in the RAD sessions
+e.	none of these
+
+Ans: c
+
+
+18. Peter is the vice president of accounting and finance. For the past year he has solely provided the resources necessary to get the just-in-time accounting system through the planning and analysis phases of the SDLC. Other managers have openly stated that the JIT system is not worth the investment. The SEC has just placed Peter under investigation for insider trading and the board has asked him to resign. This project is failing _____ feasibility analysis.
+
+a.	organizational
+b.	champion
+c.	functional
+d.	economic
+e.	technical
+
+Ans: a
+
+
+19. If end users feel fearful or threatened by a proposed new system, this factor should be included as a part of the _____.
+
+a.	economic feasibility assessment
+b.	organizational feasibility assessment
+c.	system proposal
+d.	system request
+e.	technical feasibility assessment
+
+Ans: b
+
+
+
+
+20. _____ is the process of planning and controlling the development of a system within a specified time frame at a minimum cost with the right functionality.
+
+a.	Project management
+b.	Semantic timeline
+c.	Task identification
+d.	Time estimation
+e.	Work plan
+
+Ans: a
+
+
+21. The most significant challenge to project managers is _____.
+
+a.	lack of project management training
+b.	no one really understands how to manage a complex systems development project
+c.	the lack of tools that can assist in controlling project progress
+d.	unrealistic schedule demands by project sponsors
+e.	all of these
+
+Ans: d
+
+
+22. A critical success factor for project management is to _____.
+
+a.	create a work plan
+b.	follow the three steps of project management
+c.	identify most project tasks
+d.	manage the hundreds of tasks
+e.	start with a realistic assessment of the work
+
+Ans: e
+
+
+23. The three steps of project management are _____.
+
+a.	controlling the project, directing the project, and creating the work plan
+b.	creating the work plan, staffing the project, and controlling and directing the project
+c.	directing the project, creating the work plan, and naming the tasks
+d.	naming the tasks, creating the work plan, and completing the deliverables
+e.	setting the start date, estimating the time, and reading the actual time
+
+Ans: b
+
+
+
+
+24. The _____ is a dynamic schedule that logs and monitors all of the tasks that need to be accomplished for the length of the project.
+
+a.	margin of error
+b.	project manager
+c.	project objective
+d.	timebox
+e.	work plan
+
+Ans: e
+
+
+25. Diane needs to create a work plan for an upcoming systems project. She must first _____.
+
+a.	estimate the hours and request deliverables
+b.	identify the tasks and estimate the time needed to complete them
+c.	initiate the project and create the project management assessment
+d.	make tradeoffs and set conservative numbers
+e.	timebox the completion date
+
+Ans: b
+
+
+26. To identify the tasks for a work plan the project manager can _____.
+
+a.	control and direct the project
+b.	estimate the size, staff the project, and remember technical skills
+c.	establish a possible reporting structure
+d.	list the four phases of the SDLC and the steps that occur in each
+e.	set conservative numbers for the project software
+
+Ans: d
+
+
+27. Project managers can develop task lists for a project with the help of _____.
+
+a.	established methodologies
+b.	system proposals
+c.	system requests
+d.	user application hardware
+e.	user requirements
+
+Ans: a
+
+
+
+
+28. The process of assigning values for the time and effort needed to perform a system project is called _____.
+
+a.	analysis
+b.	estimation
+c.	identifying
+d.	planning
+e.	preparation
+
+Ans: b
+
+
+29. Kathryn has little experience estimating the time it will take to complete a systems project. She has just completed the planning phase of the project. What method should she use to estimate the time required to build the system?
+
+a.	adjusted project complexity
+b.	function points
+c.	industry standards
+d.	Microsoft Project
+e.	more complex approach
+
+Ans: c
+
+
+30. Adding people to a project team in order to speed up total development time _____.
+
+a.	is a standard task in timeboxing
+b.	is a useful way to meet a tight deadline
+c.	may actually increase total development time
+d.	simplifies communication within the team
+e.	none of these
+
+Ans: c
+
+
+
+
+31. Traditional work breakdown structures tend to
+
+a.	focus on the design of the system as oppose to the needs of the current phase and iteration
+b.	force too many levels of detail early on for large project and they tend to allow too few level of detail for small projects
+c.	be too specific for the project and difficult to compare across projects
+d.	all of these
+e.	none of these
+
+Ans: d?
+
+
+32. Unlike traditional work breakdown structures (WBS), evolutionary WBSs are
+
+a. organized in a standard manner across all projects
+b. created in an iterative and incremental manner
+c. designed so one can compare the current project to past projects
+d. all of these
+e. none of these
+
+Ans: d?
+
+
+33. Staffing plan that lists the roles and the proposed reporting structure that are required for the project. Typically, a project will have one _____________, who oversees the overall progress of the development effort, with the core of the team comprising the various types of analysts.
+
+a. team lead
+b. functional lead
+c. technical lead
+d. project manager
+e. business analyst
+
+Ans: d
+
+
+
+
+34. Demarco and Lister identify five characteristics of a jelled team. Which one is not the characteristics of a jelled team:
+
+a. Jelled teams have a very low turnover during a project.
+b. Jelled teams have a strong sense of identity.
+c. The strong sense of identity tends to lead the team into feeling a sense of eliteness.
+d. during the development process, jelled teams feel that the team owns the information system being developed and not any one individual member.
+e. They always complete their work on time.
+
+Ans: e
+
+
+35. The central component of any CASE tool is the ____________,
+
+a. CASE repository
+b. files
+c. XML/HTML files
+d. databases
+e. object persistency
+
+Ans: a
+
+
+36. Use-case points is a project effort estimation approach based on unique features of _______ and object orientation.
+
+a. functions
+b. classes
+c. objects
+d. projects
+e. use cases
+
+Ans: e
+
+
+37. For use-case point estimation purposes, actors can be classified as simple, __________, or complex.
+
+a. difficult
+b. medium
+c. average
+d. common
+e. feasible
+
+Ans: c
+
+
+38. Use-case point–based estimation also has a set of factors that are used to adjust the use-case point value. Which one list in the following is Not one of the technical factors:
+
+a. Whether the system is going to be a distributed system
+b. The importance of customer service
+c. The efficiency level of the end user using the system
+d. The complexity of the internal processing of the system
+e. The importance of code reuse
+
+Ans: b
+
+
+
+True/False
+
+
+1. Familiarity with the application and technology are major factors considered under economic feasibility.
+
+Ans: False
+
+
+2. Cost benefit analysis identifies the financial costs and benefits associated with a systems project.
+
+Ans: True
+
+
+3. To identify the costs and benefits related to the computer technology for a project the systems analyst should rely on the business users.
+
+Ans: False
+
+
+4. Happy customers is a tangible cost that can be included in a cost-benefit analysis.
+
+Ans: False
+
+
+5. A 20% increase in sales volume is a tangible benefit that can be included in a cost-benefit analysis.
+
+Ans: True
+
+
+6. A limitation of a formal cost-benefits analysis is that it contains the costs and benefits for just one year.
+
+Ans: False
+
+
+7. A high return on investment (ROI) results when benefits far outweigh the cost of a new project or information system.
+
+Ans: True
+
+
+
+
+8. How well a system is accepted by the users and incorporated into the ongoing operations of the business is defined in the technical feasibility.
+
+Ans: False
+
+
+9. Project size is an important consideration in technical feasibility. Larger projects create more risk, both because they are more complicated to manage and because there is a greater chance that some important system requirements will be overlooked or misunderstood.
+
+Ans: True
+
+
+10. Economic feasibility includes an assessment of financial impact in four categories: (1) development costs, (2) operational costs, (3) tangible benefits, and (4) intangible costs and benefits.
+
+Ans: True
+
+
+11. The return on investment (ROI) should be used as the sole indicator of a project’s worth because it considers the end points of the investment, not the cash flow in between.
+
+Ans: False
+
+
+12. User participation should be promoted throughout the development process to make sure that the final system will be accepted and used.
+
+Ans: True
+
+
+13. Economic feasibility is determined by identifying costs and benefits associated with the system, assigning values to them, and then calculating the cash flow and return on investment for the project.
+
+Ans: True
+
+
+14. The champion is a high-level IS executive who initiates the system request and supports the project by providing time, resources, and political support within the organization by communicating the importance of the system to other organizational decision makers.
+
+Ans: False
+
+
+15. Economic feasibility focuses on whether the system can be built by examining the risks associated with the users’ and analysts’ familiarity with the application, familiarity with the technology, and project size.
+
+Ans: False
+
+
+16. It is not necessary to assign dollar values to intangible costs and benefits; it is almost impossible to come up with reasonable numbers for all of the costs and benefits that haven’t happened yet.
+
+Ans: False
+
+
+17. Project initiation begins when the project sponsor identifies business value that can be gained by using information technology.
+
+Ans: True
+
+
+18. System requests often include the project team members including the project manager and the analysts.
+
+Ans: False
+
+
+19. A feasibility analysis includes whether the project has been permitted by the CIO
+   of the company.
+
+Ans: False
+
+
+20. The feasibility analysis helps the approval committee determine whether or not to proceed with a project.
+
+Ans: True
+
+
+21. Technical feasibility focuses on whether the system can be built by examining the risks associated with the application.
+
+Ans: True
+
+
+
+
+22. Lauren, a systems analyst, is concerned that she and the end-users at her company do not have experience with a new scanner technology that will soon be implemented. This identified risk falls under economic feasibility.
+
+Ans: False
+
+
+23. Nicole has identified development and operational costs for a soon-to-be built information system. Her findings will be listed under economic feasibility in the analysis report.
+
+Ans: True
+
+
+24. Development costs that are examined during feasibility analysis include costs for software licenses and software upgrades.
+
+Ans: False
+
+
+25. Natalie has been asked by her project manager to list the possible intangible benefits for a new system. Her list will include reduced expenses for the company.
+
+Ans: False
+
+
+26. ROI calculations do not consider the present value of future money.
+
+Ans: True
+
+
+27. Organizational feasibility can be evaluated by conducting a stakeholder analysis.
+
+Ans: True
+
+
+28. Kelly Smith, the vice president of marketing, has provided resources and political support for the new production management information system. She has acted as the project manager for the project.
+
+Ans: False
+
+
+
+
+29. The person or group that funds a project and enthusiastically promotes the project throughout the organization is the project champion.
+
+Ans: True
+
+
+30. The organizational management of a business is involved in hands-on activities related to the project.
+
+Ans: False
+
+
+31. During organizational feasibility analysis the system users are the stakeholders that are responsible for providing enough budget and promoting the project.
+
+Ans: False
+
+
+32. System users are stakeholders who perform hands-on activities related to the project.
+
+Ans: True
+
+
+33. Present value calculation takes inflation and time into account.
+
+Ans: True
+
+
+34. The formula for net present value (NPV) is the ratio of (Total benefits – Total Costs) to Total Costs.
+
+Ans: False
+
+
+35. Calculating the break-even point helps in understanding how long it will take before the system creates real value for the organization.
+
+Ans: True
+
+
+36. Determining whether the new system will be compatible with the existing technology that already exists in the organization is part of the organizational feasibility study.
+
+Ans: False
+
+
+37. Project management is the process of planning and controlling the development of a system within a specified time frame at a minimum cost with the right functionality.
+
+Ans: True
+
+
+38. When planning a systems project, overly optimistic timetables are the cause of project completion delays.
+
+Ans: True
+
+
+39. Creating a work plan requires three steps: identify the tasks that need to be accomplished, estimate the time that it will take to complete the tasks, and record the task completion time in a Gantt chart.
+
+Ans: False
+
+
+40. When estimating project time schedules using industry standards for a systems project, the following values are acceptable: 15% for planning, 25% for analysis, 50% for design, and 10% for implementation.
+
+Ans: False
+
+
+41. Using typical industry standards for estimating project time schedules, the estimated analysis phase would be 10 person-months for a systems project where the planning phase was completed in 7.5 person-months.
+
+Ans: True
+
+
+42. To complete a 20 person-month project in 10 months, a team should have 4 full-time staff members assigned to the project.
+
+Ans: False
+
+
+43. Project management is the second major component of the planning phase of the systems development life cycle (SDLC), and it includes three steps: creating the work plan, staffing the project, and controlling and directing the project.
+
+Ans: True
+
+
+44. The work plan records and keeps track of all of the tasks that need to be accomplished over the life of the project, listing each task, along with important information about it, such as when it needs to be completed, the person assigned to do the work, and any deliverables that will result.
+
+Ans: True
+
+
+45. It is not wise to identify tasks for a current project using existing methodology, because methodologies that have been used by an organization for other projects probably will not work for this project without extensive changes.
+
+Ans: False
+
+
+46. Adding staff to a project to shorten the project’s length is usually a wise move, because adding staff normally translates into increased productivity.
+
+Ans: False
+
+
+47. Timeboxing is a popular technique which sets a fixed deadline for a project and delivers the system by that deadline no matter what, even if functionality needs to be reduced.
+
+Ans: True
+
+
+48. A key factor in staffing a project involves motivating people to meet the project’s objectives, and the most effective way to do this is through the use of money and bonuses.
+
+Ans: False
+
+
+49. Estimates from the planning stage will need to be refined as the project progresses, because it is virtually impossible to develop an exact assessment of the project’s schedule before the analysis and design phases are conducted.
+
+Ans: True
+
+
+50. Benefits to using computer-aided software engineering (CASE) include faster task completion and alteration, centralized development information, and illustration of information through diagrams.
+
+Ans: True
+
+
+51. Scope creep is only a minor factor in projects running over schedule, and every effort should be made to incorporate any changes into the present system if they would truly be beneficial.
+
+Ans: False
+
+
+52. Sergei, the project manager, is worried about completing the project on time. To increase the productivity of his 15-person team he should create subteams with no more than 10 people on a subteam.
+
+Ans: True
+
+
+53. The project team has just determined that the deadline for completion will not be met. In order to deliver a high quality system on schedule, the team has requested that the features be prioritized and that a fixed deadline be imposed for the project. This technique is referred to as SDLC methodology.
+
+Ans: False
+
+
+54. Timeboxing is a time-oriented approach to project development.
+
+Ans: True
+
+
+55. Matching people’s skills with the needs of the project, motivating employees, and minimizing personnel conflict are all part of the staffing process.
+
+Ans: True
+
+
+56. The project charter describes the qualifications of the people who will work on a project and the reporting structure of the project team.
+
+Ans: False
+
+
+57. The document that describes the project’s objectives and rules is called the project charter.
+
+Ans: True
+
+
+
+
+58. Lauren, a systems analyst, has excellent interpersonal skills. To take advantage of her skills, the functional lead of the project should assign her to program in Java and C++.
+
+Ans: False
+
+
+59. A functional lead manages a group of programmers and technical staff members.
+
+Ans: False
+
+
+60. A technical lead manages a group of analysts.
+
+Ans: False
+
+
+61. Christine does not have the skills that her project manager feels are necessary and no money has been budgeted for outside consultants. Mentoring is a good option to improve Christine’s skills in this situation.
+
+Ans: True
+
+
+62. Daniel has just been assigned as the project manager. To motivate his team properly, Daniel’s first step is to award bonuses to team members.
+
+Ans: False
+
+
+63. A highly effective motivational technique for technical staff is to provide recognition for each team member's accomplishments.
+
+Ans: True
+
+
+64. A good technique to help minimize conflict among team members is to hold team members accountable for their tasks.
+
+Ans: True
+
+
+65. According to leading experts in software development, the margin of error when estimating project costs is 100% and the margin of error in project scheduling time is 25%.
+
+Ans: True
+
+
+66. CASE tool is a popular graphic depiction of the work plan that lists project tasks along a y-axis, time along an x-axis, and uses shaded boxes to represent tasks.
+
+Ans: False
+
+
+67. PERT chart can be used to track the tasks of a project when task time estimates are fairly uncertain.
+
+Ans: True
+
+
+68. Integrated CASE tools are used to support tasks that happen throughout the SDLC.
+
+Ans: True
+
+
+69. Jim Smith, the project manager for a high-profile project, has permitted the users to add additional features to the systems project. The schedule and costs are now running over. This project suffers from poor standards.
+
+Ans: False
+
+
+70. The underlying cause of many missed project deadlines is scope creep.
+
+Ans: True
+
+
+71. The most common reason for schedule and cost overruns that surface after the project is underway is scope creep.
+
+Ans: True
+
+
+72. The traditional work breakdown structure approach is very useful when the requirements of the system are not well understood.
+
+Ans: False
+
+
+
+
+73. The evolutionary work breakdown structure approach is very useful when the requirements of the system are not well understood.
+
+Ans: True
+
+
+74. The traditional work breakdown structure makes it easy to compare the current project with past projects.
+
+Ans: False
+
+
+75. The evolutionary work breakdown structure makes it easy to compare the current project with past project
+
+Ans: True
+
+
+76. Use-case point–based estimation also has a set of factors that are used to adjust the use-case point value.
+
+    Ans: True
+
+
+77. From a practical point of view, to estimate effort using use-case points, the use cases and the class diagrams must have been created.
+
+Ans: False
+
+
+78. For use-case point estimation purposes, actors/use cases can be classified as simple, common, or complex.
+
+Ans: False
+
+
+79. The network diagram is a graphical way that lays out the project tasks in a flowchart to look at project workplan information.
+
+Ans: True
+
+
+
+
+80. Network diagrams are the best way to communicate tasks dependencies because they lay out the tasks in the order in which they need to be completed.
+
+Ans: True
+
+
+81. The critical path in a network diagram is the shortest path from the project inception to completion.
+
+Ans: false
+
+
+82. The science (or art) of project management is in making trade-offs among three important concepts: the functionality of the system, the time to complete the project, and the reliability of the project.
+
+Ans: False
+
+
+83. The first step of timeboxing is set the date for system analysis.
+
+Ans: False
+
+
+84. In a jelled team, team members enjoy doing their work.
+
+Ans: True.
+
+
+85. Usually, a functional lead oversees the progress of a group of programmers and more technical staff members.
+
+Ans: False
+
+
+86. Typically, a project will have one project manager, who oversees the overall progress of the development effort.
+
+Ans: True
+
+
+87. Typically, a technical lead is usually assigned to manage a group of analysts.
+
+Ans: False
+
+
+88. Essentially a daily scrum meeting is a very short, typically 15 minutes.
+
+Ans: True
+
+
+89. Typically, the task of a daily scrum meeting is to find solutions for important development issues.
+
+Ans: False
+
+
+Short Answer
+
+
+1. Economic feasibility includes an assessment of financial impacts in four categories. What are these four financial categories and how are values assigned to each?
+
+Ans: The four financial categories of an economic feasibility are development costs, operational costs, tangible benefits, and intangible benefits and costs. Development costs are one-time-only costs that are incurred during the construction of the system, such as the salaries of the project team, and hardware and software expenses. Operational costs are the recurring variable costs that are required to operate the system for its lifetime. Tangible benefits are the revenues and cost savings that the system enables the organization to collect or avoid. Tangible benefits include items such as increased sales and reductions in staff. Intangible benefits and costs are difficult to put into hard numbers. Examples of intangibles include improved customer service and a decrease in goodwill.
+
+To assign values for these financial categories it is normally best to rely on the people who have the best understanding of them. Costs and benefits related to technology can be provided by the IS group or external consultants. Business users, such as sales managers or plant managers, can develop the numbers associated with the business. It is more difficult to apply values to intangible costs and benefits. Some organizations list intangible cost and benefits without values other attempt to provide projection based on estimates. An example of an intangible projection based on an estimate is that an increase in customer service may result in a 10% decrease in customer complaints. A 10% decline in phone calls will decrease the $200,000 cost of the customer service phone system to $180,000 per year.
+
+
+2. Jane, the head nurse on the surgery recovery floor, is going to place a request for a system that will create a report from data already in the patient record system and print this report to printers located just outside each of 12 patient's rooms and the central nurses station. Jane feels that a graphical report that combines the patient record of pain and pain medication received is absolutely necessary for the doctors and nursing staff to make proper medical decisions concerning patient recovery. Nurses already record the date, time, and severity of pain each time the patient complains or notifies them of discomfort. The pharmacy nurse records the amount of pain medication administered to each patient immediately after administration. Jane feels that combining these two pieces of information will improve medical decision making and provide better care to the patient. In addition, this method will increase the accuracy of reporting and reduce cost. Assist Jane by completing a System Request.
+
+Ans:
+
+Project Name: Patient record of pain and pain medication received Report
+
+Project Sponsor: Jane, Head Nurse, Surgery Recovery
+
+Business Need: Doctors and Nurses need to know at the bedside amount of pain a patient is having and a record of the amount of pain medication the patient has received.
+
+Business Requirements: The patient record of pain and pain medication received report should present graphically the time, date and severity of pain for each occurrence based on the patient's notification and the amount of pain medication received from the pharmacy nurse.
+
+Business Value:
+Tangible: Reduced costs and increase accuracy.
+
+Intangible: Combining these two pieces of information will improve medical decision-making and provide better care to the patient.
+
+
+3. Jane, the head nurse on the surgery recovery floor, is going to place a request for a system that will create a report from data already in the patient record system. This report should be sent to new printers (cost per printer is approximately $2,000) located just outside each of 12 patient's rooms and the central nurse's station. Jane feels that a graphical report that combines the patient record of pain and pain medication received is absolutely necessary for the doctors and nursing staff to make proper medical decisions concerning patient recovery. Nurses already record the date, time, and severity of pain each time the patient complains or notifies them of discomfort. The pharmacy nurse records the amount of pain medication administered to each patient immediately after administration. Jane feels that combining these two pieces of information will improve medical decision making and provide better care to the patient. The IS manager has approved $50,000 for the development of the system and estimates that maintaining the system for the next five years will cost $2,000 per year. In addition, this method will increase the accuracy of reporting by 10% per year for three years and reduce pharmacy costs (cost of pain reducing drugs) by 15% in the first year of introduction. Current expenses credited to inaccurate data gathering are $100,000 per year. Pharmacy costs are currently $10 million.
+
+Identify the costs and benefits in the four financial categories assessed during a feasibility analysis.
+
+Ans: The intangible benefits for the new system are “improved medical decision making” and “better care to the patient.”
+
+The tangible benefits for the new system are increased accuracy of reporting by 10% per year for three years and reduced pharmacy costs by 15% in the first year of introduction.
+
+The new system’s development costs are the price of 12 printers at $2,000 each and $50,000 for the software development.
+
+The operational costs are estimated at $2,000 per year for next five years.
+
+
+4. Revenue estimates for Cloud Selection's new Internet music business were computed using three different methods. What is the purpose and value of performing so many computations in determining these estimates?
+
+Ans: In this case, the new system under consideration was an entirely new line of business for the company - sales of product via the Internet. Because this is essentially a new business venture made possible by Internet technology, it was not a straightforward task to project expected revenues. None of the previous business models (such as the opening of a new store) really applied. Therefore, it was essential to use a variety of approaches to generate revenue estimates. A range of estimates could then be established; conservative projections would fall in the low end of the range, while optimistic estimates would fall in the high end of the range. There is far too much uncertainty in this situation to rely on one method of revenue estimation alone.
+
+
+5. The feasibility study is performed during project initiation. How can this feasibility assessment be accurate so early in the project? Explain.
+
+Ans: The feasibility assessment performed during project initiation is admittedly going to be imprecise. There will be a great deal of uncertainty about many of the issues included in the first feasibility study. It is essential, however, for the project team to address all the issues required in the feasibility study even at an early stage in the project. That way, the team becomes more familiar with the nuances of the specific project, and is alert to new information that will have an impact on the project's feasibility. The feasibility assessment should be modified throughout the project to ensure that new information is incorporated into the analysis as it becomes available. It is certainly possible that a system that once appeared feasible becomes infeasible at a later time because of new information that is discovered.
+
+
+6. Assigning values to costs and benefits involves making some difficult predictions of the future. How can the project team improve the accuracy of these estimates?
+
+Ans: There are several things that can improve the accuracy of cost and benefit estimates. Most importantly, the project team should contact those persons or groups who are most likely to have accurate information about the factor under study. For example, the organization's market researchers or a marketing research consulting firm should be contacted to provide sales projections rather than the project team developing its own. Another way to improve estimates is to keep detailed records about estimates made for previous projects. Those project estimates can be compared to 'what really happened,' and the estimating process can be improved by learning from previous successes and failures. A third way to improve estimates is to use a variety of approaches and assumptions in the estimating process. This can help the project team avoid the inadvertent omission of key factors in the analysis.
+
+
+7. Compare and contrast the cash flow, return on investment, and net present value methods of assessing a project's economic feasibility.
+
+Ans: All three methods require that initial and annual costs and benefits be projected for the expected life of the system (usually considered 3-5 years). In the Cash Flow method, all costs and benefits are totaled over the system's life, and the net benefits are computed. The higher the net benefit figure, the more desirable the project. The Return on Investment method divides the total net benefits over the system's life by the total costs of the system. This ratio of net benefits to total costs indicates a rough return on investment figure, and the higher the ratio, the more positive the project. The Net Present Value method discounts the initial and annual costs and benefits to their present value equivalents using a required rate of return factor, then compares the present value of total benefits to the present value of total costs. If this figure is zero or more, the project is considered viable. Although all three methods are based on the same cash inflow and outflow projections, the Cash Flow and Return on Investment methods do not consider the timing of the cash flows or the time value of money. Therefore, the Net Present Value method is preferred from a financial standpoint.
+
+
+8. Explain the role and interests of the project champion, organizational management, and end users regarding a new system project. How will each impact the organizational feasibility of the project?
+
+Ans: The project champion serves as a highly visible promoter of the system. The project champion plays an important role in generating excitement and interest in the system, and often smooths the way politically for the new system's introduction in the organization. There have been many instances of an otherwise viable systems development project being derailed due to the departure of the project champion from the organization. Organizational management has an interest in seeing that resources are used effectively in the project and that a successful system is produced. By showing support for the system, organizational management can help encourage the adoption of the new system upon implementation. Weak or inconsistent management support has contributed to the failure of many systems projects. End users are the recipients of the new system and will be most affected by it on a daily basis. If end users view the system as an improvement of their work life, they will support the new system. If end users are fearful or feel threatened by the new system, they will resist the new system. Two ways to gain end user support are to involve them in the development of the system, and to provide training and education that helps prepare them for the new work environment.
+
+
+
+9. Why is it important for systems developers to consider the area of organizational politics when creating a new system?
+
+Ans: It is likely that a new information system will create a change in the power structure of a firm. The text quotes Machiavelli about the difficulties that will be encountered when a “new order of things” is created, and that is certainly what a large number of new systems do in organizations. A systems developer should be aware of the changes that the system will cause in the organization and plan accordingly.
+
+10. Explain different sections of a system request.
+
+Ans: System request consists of the following sections: Project Sponsor, Business Need, Business Requirements, Business Value, Special Issues or Constraints. Project sponsor is the person who initiates the project and who serves as a contact on the business side. Business need articulates the reasons on why the system is needed, while business value summarizes the tangible and intangible benefits that the organization may receive from the proposed system. Business requirements summarize what the system functionality should be at a high level. Special issues list constraints such as specific deadlines or other issues that the approval committee must take into consideration.
+
+11. Explain the three different aspects of a feasibility analysis.
+
+Ans: Feasibility analysis includes technical, economic and organizational feasibility. Technical feasibility answers the question “Can the organization build the system?” It considers issues such as organization’s familiarity with technology, familiarity with the application, project size and compatibility. Economic feasibility answers the question “Should the organization build the system?” It considers issues such as development costs, annual operating and support costs for the system, annual benefits and intangible costs and benefits. Finally, organizational feasibility addresses the question “If the system is built, will it be used effectively in the organization?” Organizational feasibility is often conducted by an analysis of the stakeholders: users, organization management and the project champion.
+
+
+12. Identify the seven steps involved in conducting the economic feasibility.
+
+Ans: (1) Identify costs and benefits (2) Assign values to costs and benefits (3) Determine cash flow (4) Determine net present value (5) Determine return on investment (6) Calculate break-even point (7) Graph break-even point
+
+
+
+
+13. Explain the role of the project champion.
+
+Ans: The project champion is a high-level non-IS executive who is usually but not always the person who created the system request. The champion supports the project by providing time, resources, and political support within the organization. The champion effectively communicates the importance of the project to organizational decision makers. Often more than one project champion is desirable, to account for the possibility that the champion may leave his/her current job within the organization.
+
+
+14. Explain four different dimensions that a technical feasibility analysis should consider.
+
+Ans: Technical feasibility is concerned with the question “Can we build it?” To answer this question, the following four dimensions should be evaluated: (1) familiarity with the application (2) familiarity with technology (3) project size, and (4) compatibility. Familiarity with the application is an important source of risk because, if the analysts are not familiar with the application, there is a high probability that the system requirements and opportunities for improvements may be misunderstood. In addition, construction of a new system is more risky than enhancing an existing system. Familiarity with technology --- or lack thereof --- in an organization can increase the risk of the project. If the technology required to complete the project was never used before in the organization, there is a high probability that it will lead to unexpected delays for the project. The larger the project size, the greater the chance that some important aspects of the system may have been missed or misunderstood. Larger projects also pose challenges in project management. Finally, the extent to which the new system will be compatible with the existing technology and infrastructure of the organization should be considered in technical feasibility analysis. If the new system does not integrate well with the existing technological environment and infrastructure, it increases the risk of the project.
+
+
+
+
+15. Outline the three important components for staffing a project. Include topics such as matching peoples’ skills with project needs, motivating team members, and minimizing conflict. Structure the essay into three or more paragraphs, one for each component.
+
+Ans: The three components of staffing are matching people’s skills with project needs, motivating team members, and minimizing conflict.
+
+When matching people’s skill to project needs, it is important to remember that people have technical skill and interpersonal skills. Both skill sets are important for a project’s success. Technical skills are useful when working with tasks such as programming and server configuration. Interpersonal skills are critical when performing requirements gathering activities and when addressing organizational feasibility issues.
+
+Motivating team members is necessary for project success. Assuming that team members are paid a fair salary, motivation methods that are normally most successful are recognition, achievement, responsibility, advancement, and an opportunity to learn new things.
+
+Steps that minimize conflict among group members include clearly defining team roles, holding team members accountable, and creating a project charter that lists project norms and ground rules.
+
+16. A project manager has three options to take when a schedule date has been missed. What are the basic assumptions the project manager can make? What changes to the schedule should the manager make for each assumption? What is the level of risk for each assumption?
+
+Ans: When a schedule date is missed in a project plan the project manager can make three possible assumptions. The first is to assume that the rest of the project is simpler than the part completed and that the lost time can be made up during the remainder of the project. No change should be made to the schedule. This is a high-risk assumption since a project rarely gets simpler.
+
+The second assumption is to assume that the remainder of the project is no simpler or more complex than the part completed. The lost time cannot be made up so the project completion date is extended the exact time difference between the originally planned and the missed schedule time. This has moderate risk.
+
+The third is to assume that the rest of the project is as complex as the part that was completed late and that all future schedule dates have been under estimated. An increase of the entire schedule by the percentage of time that the schedule is late is recommended. This action may require a reduction in the scope of the project, but it will have a lower risk.
+
+
+
+
+17. Describe three classic planning mistakes. What would be a solution for each?
+
+Ans: Classic planning mistake 1: Wishful thinking leads to an overly optimistic schedule that causes analysis and design time to be cut short and puts pressure on the programmers to produce a system without meeting the systems requirements. The solution is to explicitly schedule slack time at the end of each phase to account for the variability of estimates.
+
+Classic planning mistake 2: Failing to monitor the schedule prevents the team members from knowing if the project is on schedule. The solution is to require team members to honestly report progress (good or bad) at regular intervals.
+
+Classic planning mistake 3: Failing to update the schedule because there is an assumption that the time can be made up later is a mistake. This is an early warning that the entire schedule may be overly optimistic. The solution is to immediately revise the schedule and inform the project sponsor of the new end date or reduce functionality in the project.
+
+Classic planning mistake 4: Adding people to a project running late only makes the project take longer to complete. The time required for the new member of the team to become “up to date” on the project and the new coordination activities involved slow the entire project down more. The solution is to revise the schedule, use timeboxing, and throw away bug filled code.
+
+
+18. What can be done when the skills needed for a project are not found in the staff that is available for the project?
+
+Ans: Project managers cannot always dictate who will be assigned to his/her project team. Sometimes the staff with the needed skills are not available for assignment to a particular project. When the project manager is concerned about the lack of needed skills, it is essential to factor in the development of those skills into the project workplan. Obtaining the services of a vendor or consultant can help a project team initially. Staff can also be sent to training programs. Setting up a mentoring system can also help develop team members' skills by pairing them with other staff members who have the needed skills.
+
+
+
+
+19. Discuss the options a project manager has if a phase of a project is completed (a) earlier than expected, and (b) later than expected.
+
+Ans: In the happy event that a project phase is completed earlier than expected, the project manager should move all the intermediate target dates up in the project schedule. However, the final completion date should not be adjusted; that slack time may be needed later in the project, and it is not a good idea to change your project sponsor's expectations about the completion date of the project. In the more common situation, a target date for an intermediate phase may be missed. Although it is tempting to think that this time may be made up later in the project, this is rarely the case. In fact, the underestimate of time for the phase that has just been missed may be true for the remainder of the project, implying that all time estimates need to be adjusted (increased). As a general rule, the project manager should determine if the work remaining on the project is simpler than the part of the project that was late. If it is simpler, the original time estimates are probably still appropriate. If the work remaining on the project is more complex than the part that was late, then the time estimates should be increased at least by the percentage of time that the late portion overran its deadline.
+
+
+20. Explain the consequences of a project manager allowing the scope of a project to gradually increase. Why does 'scope creep' occur?
+
+Ans: If the project manager allows that scope of the project to increase without adjusting the project's cost and/or schedule, then there is little likelihood that the team can complete the project on time and under budget. This puts severe pressure on the project team, and heightens the risk of project failure. Scope creep is often subtle and usually does not occur for malicious reasons. Rather, the end users may become aware of some desirable features of the system that they honestly did not perceive at the project's outset. Technical staff may become convinced of certain technical features that were not initially identified. Management and project sponsors may perceive new roles for the system as the project progresses. Many project managers try to accommodate these changes, but the trick is to negotiate adjustments in time and/or budget before committing to the expanded requirements.
+
+
+21. For what reason does a project team create a risk assessment? What value is a risk assessment to the team?
+
+Ans: It is desirable for a project team to have a clear understanding of the risks that are faced in a project. These risks can be defined and evaluated in a risk assessment, a document that details the risks associated with a project. Risks and their likelihood should be identified and their effect on the project should be assessed. The team can then identify ways to deal with the project risks. As the project progresses, some risks may be reduced and others may become apparent. The risk assessment document should be updated to reflect these changes, and should reflect the current project risk status.
+
+
+22. Sunnyview Hospital needs to create a new patient-record system. Their current manual system is inadequate, and results in many errors in the records for the patients in their care. At this point in time, the users do not have a good idea of what they need the new system to do, but they need it done quickly. Create a risk assessment for this system.
+
+Ans:
+
+Risk:Users do not know the requirements; thus, scope is likely to increase as the requirements become better known.Likelihood of risk:High probability of risk.Potential impact on the project:This risk likely will increase the time to complete the project by at least 50%.Ways to address this risk:Since the user requirements are unknown, a prototyping approach should be taken to help quickly determine what the users requirements are going to be for this system. User involvement is going to be critical for this system since they cannot articulate what they need the system to do up front.
+
+23. Give the formula for the effort in person-months based on the number of lines of code.
+
+Ans: effort (in person-months) = 1.4 X thousands of lines of code
+
+
+24. Explain the concept of timeboxing.
+
+Ans: Timeboxing sets a fixed deadline for the project and delivers the system by that deadline, even if it means reducing the original functionality. This technique makes sure that the project does not drag on for too long, and ensures that a system is delivered to the business relatively quickly. The following steps are used for timeboxing. First, set the date for system delivery. Second, prioritize functionality that needs to be included in the system. Third, build the core of the system with the essential functionality. Fourth, postpone the functionality that cannot be delivered by the deadline. Fifth, deliver the system with the core functionality. Then repeat steps three to five to add refinements and enhancements.
+
+
+25. Give the formula for the schedule time in months, given the effort in person-months.
+
+Ans: Schedule time (in months) = 3.0 X (person-months)1/3
+
+
+
+
+26. Explain PERT analysis.
+
+Ans: PERT stands for program Analysis and Review Technique. PERT technique can be used when the individual task time estimates are fairly uncertain. Instead of simply relying on one estimate for the duration of the project, PERT uses three estimates: optimistic, pessimistic, and most-likely. These estimates are then combined into a single weighted average using a formula:
+
+PERT weighted average=(Optimistic+(4×Most likely)+Pessimistic)/6
+
+
+27. What are different types of standards that a project may need to adhere to?
+
+Ans: Some of the standards that a project needs to comply with are as follows.
+Documentation standards, coding standards, procedural standards, requirements and specification standards, and user-interface design standards.
+
+
+28. Explain how daily scrum meeting is used for manage the scope of project.
+
+Ans: Essentially a daily scrum meeting is a very short, typically 15 minute, meeting that keeps the development team up to date as to the current status of the evolving system. The content of the meeting typically only covers what has been accomplished since the previous meeting, what will be accomplished before the next meeting, and what obstacles could come up that could prevent progress from being made. Also, new requested features could be brought up. However, all proposed additional features are simply added to the product backlog that could be considered during the next iteration or timebox (sprint in Scrum’s nomenclature).
+
+
+29. Explain how daily product backlog is used for manage the scope of project.
+
+Ans: The product backlog is essentially a prioritized list of the functional requirements that will be completed during the current iteration. In Scrum, only the client is allowed to modify the product backlog. In this manner, the development team always has a list of the current set of critical requirements. As long as the project is relatively small, this approach to scope management is very effective.
+
+
+
+
+30. Explain why the evolutionary Work Breakdown Structure (WBS) is preferable for certain project over the traditional WBS.
+
+Ans: There are three reasons why the evolutionary WBS is sometime preferable. First, traditional WBS is tied to the structure of the system under development. This makes sense only when the requirements of the system are known. Using traditional WBS when the requirements are not fully understood, forces the analyst to make task assignment decisions before there is enough information. Second, the traditional WBS forces the analyst to specify too many levels of details for large projects and not enough levels of detail for small projects. Third and last, the traditional WBS is too specific to the project and does not make it easy for the analyst to compare the current project to past projects. Evolutionary WBS uses a standard format making comparisons between projects straight forward and easy. Evolutionary WBS is built iteratively and incrementally allowing the analyst to decide the level of detail that is most appropriate for the particular iteration. Evolutionary WBS is structured around the workflows of the UP development methodology and not around the structure of the system. Hence the analyst need not have to fully know the requirements of the system to begin the iterative process of drawing up the WBS. This is particularly useful when the requirements are not yet fully understood as often happens when the business domain is unfamiliar.
+
+
+31. Briefly describe three types of standards for system development, and provide examples of each.
+
+Ans: Coding standards define the content and structures that are to be used in programs. An example would be that all programs are to be written following structured programming guidelines.
+
+Procedural standards define processes that are to be followed by all team members. An example would be required attendance at a weekly team progress meeting, and required honest progress reporting at that meeting.
+
+User interface design standards create a common understanding of the appearance and functioning of the screens the end users see. An example would be to create a standard group of icons that are used consistently on all screens.
+
+
+32. What is a use-case point? For what is it used?
+
+Ans: Use-case points is a use cases based project effort estimation approach, which was originally developed based on unique features of use cases and object orientation. From a practical point of view, to estimate effort using use-case points, the use cases and the use-case diagram must have been created.
+
+
+
+
+33. What process do we use to estimate systems development based on use cases?
+
+Ans: Use case models have two primary constructs: actors and use cases. For use-case point estimation purposes, actors can be classified as simple, average, or complex. Simple actors are separate systems with which the current system must communicate through a well-defined application program interface (API). Average actors are separate systems that interact with the current system using standard communication protocols, such as TCP/IP, FTP, or HTTP, or an external database that can be accessed using standard SQL. Complex actors are typically end users communicating with the system. Once all of the actors have been categorized as being simple, average, or complex, the project manager will count the number of actors in each category and enter the values into the unadjusted actor weighting table contained in the use case point–estimation worksheet. The project manager will then compute the Unadjusted Actor Weight Total (UAW). This is computed by summing the individual results that were computed by multiplying the weighting factor by the number of actors of each type.
+
+A use case represents a major business process that the system will perform that benefits the actor(s) in some manner. Depending on the number of unique transactions that the use case must address, like actors, a use case can be categorized as being simple, average, or complex. A use case is classified as a simple use case if it supports one to three transactions, as an average use case if it supports four to seven transactions, or as a complex use case if it supports more than seven transactions. Once all of the use cases have been successfully categorized, the project manager will enter the number of each type of use case into the unadjusted use case weighting table contained in the use-case point–estimation worksheet. By multiplying by the appropriate weights and summing the results, we get the value for the unadjusted use case weight total (UUCW). Next, the project manager computes the value of the unadjusted use-case points (UUCP) by simply summing the unadjusted actor weight total and the unadjusted use-case weight total.
+
+Use-case point–based estimation also has a set of factors that are used to adjust the use-case point value.
+
+
+34. What are the differences between a technical lead and a functional lead?
+
+Ans: Technical Lead - The technical lead is typically a project team member who supervises the programmers and more technically oriented project staff.
+
+Functional Lead - The functional lead is a team member who oversees the systems and business analysts on the team. Both positions report to the project manager, and are responsible for managing, controlling, and coordinating the work of their assigned team members
+
+

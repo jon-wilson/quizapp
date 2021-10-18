@@ -14,12 +14,13 @@ def WriteToLogFile(eventLog):
     except IOError as err:
         print("Could not print to Log.txt:\t" + err.strerror + "  |  " + eventLog)
 
-def ValidInteger(value):
+def ValidInteger(value, output):
     try:
         value = int(value)
         return True
     except:
-        print("An integer value was not entered.")
+        if output:
+            print("An integer value was not entered.")
 
     return False
 
