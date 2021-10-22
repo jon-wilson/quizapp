@@ -4,6 +4,8 @@ import DL
 from Models import Answer, EventLog, Question
 import Utility
 
+MIDTERM_FILENAME = "Midterm_Exam.txt"
+
 def Display_Menu():
     while(True):
         
@@ -57,7 +59,7 @@ def SaveQuizzesToDB(fileNames, userId):
         for file in fileNames:
             DL.LogEvent(EventLog(0, 9, "Reading file: {}".format(file), userId))
             with open(file, "r") as f:
-                SaveQuestionAnswersToDB(ParseQuestionAnswers(chapter, f.readlines()), userId)    
+                SaveQuestionAnswers(ParseQuestionAnswers(chapter, f.readlines()), userId)    
             chapter += 1
     except:
         DL.LogEvent(EventLog(0, 10, "Error reading a file withing the directory", userId))
@@ -104,7 +106,7 @@ def DetectQuestion(text):
 def GetText(text):    
     text = text.replace("\n", "")
     splitText = text.split(".")
-    return splitText[1].strip()
+    return ".".join(splitText[1:])
 
 def DetectAnswerOption(text):    
     splitText = text.split(".")
@@ -128,9 +130,15 @@ def GetAnswerLine(text, questionType):
     else:
         return splitText[1].strip()
 
-def SaveQuestionAnswersToDB(lstQuestions, userId):
+def SaveQuestionAnswers(lstQuestions, userId):
     for question in lstQuestions:
-        DL.SaveQuestionAnswersToDB(question, userId)
+        #DL.SaveQuestionAnswersToDB(question, userId)
+        WriteQuestionAnswersToFile(question, userId)
   
-
+def WriteQuestionAnswersToFile(question, userId):
+    try:
+        with open(MIDTERM_FILENAME, "a") as f:
+            f.write(question.OutputToFile())
+    except:
+        Utility.WriteToLogFile(EventLog(0, 17, "Failed to write question and answer(s): {} to the midterm file".format(question), userId))
                 

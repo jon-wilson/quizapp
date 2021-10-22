@@ -360,7 +360,7 @@ c.	be too specific for the project and difficult to compare across projects
 d.	all of these
 e.	none of these
 
-Ans: d
+Ans: d?
 
 
 32. Unlike traditional work breakdown structures (WBS), evolutionary WBSs are
@@ -371,7 +371,7 @@ c. designed so one can compare the current project to past projects
 d. all of these
 e. none of these
 
-Ans: d
+Ans: d?
 
 
 33. Staffing plan that lists the roles and the proposed reporting structure that are required for the project. Typically, a project will have one _____________, who oversees the overall progress of the development effort, with the core of the team comprising the various types of analysts.
